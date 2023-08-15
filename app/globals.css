@@ -4,8 +4,7 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-rgb: 256, 256, 256;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,12 +15,152 @@
   }
 }
 
+html, body {
+  overflow-x: hidden !important;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--background-rgb))
+}
+
+
+.jc {
+  @apply justify-center
+}
+
+.jb {
+  @apply justify-between
+}
+
+
+.ic {
+  @apply items-center
+}
+
+.navigation li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+  transition:all .1s ease-in-out;
+}
+
+.navigation li.active {
+  color: #111;
+  border-top: 3px solid black;
+}
+
+.navigation li.normal {
+  border-top: none;
+}
+
+
+
+.navigation li:hover {
+  color: #111;
+  border-top: 3px solid black;
+}
+
+
+.visuallyHidden {
+  position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0); 
+  height: 1px; width: 1px; 
+  margin: -1px; padding: 0; border: 0; 
+}
+
+.hamburger {
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  padding: 0;
+  width: 30px;
+  height: 4px;
+  background-color: rgb(0, 0, 0);
+  display: block;
+  border-radius: 4px;
+  transition: all 0.4s ease-in-out;
+  position: absolute; 
+}
+
+.bar1 {
+  top: 0;
+  
+}
+
+.bar2,
+.bar3 {
+  top: 13.5px;
+}
+
+.bar3 {
+  right: 0;
+}
+
+.bar4 {
+  bottom: 0;
+}
+
+.menu:checked + label > .hamburger-inner > .bar1{
+  transform: rotate(45deg);
+  transform-origin: 5%;
+  width: 41px
+}
+
+.menu:checked + label > .hamburger-inner > .bar2 {
+  transform: translateX(-40px);
+  background-color: transparent;
+}
+
+.menu:checked + label > .hamburger-inner > .bar3 {
+  transform: translateX(40px);
+  background-color: transparent;
+}
+
+.menu:checked + label > .hamburger-inner > .bar4 {
+  transform-origin: 5%;
+  transform: rotate(-45deg);
+  width: 41px;
+}
+
+.no-scroll::-webkit-scrollbar {
+  display: none;
+}
+.no-scroll{
+  scrollbar-width: none;
+}
+.bordered{
+  border: 1px solid #E6E6E6;
+}
+.contact{
+  display: hidden;
+}
+@media only screen and (min-width:900px){
+  .contact{
+    position: relative;
+  }
+  .contact::before{
+    content: "";
+    position: absolute;
+    top: 450px;
+    width:830px;
+    height: 400px;
+    background-color:#FAFAFA;
+    z-index: -1;
+    border-radius: 25px;
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #f2f2f2 inset !important;
 }

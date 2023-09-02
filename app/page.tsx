@@ -3,8 +3,11 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
+
     <main className='flex flex-col lg:flex-row container h-full'>
-      <section className='w-full lg:w-1/3 pt-20'>
+
+      { /* Left => Titles, Statics */}
+      <section className='w-full lg:w-1/3 pt-20 lg:pt-10'>
         <div>
           <span className='relative bottom-0 inline-block p-4 text-sm rounded-full font-opensans text-black bg-white mb-6 shadow-badge mt-10 hover:bottom-2 hover:cursor-pointer lg:mt-0 transition-all'> 🎉 Made for persian people</span>
           <h1 className='text-4xl font-outfit font-semibold text-black'>
@@ -50,10 +53,14 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='w-full lg:w-1/3 h-full bg-center bg-cover bg-no-repeat' style={{ backgroundImage: `url('/images/home/background.png')` }} >
-      </section>
-      <section className='w-full lg:w-1/3 h-full px-10 pt-20 text-black' >
 
+      { /* Cernter => Image + Logo */}
+      <section className='w-full lg:w-1/3 h-full bg-center bg-cover bg-no-repeat' style={{ backgroundImage: `url('/images/home/background.png')` }} ></section>
+
+      { /* Right => Services in Countries */}
+      <section className='w-full lg:w-1/3 h-full pt-10 px-8 text-black' >
+
+        { /* 1. Irani World Logo + Description */}
         <div className='z-[1000] relative mb-6 flex flex-col items-center p-5 gap-y-8 w-full h-36 bg-white shadow-deep border border-[#E6E6E6] rounded-3xl'>
           <svg width="132" height="39" viewBox="0 0 132 39" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0166 3.9981C10.4842 3.9981 9.2802 5.18193 9.2802 6.59687C9.2802 8.01181 10.4842 9.19564 12.0166 9.19564C13.549 9.19564 14.7531 8.01181 14.7531 6.59687C14.7531 5.18193 13.549 3.9981 12.0166 3.9981ZM5.14973 6.59687C5.14973 2.9332 8.24525 0 12.0166 0C15.788 0 18.8835 2.9332 18.8835 6.59687C18.8835 10.2605 15.788 13.1937 12.0166 13.1937C8.24525 13.1937 5.14973 10.2605 5.14973 6.59687ZM24.4328 10.7226C26.1626 8.58781 27.3697 6.10111 27.9632 3.44957L32 4.29624C31.2742 7.53864 29.7981 10.5795 27.6829 13.19C25.5676 15.8005 22.8683 17.9127 19.788 19.3676C17.8568 20.2797 15.8073 20.9187 13.7023 21.2702L16.7242 32.1865C17.0856 33.492 18.4719 34.2667 19.8206 33.9169C21.1693 33.5671 21.9696 32.2252 21.6083 30.9197L20.6342 27.4008C20.6324 27.4013 20.6307 27.4017 20.6289 27.4021L20.5108 26.9551L19.8019 24.3945L19.832 24.3867L19.6052 23.5288C22.3634 22.8458 24.922 21.5569 27.0825 19.7622L29.7725 22.7962C28.1856 24.1144 26.4232 25.2094 24.5377 26.0548L25.598 29.885C26.5498 33.3233 24.4418 36.8575 20.8896 37.7788C17.3374 38.7001 13.6862 36.6596 12.7344 33.2213L9.51395 21.5874C6.21837 21.5403 2.97136 20.7981 0 19.4106L1.79465 15.8096C4.31914 16.9884 7.08694 17.5977 9.88982 17.5916C12.6927 17.5855 15.4576 16.9642 17.9766 15.7744C20.4956 14.5846 22.703 12.8574 24.4328 10.7226Z" fill="black" />
@@ -66,6 +73,7 @@ export default function Home() {
           </span>
         </div>
 
+        { /* 2. Countries Platform List */}
         <div className='-z[200] w-full h-36 rounded-3xl bg-white-shade-2 grid grid-cols-3 gap-x-3 p-4'>
 
           <div className='relative flex items-center justify-center w-full h-full bg-white rounded-2xl'>
@@ -104,6 +112,7 @@ export default function Home() {
 
         </div>
 
+        { /* 3. Contrry Platform Detail */}
         <div className='my-5 w-full h-auto rounded-3xl bg-white shadow-badge p-4'>
           <div className='flex justify-center items-center w-full h-16 bg-[#BA131A] text-hwite text-center rounded-2xl'>
             <svg width="76" height="33" viewBox="0 0 76 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -134,7 +143,21 @@ export default function Home() {
           </div>
         </div>
 
+        { /* 4. Terms + Flag Icons List */}
+        <div className='mt-10 w-full h-auto'>
+          <Image className='w-auto' src={"/images/home/flags.png"} width={100} height={100} alt='Irani World' />
+          <p className='font-opensans text-white-shade-8 mt-3'>
+            Terms and conditions outline
+            <br />
+            what users can and cannot do
+            <br />
+            with your
+          </p>
+        </div>
+
       </section>
+
     </main>
+
   )
 }

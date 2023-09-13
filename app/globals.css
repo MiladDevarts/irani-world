@@ -164,3 +164,61 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active{
     -webkit-box-shadow: 0 0 0 30px #f2f2f2 inset !important;
 }
+
+
+.btn-flashing-animation {
+  border: 0;
+  cursor: pointer;
+  background: -moz-linear-gradient(-45deg,  #011223 0%, #011223 40%, #ffffff 50%, #011223 60%, #011223 100%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#011223), color-stop(40%,#011223), color-stop(50%,#ffffff), color-stop(60%,#011223), color-stop(100%,#011223));
+  background: -webkit-linear-gradient(-45deg,  #011223 0%,#011223 40%,#ffffff 50%,#011223 60%,#011223 100%);
+  background: -o-linear-gradient(-45deg,  #011223 0%,#ff6e00 40%,#ffffff 50%,#011223 60%,#011223 100%);
+  background: -ms-linear-gradient(-45deg,  #011223 0%,#011223 40%,#ffffff 50%,#011223 60%,#011223 100%);
+  background: linear-gradient(135deg,  #011223 0%,#011223 40%,#ffffff 50%,#011223 60%,#011223 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#011223', endColorstr='#011223',GradientType=1 );
+  background-repeat: no-repeat;  
+  background-position:0%;
+  background-size:300%; 
+}
+.btn-flashing-animation {
+  animation:light 1s;
+    -webkit-animation:light 1s;
+}
+
+.lablel-flashing-animation {
+  border: 0;
+  cursor: pointer;
+  background: -moz-linear-gradient(-45deg,  #BA131A 0%, #BA131A 40%, #ffffff 50%, #BA131A 60%, #BA131A 100%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#BA131A), color-stop(40%,#BA131A), color-stop(50%,#ffffff), color-stop(60%,#BA131A), color-stop(100%,#BA131A));
+  background: -webkit-linear-gradient(-45deg,  #BA131A 0%,#BA131A 40%,#ffffff 50%,#BA131A 60%,#BA131A 100%);
+  background: -o-linear-gradient(-45deg,  #BA131A 0%,#ff6e00 40%,#ffffff 50%,#BA131A 60%,#BA131A 100%);
+  background: -ms-linear-gradient(-45deg,  #BA131A 0%,#BA131A 40%,#ffffff 50%,#BA131A 60%,#BA131A 100%);
+  background: linear-gradient(135deg,  #BA131A 0%,#BA131A 40%,#ffffff 50%,#BA131A 60%,#BA131A 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA131A', endColorstr='#BA131A',GradientType=1 );
+  background-repeat: no-repeat;  
+  background-position:0%;
+  background-size:300%; 
+}
+.lablel-flashing-animation {
+  animation:light 1s;
+    -webkit-animation:light 1s;
+    animation-delay: 4s;
+}
+
+@keyframes light {
+  0% {
+        background-position: 100%; 
+  }
+  100% { 
+        background-position:0%; 
+  }
+}
+        
+@-webkit-keyframes light {
+  0% {
+        background-position: 100%; 
+  }
+  100% { 
+        background-position:0%; 
+  }
+}

@@ -1,16 +1,16 @@
-"use client"
+"use client";
 
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
-import Aos from 'aos'
+import Aos from "aos";
 import "aos/dist/aos.css";
 
-import Titles from '@/components/Home/Titles';
-import HeroImage from '@/components/Home/HeroImage';
-import Platforms from '@/components/Home/Platforms';
+import Titles from "@/components/Home/Titles";
+import HeroImage from "@/components/Home/HeroImage";
+import Platforms from "@/components/Home/Platforms";
+import Statistics from "@/components/Home/Statistics";
 
 export default function Home() {
-
   useEffect(() => {
     Aos.init({
       easing: "ease-out-cubic",
@@ -20,20 +20,18 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    Aos.refresh()
-  }, [])
+    Aos.refresh();
+  }, []);
 
   return (
-
-    <main className='flex flex-col lg:flex-row container'>
-
+    <main className="flex flex-col lg:flex-row container">
       <Titles />
 
       <HeroImage />
 
       <Platforms />
 
+      <Statistics classes="flex lg:hidden" />
     </main>
-
-  )
+  );
 }

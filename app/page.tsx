@@ -9,6 +9,7 @@ import Titles from "@/components/Home/Titles";
 import HeroImage from "@/components/Home/HeroImage";
 import Platforms from "@/components/Home/Platforms";
 import Statistics from "@/components/Home/Statistics";
+import OverlayMenu from "@/components/OverlayMenu";
 
 export default function Home() {
   useEffect(() => {
@@ -24,14 +25,15 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="flex flex-col lg:flex-row container">
-      <Titles />
+    <>
+      <OverlayMenu />
 
-      <HeroImage />
-
-      <Platforms />
-
-      <Statistics classes="flex lg:hidden" />
-    </main>
+      <main className="flex flex-col lg:flex-row container">
+        <Titles />
+        <HeroImage />
+        <Platforms />
+        <Statistics classes="flex lg:hidden" />
+      </main>
+    </>
   );
 }

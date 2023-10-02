@@ -15,15 +15,18 @@
     "add": "^2.0.6",
     "aos": "^2.3.4",
     "autoprefixer": "10.4.15",
+    "classnames": "^2.3.2",
     "next": "13.4.16",
     "postcss": "8.4.27",
     "react": "18.2.0",
+    "react-burger-menu": "^3.0.9",
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.3",
     "typescript": "5.1.6",
     "yarn": "^1.22.19"
   },
   "devDependencies": {
-    "@types/aos": "^3.0.4"
+    "@types/aos": "^3.0.4",
+    "@types/react-burger-menu": "^2.8.4"
   }
 }

@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`w-full h-[90vh] lg:overflow-hidden ${openSans.variable} ${outfit.variable}`}
+        className={`w-full h-[90vh] lg:overflow-scroll ${openSans.variable} ${outfit.variable}`}
       >
         <MenuProvider>
           {children}

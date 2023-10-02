@@ -22,7 +22,7 @@ const Navigation = () => {
     const pathname = usePathname()
 
     return (
-        <nav className='z-[1013] bg-white shadow-deep absolute bottom-[90%] lg:bottom-0 w-full h-[10vh] border-t border-white-shade-4'>
+        <nav className='z-[1013] bg-white shadow-deep absolute bottom-[90%] lg:bottom-0 w-full h-[10vh] border-t border-white-shade-4 soft-shadow'>
             <div className='container flex justify-between items-center h-full'>
                 <ul className='navigation hidden h-full lg:flex items-center gap-x-10 text-white-shade-10 font-opensans font-medium'>
                     {

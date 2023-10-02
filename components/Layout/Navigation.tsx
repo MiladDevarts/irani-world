@@ -11,7 +11,7 @@ const Navigation = () => {
 
     const [menuItems, setMenuItesm] = useState([
         { value: 'Home', slug: '/' },
-        { value: 'About', slug: '/events' },
+        { value: 'About', slug: '/about' },
         { value: 'Blog', slug: '/blog' },
         { value: 'FAQ', slug: '/faq' },
         { value: 'Help', slug: '/help' },

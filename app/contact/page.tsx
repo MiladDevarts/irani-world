@@ -1,4 +1,3 @@
-
 import React from "react";
 import Head from "next/head";
 
@@ -9,10 +8,12 @@ import OverlayMenu from "@/components/OverlayMenu";
 const page = () => {
   return (
     <>
-    <Head>
-      <title>Irani World | Contact</title>
-    </Head>
-    <OverlayMenu />
+
+      <Head>
+        <title>Irani World | Contact</title>
+      </Head>
+
+      <OverlayMenu />
 
       <main className="flex flex-col lg:flex-row container">
         <div className="w-full flex flex-col lg:flex-row gap-x-16 pt-32 lg:pt-10">
@@ -24,7 +25,9 @@ const page = () => {
           </div>
         </div>
       </main>
+      
     </>
+
   );
 };
 

@@ -18,7 +18,7 @@ const page = () => {
       <OverlayMenu />
 
       <main className="container flex flex-col lg:flex-row gap-x-20">
-        <div className="w-2/3 flex flex-col mt-10">
+        <div className="w-full lg:w-2/3 flex flex-col mt-32">
           <h1 className="text-black text-2xl font-semibold font-outfit mb-8">
             About us
           </h1>
@@ -38,7 +38,7 @@ const page = () => {
             and business people who have the common goal of bringing Iranian
             people closer together.
           </p>
-          <div className="mt-32">
+          <div className="mt-5 lg:mt-32">
             <h2 className="text-black text-2xl font-semibold font-outfit mb-2">
               Partners
             </h2>
@@ -50,13 +50,13 @@ const page = () => {
           </div>
         </div>
         <div
-          className="w-1/3 flex flex-col mt-10 h-[500px] bg-cover bg-center rounded-3xl"
+          className="w-1/3 hidden lg:flex flex-col mt-10 h-[500px] bg-cover bg-center rounded-3xl"
           style={{ backgroundImage: `url('/images/about/iranian-girl.png')` }}
         ></div>
       </main>
 
-      <section className="w-[80%] mx-auto h-[300px] my-10 flex gap-x-2 items-center bg-white-shade-2 rounded-2xl p-2">
-        <div className="w-1/3 h-full rounded-2xl bg-white">
+      <section className="w-[95%] lg:w-[80%] mx-auto h-auto lg:h-[300px] my-10 flex flex-col gap-y-2 lg:flex-row gap-x-2 items-center bg-white-shade-2 rounded-2xl p-2">
+        <div className=" w-full lg:w-1/3 h-[300px] lg:h-full rounded-2xl bg-white">
           <div className="flex justify-between items-center px-10 py-2">
             <Link href={"/"}>
               <svg
@@ -119,7 +119,7 @@ const page = () => {
             ></div>
           </div>
         </div>
-        <div className="relative w-1/3 h-full flex flex-col items-center justify-center rounded-2xl bg-white">
+        <div className="relative w-full lg:w-1/3 h-[300px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white">
           <svg
             width="120"
             height="51"
@@ -152,7 +152,7 @@ const page = () => {
             Soon
           </span>
         </div>
-        <div className="relative w-1/3 h-full flex flex-col items-center justify-center rounded-2xl bg-white">
+        <div className="relative w-full lg:w-1/3 h-[300px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white">
           <svg
             width="89"
             height="51"

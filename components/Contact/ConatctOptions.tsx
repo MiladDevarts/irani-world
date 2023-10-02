@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Countries from "./Countries";
 
 const ConatctOptions = () => {
   return (
@@ -7,11 +8,11 @@ const ConatctOptions = () => {
       <h1 className="text-black text-3xl font-semibold font-outfit mb-6">
         Contact us
       </h1>
-      <p className="text-white-shade-9 max-w-md">
+      <p className="text-white-shade-9 max-w-md text-xl font-medium">
         Ask about our platform, pricing, or something else. We will respond to
         your inquiry as soon as possible.
       </p>
-      <div className="max-w-md flex flex-col gap-y-6 mt-6 border border-white-shade-4 rounded-3xl p-8">
+      <div className="w-full flex flex-col gap-y-6 mt-6 border border-white-shade-4 rounded-3xl p-8">
         <Link className="flex items-center gap-x-4" href={"#"}>
           <div className="flex justify-center items-center w-14 h-14 border border-white-shade-5 rounded-full">
             <svg
@@ -45,7 +46,7 @@ const ConatctOptions = () => {
           </div>
           <div className="flex flex-col">
             <span className="text-[#8C8C8C]">Tel</span>
-            <span className="text-black">(+49) 71112196760</span>
+            <span className="text-black text-xl">(+49) 71112196760</span>
           </div>
         </Link>
         <Link className="flex items-center gap-x-4" href={"#"}>
@@ -77,7 +78,7 @@ const ConatctOptions = () => {
           </div>
           <div className="flex flex-col">
             <span className="text-[#8C8C8C]">Contact us at</span>
-            <span className="text-black">info@example.org</span>
+            <span className="text-black text-xl">info@example.org</span>
           </div>
         </Link>
         <Link className="flex items-center gap-x-4" href={"#"}>
@@ -103,13 +104,14 @@ const ConatctOptions = () => {
           </div>
           <div className="flex flex-col">
             <span className="text-[#8C8C8C]">Address</span>
-            <span className="text-black">
+            <span className="text-black text-xl">
               Birkenweg.20 24107 Kiel
               <br />- Christophstraße 26, 70180 Stuttgart
             </span>
           </div>
         </Link>
       </div>
+      <Countries/>
     </div>
   );
 };

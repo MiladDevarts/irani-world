@@ -3,34 +3,42 @@ import { Sweden, Uae, Usa } from "../Icons/Countries";
 
 const Countries = () => {
   return (
-    <div className="relative bg-white-shade-2 w-full grid grid-cols-2 lg:flex mt-6 gap-x-2 justify-between p-4 rounded-2xl">
-      <div className="w-full flex flex-col items-center gap-y-4 bg-white p-3 rounded-2xl">
-        <span className="text-white-shade-10">12:00</span>
+    <div className="relative bg-white-shade-2 w-full grid grid-cols-2  mt-6 gap-x-2 gap-y-2 justify-between p-4 rounded-2xl">
+      <div className="w-full h-20 flex flex-row items-center gap-y-4 gap-x-3 bg-white p-3 rounded-2xl">
         <Usa />
-        <span className="font-opensans text-black font-medium text-sm">
-          New York,USA
-        </span>
+        <div className="flex flex-col">
+          <span className="text-white-shade-10">12:00</span>
+          <span className="font-opensans text-black font-medium text-sm">
+            New York,USA
+          </span>
+        </div>
       </div>
-      <div className="w-full flex flex-col items-center gap-y-4 bg-white p-3 rounded-2xl">
-        <span className="text-white-shade-10">12:00</span>
-        <Sweden />
-        <span className="font-opensans text-black font-medium text-sm">
-          Stockholm
-        </span>
-      </div>
-      <div className="w-full flex flex-col items-center gap-y-4 bg-white p-3 rounded-2xl">
-        <span className="text-white-shade-10">12:00</span>
+      <div className="w-full h-20 flex flex-row items-center gap-y-4 gap-x-3 bg-white p-3 rounded-2xl">
         <Usa />
-        <span className="font-opensans text-black font-medium text-sm">
-          Los Angles, USA
-        </span>
+        <div className="flex flex-col">
+          <span className="text-white-shade-10">12:00</span>
+          <span className="font-opensans text-black font-medium text-sm">
+            New York,USA
+          </span>
+        </div>
       </div>
-      <div className="w-full flex flex-col items-center gap-y-4 bg-white p-3 rounded-2xl">
-        <span className="text-white-shade-10">12:00</span>
-        <Uae />
-        <span className="font-opensans text-black font-medium text-sm">
-          Dubai, UEA
-        </span>
+      <div className="w-full h-20 flex flex-row items-center gap-y-4 gap-x-3 bg-white p-3 rounded-2xl">
+        <Usa />
+        <div className="flex flex-col">
+          <span className="text-white-shade-10">12:00</span>
+          <span className="font-opensans text-black font-medium text-sm">
+            New York,USA
+          </span>
+        </div>
+      </div>
+      <div className="w-full h-20 flex flex-row items-center gap-y-4 gap-x-3 bg-white p-3 rounded-2xl">
+        <Usa />
+        <div className="flex flex-col">
+          <span className="text-white-shade-10">12:00</span>
+          <span className="font-opensans text-black font-medium text-sm">
+            New York,USA
+          </span>
+        </div>
       </div>
     </div>
   );

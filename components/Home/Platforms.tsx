@@ -197,7 +197,7 @@ const Platforms = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="my-5 w-full h-auto rounded-3xl bg-white shadow-badge p-4"
+            className="hidden lg:block  my-5 w-full h-auto rounded-3xl bg-white shadow-badge p-4"
           >
             <div className="lablel-flashing-animation flex justify-center items-center w-full h-16 bg-[#BA131A] text-hwite text-center rounded-2xl">
               <svg
@@ -255,7 +255,7 @@ const Platforms = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="z-[1000] my-5 w-full h-auto rounded-3xl bg-white shadow-badge p-4"
+            className="hidden lg:block  z-[1000] my-5 w-full h-auto rounded-3xl bg-white shadow-badge p-4"
           >
             <div className=" flex justify-center items-center w-full h-16 bg-[#062F58] text-hwite text-center rounded-2xl">
               <svg
@@ -313,7 +313,7 @@ const Platforms = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="z-[1001] my-5 w-full h-auto rounded-3xl bg-white shadow-badge p-4"
+            className="hidden lg:block z-[1001] my-5 w-full h-auto rounded-3xl bg-white shadow-badge p-4"
           >
             <div className=" flex justify-center items-center w-full h-16 bg-[#AA8041] text-hwite text-center rounded-2xl">
               <svg

@@ -56,7 +56,6 @@ const ContactForm = () => {
           />
           <Button content={"Send message"} classes={"py-5"} />
         </div>
-        <Countries />
       </section>
     </>
   );

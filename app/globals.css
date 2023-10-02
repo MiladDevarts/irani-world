@@ -225,7 +225,135 @@ input:-webkit-autofill:active{
 
 
 .soft-shadow {
-
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.03), 0px 23px 51px 0px rgba(0, 0, 0, 0.03), 0px 92px 92px 0px rgba(0, 0, 0, 0.03), 0px 207px 124px 0px rgba(0, 0, 0, 0.02), 0px 367px 147px 0px rgba(0, 0, 0, 0.00), 0px 574px 161px 0px rgba(0, 0, 0, 0.00);
+}
 
+.bm-burger-button {
+  
+  width: 36px;
+  height: 30px;
+  left: 36px;
+
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}  
+
+.bm-burger-bars-hover {
+  background: #a90000;
+
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+.bm-menu {
+  background: #373a47;
+  padding: 0.3rem 0.3rem 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+.bm-item {
+  display: inline-block;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+/* styling next link component so that will be a column list of links*/
+.bm-item-list a {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.visuallyHidden {
+  position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0); 
+  height: 1px; width: 1px; 
+  margin: -1px; padding: 0; border: 0; 
+}
+
+.hamburger {
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  padding: 0;
+  width: 30px;
+  height: 4px;
+  background-color: rgb(0, 0, 0);
+  display: block;
+  border-radius: 4px;
+  transition: all 0.4s ease-in-out;
+  position: absolute; 
+}
+
+.bar1 {
+  top: 0;
+  
+}
+
+.bar2,
+.bar3 {
+  top: 13.5px;
+}
+
+.bar3 {
+  right: 0;
+}
+
+.bar4 {
+  bottom: 0;
+}
+
+.menu:checked + label > .hamburger-inner > .bar1{
+  transform: rotate(45deg);
+  transform-origin: 5%;
+  width: 41px
+}
+
+.menu:checked + label > .hamburger-inner > .bar2 {
+  transform: translateX(-40px);
+  background-color: transparent;
+}
+
+.menu:checked + label > .hamburger-inner > .bar3 {
+  transform: translateX(40px);
+  background-color: transparent;
+}
+
+.menu:checked + label > .hamburger-inner > .bar4 {
+  transform-origin: 5%;
+  transform: rotate(-45deg);
+  width: 41px;
 }

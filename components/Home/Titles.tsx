@@ -24,9 +24,10 @@ const Titles = () => {
             data-aos-delay="200"
             className="text-4xl font-outfit font-semibold text-black"
           >
+            Advance Iranian   
             <span className="flex items-center">
-              Keep your
-              <svg
+            business,
+            <svg
                 className="ml-4 mt-4"
                 width="99"
                 height="30"
@@ -47,8 +48,7 @@ const Titles = () => {
                 />
               </svg>
             </span>
-            financial profits
-            <span className="block text-primary">safe and sound</span>
+            <span className="block text-primary">language, and art</span>
           </h1>
           <p
             data-aos="zoom-in-right"
@@ -56,7 +56,7 @@ const Titles = () => {
           "
             className="max-w-sm text-lg text-white-shade-8 my-6 font-light"
           >
-            Terms and conditions outline what users can and cannot do with your
+            with history and heritage in mind to fuel an economic and cultural renaissance
           </p>
           <div className="flex gap-x-2">
             <Link

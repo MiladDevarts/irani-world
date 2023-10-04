@@ -6,7 +6,7 @@ import { Facebook, Instagram, X, Youtube } from "../Icons/Socials";
 
 const Socials = () => {
   return (
-    <div className="flex items-center gap-x-3 lg:mt-16 mb-6">
+    <div className="flex items-center gap-x-3 mt-10 lg:mt-16 lg:mb-6">
           <Link
             className="flex items-center justify-center w-16 h-16 rounded-xl border border-white-shade-4"
             href={"#"}

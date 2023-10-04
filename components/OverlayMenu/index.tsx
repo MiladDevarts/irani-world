@@ -30,19 +30,16 @@ const OverlayMenu = () => {
             <Link href={"/"}>Home</Link>
           </li>
           <li>
-            <Link href={"/events"}>About us</Link>
+            <Link href={"/about"}>About us</Link>
           </li>
           <li>
-            <Link href={"#"}>Blog</Link>
+            <Link href={"/blog"}>Blog</Link>
           </li>
           <li>
-            <Link href={"#"}>FAQ</Link>
+            <Link href={"/faq"}>FAQ</Link>
           </li>
           <li>
-            <Link href={"#"}>Terms & Privacy</Link>
-          </li>
-          <li>
-            <Link href={"#"}>Plans</Link>
+            <Link href={"/terms"}>Terms & Privacy</Link>
           </li>
           <li>
             <Link href={"/contact"}>Contact us</Link>

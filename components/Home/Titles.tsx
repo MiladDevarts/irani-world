@@ -1,8 +1,9 @@
 import React from "react";
 
-import Image from "next/image";
-import Link from "next/link";
 import Statistics from "./Statistics";
+
+import Link from "next/link";
+import Socials from "./Socials";
 
 const Titles = () => {
   return (
@@ -85,8 +86,8 @@ const Titles = () => {
             </Link>
           </div>
         </div>
-
-        <Statistics classes="hidden lg:flex"/>
+        <Socials />
+        <Statistics classes="hidden lg:flex" />
       </section>
     </>
   );

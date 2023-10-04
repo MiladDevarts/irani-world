@@ -1,3 +1,4 @@
+
 import React from "react";
 import Head from "next/head";
 
@@ -14,7 +15,7 @@ const page = () => {
       <OverlayMenu />
 
       <main className="container flex flex-col lg:flex-row gap-x-20">
-        <div className="w-full lg:w-1/3 flex flex-col mt-16">
+        <div className="w-full lg:w-1/3 flex flex-col mt-28 lg:mt-16">
           <div>
             <h1 className="text-black text-2xl font-semibold font-outfit mb-6">
               <span className="flex items-center gap-x-3">
@@ -42,7 +43,7 @@ const page = () => {
             </p>
           </div>
         </div>
-        <div className="w-2/3 hidden lg:flex flex-col mt-16 rounded-3xl">
+        <div className="w-full lg;w-2/3 flex flex-col mt-16 rounded-3xl">
           <div className="w-full bg-white-shade-2 flex flex-col gap-y-4 lg:gap-6 p-5 rounded-xl">
             <FAQItem
               title={"What is White Snail American all about?"}

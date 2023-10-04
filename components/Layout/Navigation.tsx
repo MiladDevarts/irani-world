@@ -11,12 +11,13 @@ const Navigation = () => {
 
     const [menuItems, setMenuItesm] = useState([
         { value: 'Home', slug: '/' },
-        { value: 'About', slug: '/about' },
-        { value: 'Blog', slug: '/blog' },
+        { value: 'About us', slug: '/about' },
+        { value: 'News', slug: '/news' },
+        { value: 'Bio', slug: '/bio' },
         { value: 'FAQ', slug: '/faq' },
         { value: 'Help', slug: '/help' },
         { value: 'Terms', slug: '/terms' },
-        { value: 'Contact', slug: '/contact' },
+        { value: 'Contact us', slug: '/contact' },
     ])
 
     const pathname = usePathname()

@@ -1,4 +1,3 @@
-
 import React from "react";
 
 import Head from "next/head";
@@ -6,7 +5,6 @@ import Link from "next/link";
 
 import OverlayMenu from "@/components/OverlayMenu";
 import { Riv, WPS, WSA } from "@/components/Partners";
-
 
 const page = () => {
   return (
@@ -17,28 +15,30 @@ const page = () => {
 
       <OverlayMenu />
 
-      <main className="container flex flex-col lg:flex-row gap-x-20">
-        <div className="w-full lg:w-2/3 flex flex-col mt-32">
-          <h1 className="text-black text-2xl font-semibold font-outfit mb-8">
-            About us
-          </h1>
-          <h3 className="text-[#FA092B] text-3xl font-semibold font-outfit">
-            By Persians, For Persians
-          </h3>
-          <p className="text-white-shade-8 mt-6">
-            Irani.World is a platform built to help Iranian people around the
-            world reach one another for professional and business services in
-            one convenient place. This platform is 100% independently built by
-            Iranians with support from Swedes and is free to use.
-            <br />
-            <br />
-            Platform development is led by Riv Designs, a USA company, in
-            partnership with Riv Design & WPS and WSA. This platform is
-            essentially a partnership between a non-profit, artists, developers,
-            and business people who have the common goal of bringing Iranian
-            people closer together.
-          </p>
-          <div className="mt-5 lg:mt-32">
+      <main className="container flex flex-col lg:flex-row gap-x-20 h-[500px] mt-28 lg:mt-10">
+        <div className="w-full lg:w-2/3 flex flex-col lg:justify-between">
+          <div>
+            <h1 className="text-black text-2xl font-semibold font-outfit mb-8">
+              About us
+            </h1>
+            <h3 className="text-[#FA092B] text-3xl font-semibold font-outfit">
+              By Persians, For Persians
+            </h3>
+            <p className="lg:max-w-3xl text-lg text-white-shade-8 mt-6">
+              Irani.World is a platform built to help Iranian people around the
+              world reach one another for professional and business services in
+              one convenient place. This platform is 100% independently built by
+              Iranians with support from Swedes and is free to use.
+              <br />
+              <br />
+              Platform development is led by Riv Designs, a USA company, in
+              partnership with Riv Design & WPS and WSA. This platform is
+              essentially a partnership between a non-profit, artists,
+              developers, and business people who have the common goal of
+              bringing Iranian people closer together.
+            </p>
+          </div>
+          <div className="mt-5">
             <h2 className="text-black text-2xl font-semibold font-outfit mb-2">
               Partners
             </h2>
@@ -50,12 +50,12 @@ const page = () => {
           </div>
         </div>
         <div
-          className="w-1/3 hidden lg:flex flex-col mt-10 h-[500px] bg-cover bg-center rounded-3xl"
+          className="w-1/3 hidden lg:flex flex-col  h-full bg-cover bg-center rounded-3xl"
           style={{ backgroundImage: `url('/images/about/iranian-girl.png')` }}
         ></div>
       </main>
 
-      <section className="w-[95%] lg:w-[80%] mx-auto h-auto lg:h-[300px] my-10 flex flex-col gap-y-2 lg:flex-row gap-x-2 items-center bg-white-shade-2 rounded-2xl p-2">
+      <section className="w-[95%] lg:w-[80%] mx-auto h-auto lg:h-[300px] lg:mt-20 mt-36 mb-10 flex flex-col gap-y-2 lg:flex-row gap-x-2 items-center bg-white-shade-2 rounded-2xl p-2">
         <div className=" w-full lg:w-1/3 h-[300px] lg:h-full rounded-2xl bg-white">
           <div className="flex justify-between items-center px-10 py-2">
             <Link href={"/"}>

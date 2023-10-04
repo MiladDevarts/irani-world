@@ -66,7 +66,7 @@ const Titles = () => {
               Our platform
             </Link>
             <Link
-              className="inline-flex justify-center items-center font-opensans bg-white-shade-3 font-medium rounded-2xl text-center p-3 w-10 h-12"
+              className="inline-flex justify-center items-center font-opensans border border-bg-white-shade-3 bg-white-shade-3 font-medium rounded-2xl text-center p-3 w-10 h-12 hover:bg-white hover:border hover:border-[#011223] transition-all duration-300"
               href="/"
             >
               <svg

@@ -1,8 +1,7 @@
-
 import React from "react";
 import Head from "next/head";
 
-import OverlayMenu from "@/components/OverlayMenu";
+import OverlayMenu from "@/components/Overlay";
 import { FAQItem } from "@/components/FAQ";
 
 const page = () => {

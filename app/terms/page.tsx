@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 
-import OverlayMenu from "@/components/OverlayMenu";
+import OverlayMenu from "@/components/Overlay";
 
 const page = () => {
   return (
@@ -60,28 +60,41 @@ const page = () => {
             the profile.
           </p>
           <h4 className="text-blue text-xl">
-          Professional and Business Profiles and Dashboards
+            Professional and Business Profiles and Dashboards
           </h4>
           <p className="text-white-shade-11 mt-8 mb-16">
-          To list your professional, business, or artist profile on the  .World platform, users have the option of four free user plans and four paid user plans. The plans are Professional, Artists & Events, Business Platinum, and Business Ultra. The paid plans are feature filled, highly customizable, and offer discounts for platform ads. Paid plan features might consist of menus for restaurants, property listings for realtors, and product pages for shops. In addition, paid plans receive priority in user search results. The four free plans have basic features to get you started with limited profile customization ability. Dashboards are provided for all users which will allow them to edit their profiles and purchase advertising.
+            To list your professional, business, or artist profile on the .World
+            platform, users have the option of four free user plans and four
+            paid user plans. The plans are Professional, Artists & Events,
+            Business Platinum, and Business Ultra. The paid plans are feature
+            filled, highly customizable, and offer discounts for platform ads.
+            Paid plan features might consist of menus for restaurants, property
+            listings for realtors, and product pages for shops. In addition,
+            paid plans receive priority in user search results. The four free
+            plans have basic features to get you started with limited profile
+            customization ability. Dashboards are provided for all users which
+            will allow them to edit their profiles and purchase advertising.
           </p>
-          <h4 className="text-blue text-xl">
-          Business Portal
-          </h4>
+          <h4 className="text-blue text-xl">Business Portal</h4>
           <p className="text-white-shade-11 mt-8 mb-16">
-          Users can purchase a plan online with payment going directly to a United States financial institution. Nonprofits may request a temporary free plan with the full features of a paid plan if the request is made and reviewed by our team.
+            Users can purchase a plan online with payment going directly to a
+            United States financial institution. Nonprofits may request a
+            temporary free plan with the full features of a paid plan if the
+            request is made and reviewed by our team.
           </p>
-          <h4 className="text-blue text-xl">
-          Special Services
-          </h4>
+          <h4 className="text-blue text-xl">Special Services</h4>
           <p className="text-white-shade-11 mt-8 mb-16">
-          Users who choose to, may request a Blue Checkmark to verify their identity. Requests for Blue Checkmarks must be reviewed and approved by our team. Additional services and features may shall be added to our platform over time.
+            Users who choose to, may request a Blue Checkmark to verify their
+            identity. Requests for Blue Checkmarks must be reviewed and approved
+            by our team. Additional services and features may shall be added to
+            our platform over time.
           </p>
-          <h4 className="text-blue text-xl">
-          Contact Us
-          </h4>
+          <h4 className="text-blue text-xl">Contact Us</h4>
           <p className="text-white-shade-11 mt-8 mb-16">
-          For more information about the Irani.World platform, people can contact us globally. We have a remote office in New York, developers in Los Angeles, management and development in Stockholm, Sweden, and development and 24 hour customer support in Dubai, UAE.
+            For more information about the Irani.World platform, people can
+            contact us globally. We have a remote office in New York, developers
+            in Los Angeles, management and development in Stockholm, Sweden, and
+            development and 24 hour customer support in Dubai, UAE.
           </p>
         </div>
       </main>

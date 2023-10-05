@@ -3,7 +3,7 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 
-import OverlayMenu from "@/components/OverlayMenu";
+import OverlayMenu from "@/components/Overlay";
 import { Riv, WPS, WSA } from "@/components/Partners";
 
 const page = () => {

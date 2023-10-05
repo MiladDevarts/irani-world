@@ -9,7 +9,7 @@ import Titles from "@/components/Home/Titles";
 import HeroImage from "@/components/Home/HeroImage";
 import Platforms from "@/components/Home/Platforms";
 import Statistics from "@/components/Home/Statistics";
-import OverlayMenu from "@/components/OverlayMenu";
+import OverlayMenu from "@/components/Overlay";
 
 export default function Home() {
   useEffect(() => {

@@ -3,12 +3,11 @@ import Head from "next/head";
 
 import ConatctOptions from "@/components/Contact/ConatctOptions";
 import ContactForm from "@/components/Contact/ContactForm";
-import OverlayMenu from "@/components/OverlayMenu";
+import OverlayMenu from "@/components/Overlay";
 
 const page = () => {
   return (
     <>
-
       <Head>
         <title>Irani World | Contact</title>
       </Head>
@@ -25,9 +24,7 @@ const page = () => {
           </div>
         </div>
       </main>
-      
     </>
-
   );
 };
 

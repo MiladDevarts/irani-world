@@ -10,7 +10,7 @@ const OverlayMenu = () => {
   let menuVisibilty = useContext(MenuContext);
 
   const OverlayClasses = classNames(
-    "z-[1010] block lg:hidden w-full h-auto transition-all fixed top-0 z-10 soft-shadow bg-white p-10",
+    "z-[1010] block lg:hidden w-full h-auto transition-all fixed top-0 z-10 soft-shadow bg-white p-4 duration-500",
     {
       "left-0": menuVisibilty.menu,
       "-left-[1200px]": !menuVisibilty.menu,

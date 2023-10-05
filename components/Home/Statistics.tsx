@@ -1,6 +1,6 @@
-import React from "react";
-import Image from "next/image";
+"use client"
 
+import React from "react";
 
 interface StatisticsProps {
   classes: string;
@@ -9,17 +9,12 @@ interface StatisticsProps {
 const Statistics: React.FC<StatisticsProps> = (props) => {
   return (
     <>
-     
       <div
         className={`${props.classes}  flex-col lg:flex-row gap-x-4 gap-y-4 mt-10 lg:mt-2  items-center`}
       >
-        <Image
-          src={"/images/home/hakhamanesh.png"}
-          className="w-auto order-2 lg:order-1"
-          width={100}
-          height={60}
-          alt={"Irani World"}
-        />
+       <video autoPlay muted loop className="w-32">
+        <source src="/videos/hakhamanesh.mov"/>
+      </video>
         <div className="flex flex-col gap-y-6 order-1 lg:order-2">
           <div className="flex flex-col justify-center lg:items-start items-center gap-y-6 order-2 lg:order-1">
             <h4 className="text-black font-outfit text-2xl text-center lg:text-left font-medium">

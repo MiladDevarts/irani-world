@@ -1,16 +1,43 @@
+
 import React from "react";
+
 import { ActiveBlogger, Tag } from "@/components/Sidebar";
+import { BlogCard } from "@/components/Blog";
 
 const page = () => {
   return (
     <main className="flex container">
       <div className="w-3/4 pt-16">
-        <p className="text-black">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-          magni dolorum exercitationem architecto fugiat corporis, debitis
-          harum, sed ipsam eum labore omnis nam excepturi iusto molestiae
-          incidunt autem id molestias.
-        </p>
+        <div className="w-full flex gap-x-10">
+          <BlogCard
+            classes={"lg:flex"}
+            readingTime={"  3 min read"}
+            title={"Exploring Shirez Canyon in the Heart of Zagros Mountains"}
+            summery={
+              "Go from Figma to code in minimum amount of time using Locofy. Take your design to real world with Locofy's AI powered plugin."
+            }
+            author={"Anna Rosé"}
+            publish={"Posted just now"}
+            avatar={"/images/blog/blogCar.webp"}
+            cover={"/images/thumbnails/1.png"}
+            cm={"120"}
+            like={"2k"}
+          />
+          <BlogCard
+            classes={"lg:flex"}
+            readingTime={"  3 min read"}
+            title={"Exploring Shirez Canyon in the Heart of Zagros Mountains"}
+            summery={
+              "Go from Figma to code in minimum amount of time using Locofy. Take your design to real world with Locofy's AI powered plugin."
+            }
+            author={"Anna Rosé"}
+            publish={"Posted just now"}
+            avatar={"/images/blog/blogCar.webp"}
+            cover={"/images/thumbnails/1.png"}
+            cm={"120"}
+            like={"2k"}
+          />
+        </div>
       </div>
       <div className="relative w-1/4 h-screen">
         <div className="fixed w-full h-full pt-16">
@@ -50,7 +77,7 @@ const page = () => {
             <h3 className="text-2xl font-outfit font-semibold text-black mb-10">
               Tags
             </h3>
-            <div className="w-full flex gap-x-3 flex-wrap gap-y-7">
+            <div className="max-w-sm flex items-center flex-wrap gap-x-2 gap-y-3">
               <Tag title={"Dastgah"} />
               <Tag title={"Folk music"} />
               <Tag title={"setar"} />

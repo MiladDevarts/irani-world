@@ -7,8 +7,8 @@ import { BlogCard } from "@/components/Blog";
 const page = () => {
   return (
     <main className="flex container">
-      <div className="w-3/4 pt-16">
-        <div className="w-full flex gap-x-10">
+      <div className="w-4/5 pt-16">
+        <div className="w-full flex gap-x-6">
           <BlogCard
             classes={"lg:flex"}
             readingTime={"  3 min read"}
@@ -39,7 +39,7 @@ const page = () => {
           />
         </div>
       </div>
-      <div className="relative w-1/4 h-screen">
+      <div className="relative w-1/5 h-screen">
         <div className="fixed w-full h-full pt-16">
           <div className="flex flex-col mx-12">
             <h3 className="text-2xl font-outfit font-semibold text-black mb-10">

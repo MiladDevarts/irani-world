@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 
 interface NewsCarsProps {
-  classes: string;
   readingTime: string;
   title: string;
   summery: string;
@@ -17,11 +16,11 @@ interface NewsCarsProps {
 const NewsCars: React.FC<NewsCarsProps> = (props) => {
   return (
     <>
-      <Link href={"#"} className="w-1/2 group mt-0 hover:-mt-2 transition-all duration-500">
+      <Link href={"#"} className="w-full lg:w-1/2 group mt-0 lg:hover:-mt-2 transition-all duration-500">
         <div
-          className={`${props.classes} border-[1.5px] border-white-shade-3 rounded-2xl hover:shadow-card transition-all duration-300 `}
+          className={`flex flex-col lg:flex-row w-full border-[1.5px] border-white-shade-3 rounded-2xl hover:shadow-card transition-all duration-300 `}
         >
-          <div className="w-1/2 flex flex-col gap-y-5 p-5">
+          <div className="w-full lg:w-1/2 flex flex-col gap-y-5 p-5">
             <span className="w-[105px] h-10 flex items-center justify-center group-hover:bg-black group-hover:text-white transition-all duration-300 bg-white-shade-3 text-black font-medium font-opensans text-sm rounded-lg">
               {props.readingTime}
             </span>
@@ -46,7 +45,7 @@ const NewsCars: React.FC<NewsCarsProps> = (props) => {
             </div>
           </div>
           <div
-            className="w-1/2 min-h-full  bg-cover bg-center rounded-2xl ml-6 mr-3 my-3"
+            className="w-full lg:w-1/2 min-h-full  bg-cover bg-center rounded-2xl ml-6 mr-3 my-3"
             style={{ backgroundImage: `url('/images/thumbnails/1.png')` }}
           ></div>
         </div>

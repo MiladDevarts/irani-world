@@ -7,8 +7,8 @@ import BioCardFullWidth from "@/components/Bio/BioCardFullWidth";
 const page = () => {
   return (
     <main className="flex container">
-      <div className="w-4/5 pt-16">
-        <div className="w-full flex items-center gap-x-8 pb-10">
+      <div className="w-full lg:w-4/5 pt-16">
+        <div className="w-full flex items-center gap-x-8 pb-10 mt-20 lg:mt-0">
           <svg
             width="685"
             height="1"
@@ -44,9 +44,8 @@ const page = () => {
             />
           </svg>
         </div>
-        <div className="w-full flex gap-x-6">
+        <div className="w-full flex flex-col gap-y-4 lg:flex-row gap-x-6">
           <NewsCars
-            classes={"lg:flex"}
             readingTime={"  3 min read"}
             title={"Exploring Shirez Canyon in the Heart of Zagros Mountains"}
             summery={
@@ -60,7 +59,6 @@ const page = () => {
             like={"2k"}
           />
           <NewsCars
-            classes={"lg:flex"}
             readingTime={"  3 min read"}
             title={"Exploring Shirez Canyon in the Heart of Zagros Mountains"}
             summery={
@@ -132,7 +130,7 @@ const page = () => {
           />
         </div>
       </div>
-      <div className="relative w-1/5 h-screen">
+      <div className="w-full relative lg:w-1/5 h-screen">
         <div className="fixed w-full h-full pt-16">
           <div className="flex flex-col mx-12">
             <h3 className="text-2xl font-outfit font-semibold text-black mb-10">

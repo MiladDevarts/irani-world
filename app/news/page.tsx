@@ -9,9 +9,9 @@ const page = () => {
   return (
     <>
       <OverlayMenu />
-      <main className="flex container">
-        <div className="w-4/5 pt-16">
-          <div className="w-full flex gap-x-6 mb-10">
+      <main className="container flex flex-col lg:flex-row">
+        <div className="w-full lg:w-4/5 pt-16 mt-20">
+          <div className="w-full flex flex-col lg:flex-row gap-y-6 gap-x-6 mb-10">
             <NewsCars
               readingTime={"  3 min read"}
               title={"Exploring Shirez Canyon in the Heart of Zagros Mountains"}
@@ -53,8 +53,8 @@ const page = () => {
             />
           </div>
         </div>
-        <div className="relative w-1/5 h-screen">
-          <div className="fixed w-full h-full pt-16">
+        <div className="lg:relative w-full lg:w-1/5 lg:h-screen">
+          <div className="lg:fixed w-full h-full pt-16">
             <div className="flex flex-col mx-12">
               <h3 className="text-2xl font-outfit font-semibold text-black mb-10">
                 Most active bloggers

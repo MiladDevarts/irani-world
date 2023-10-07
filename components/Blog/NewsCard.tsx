@@ -18,7 +18,7 @@ const NewsCars: React.FC<NewsCarsProps> = (props) => {
     <>
       <Link href={"#"} className="w-full lg:w-1/2 group mt-0 lg:hover:-mt-2 transition-all duration-500">
         <div
-          className={`flex flex-col lg:flex-row w-full border-[1.5px] border-white-shade-3 rounded-2xl hover:shadow-card transition-all duration-300 `}
+          className={`flex flex-col lg:flex-row w-full border-[1.5px] p-3 border-white-shade-3 rounded-2xl hover:shadow-card transition-all duration-300 `}
         >
           <div className="w-full lg:w-1/2 flex flex-col gap-y-5 p-5">
             <span className="w-[105px] h-10 flex items-center justify-center group-hover:bg-black group-hover:text-white transition-all duration-300 bg-white-shade-3 text-black font-medium font-opensans text-sm rounded-lg">
@@ -45,7 +45,11 @@ const NewsCars: React.FC<NewsCarsProps> = (props) => {
             </div>
           </div>
           <div
-            className="w-full lg:w-1/2 min-h-full  bg-cover bg-center rounded-2xl ml-6 mr-3 my-3"
+            className="lg:block hidden w-full lg:w-1/2 max-h-full lg:max-h-full  bg-cover bg-center rounded-2xl my-3"
+            style={{ backgroundImage: `url('/images/thumbnails/1.png')` }}
+          ></div>
+            <div
+            className="lg:hidden block w-full lg:w-1/2 h-44 lg:max-h-full  bg-cover bg-center rounded-2xl my-3"
             style={{ backgroundImage: `url('/images/thumbnails/1.png')` }}
           ></div>
         </div>

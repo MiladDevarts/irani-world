@@ -18,9 +18,9 @@ const NewsCardFullWidth: React.FC<NewsCardFullWidthProps> = (props) => {
   return (
     <Link
       href={"/"}
-      className="p-8 flex items-center justify-between w-full h-auto py-8 border-y border-white-shade-4  hover:shadow-card transition-all duration-300"
+      className="flex flex-col gap-y-4 lg:flex-row lg:items-center justify-between w-full h-auto px-6 lg:p-8 py-8 border-y border-white-shade-4  hover:shadow-card transition-all duration-300"
     >
-      <div className="w-3/5 flex flex-col gap-y-4">
+      <div className="w-full lg:w-3/5 flex flex-col gap-y-4">
         <div className="flex items-center gap-x-3">
           <Image src={"/images/avatar/2.png"} width={70} height={70} alt="" />
           <div className="flex flex-col">
@@ -42,7 +42,7 @@ const NewsCardFullWidth: React.FC<NewsCardFullWidthProps> = (props) => {
         </span>
       </div>
       <div
-        className="w-1/5 h-32 bg-black rounded-3xl bg-center bg-cover"
+        className="w-full lg:w-1/5 h-44 lg:h-32 bg-black rounded-3xl bg-center bg-cover"
         style={{ backgroundImage: `url('/images/thumbnails/2.png')` }}
       ></div>
     </Link>

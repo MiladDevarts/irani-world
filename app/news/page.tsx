@@ -4,6 +4,12 @@ import { ActiveBlogger, Tag } from "@/components/Sidebar";
 import { NewsCardFullWidth, NewsCars } from "@/components/Blog";
 
 import OverlayMenu from "@/components/Overlay";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Irani World | News",
+  description: "",
+};
 
 const page = () => {
   return (

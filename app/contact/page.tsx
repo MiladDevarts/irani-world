@@ -1,9 +1,14 @@
 import React from "react";
-import Head from "next/head";
 
 import ConatctOptions from "@/components/Contact/ConatctOptions";
 import ContactForm from "@/components/Contact/ContactForm";
 import OverlayMenu from "@/components/Overlay";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Irani World | Contact us",
+  description: "",
+};
 
 const page = () => {
   return (

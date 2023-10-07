@@ -6,6 +6,13 @@ import Link from "next/link";
 import OverlayMenu from "@/components/Overlay";
 import { Riv, WPS, WSA } from "@/components/Partners";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Irani World | About us",
+  description: "",
+};
+
 const page = () => {
   return (
     <>

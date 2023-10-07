@@ -3,6 +3,12 @@ import Head from "next/head";
 
 import OverlayMenu from "@/components/Overlay";
 import { FAQItem } from "@/components/FAQ";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Irani World | FAQ",
+  description: "",
+};
 
 const page = () => {
   return (

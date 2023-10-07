@@ -5,6 +5,12 @@ import { NewsCars } from "@/components/Blog";
 import BioCardFullWidth from "@/components/Bio/BioCardFullWidth";
 
 import OverlayMenu from "@/components/Overlay";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Irani World | Bio",
+  description: "",
+};
 
 const page = () => {
   return (

@@ -2,6 +2,12 @@ import React from "react";
 import Head from "next/head";
 
 import OverlayMenu from "@/components/Overlay";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Irani World | Terms",
+  description: "",
+};
 
 const page = () => {
   return (

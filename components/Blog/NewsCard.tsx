@@ -17,12 +17,12 @@ interface NewsCarsProps {
 const NewsCars: React.FC<NewsCarsProps> = (props) => {
   return (
     <>
-      <Link href={"#"} className="w-1/2">
+      <Link href={"#"} className="w-1/2 group mt-0 hover:-mt-2 transition-all duration-500">
         <div
           className={`${props.classes} border-[1.5px] border-white-shade-3 rounded-2xl hover:shadow-card transition-all duration-300 `}
         >
           <div className="w-1/2 flex flex-col gap-y-5 p-5">
-            <span className="w-[105px] h-10 flex items-center justify-center bg-white-shade-3 text-black font-medium font-opensans text-sm rounded-lg">
+            <span className="w-[105px] h-10 flex items-center justify-center group-hover:bg-black group-hover:text-white transition-all duration-300 bg-white-shade-3 text-black font-medium font-opensans text-sm rounded-lg">
               {props.readingTime}
             </span>
             <h1 className="text-black text-xl font-outfit font-semibold lg:max-w-sm lg:text-lg">

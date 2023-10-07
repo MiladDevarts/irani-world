@@ -7,12 +7,7 @@ import { FAQItem } from "@/components/FAQ";
 const page = () => {
   return (
     <>
-      <Head>
-        <title>Irani World | FAQ</title>
-      </Head>
-
       <OverlayMenu />
-
       <main className="container flex flex-col lg:flex-row gap-x-20">
         <div className="w-full lg:w-1/3 flex flex-col mt-28 lg:mt-16">
           <div>

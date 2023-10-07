@@ -14,15 +14,14 @@ const Titles = () => {
         <div>
           <span
             data-aos="zoom-in-right"
-            className="relative bottom-0 inline-block p-4 text-sm rounded-full font-opensans text-black bg-white mb-6 shadow-badge mt-10 hover:bottom-2 hover:cursor-pointer lg:mt-0 transition-all"
+            className="inline-block p-4 text-sm rounded-full font-opensans text-black bg-white mb-0   shadow-badge mt-10 hover:cursor-pointer lg:mt-0 transition-all duration-300"
           >
-            {" "}
             🎉 Made for persian people
           </span>
           <h1
             data-aos="zoom-in-right"
             data-aos-delay="200"
-            className="text-4xl font-outfit font-semibold text-black"
+            className="text-4xl font-outfit font-semibold text-black mt-5"
           >
             Advance Iranian   
             <span className="flex items-center">

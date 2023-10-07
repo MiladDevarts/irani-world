@@ -8,6 +8,7 @@ import Logo from "../Logo";
 import HamburgerNav from "../Hamburger";
 
 const Navigation = () => {
+  
   const [menuItems, setMenuItesm] = useState([
     { value: "Home", slug: "/" },
     { value: "About us", slug: "/about" },

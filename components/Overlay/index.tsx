@@ -1,6 +1,6 @@
 "use client";
 
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import Link from "next/link";
 
 import { MenuContext } from "@/context/MenuProvider";
@@ -9,8 +9,19 @@ import classNames from "classnames";
 const OverlayMenu = () => {
   let menuVisibilty = useContext(MenuContext);
 
+  const [menuItems, setMenuItesm] = useState([
+    { value: "Home", slug: "/" },
+    { value: "About us", slug: "/about" },
+    { value: "News", slug: "/news" },
+    { value: "Bio", slug: "/bio" },
+    { value: "FAQ", slug: "/faq" },
+    { value: "Help", slug: "/help" },
+    { value: "Terms", slug: "/terms" },
+    { value: "Contact us", slug: "/contact" },
+  ]);
+
   const OverlayClasses = classNames(
-    "z-[1010] block lg:hidden w-full h-auto transition-all fixed top-0 z-10 soft-shadow bg-white p-4 duration-500",
+    "z-[1010] block lg:hidden w-full h-auto transition-all fixed top-0 -left-[1200px] z-10 soft-shadow bg-white p-4 duration-500",
     {
       "left-0": menuVisibilty.menu,
       "-left-[1200px]": !menuVisibilty.menu,
@@ -25,30 +36,20 @@ const OverlayMenu = () => {
         }}
       >
         <ul className="py-6 container flex flex-col  gap-y-6 font-opensans font-semibold text-xl  text-black mt-20">
-          <li className="font-semibold text-black">
-            <Link href={"/"}>Home</Link>
-          </li>
-          <li>
-            <Link href={"/about"}>About us</Link>
-          </li>
-          <li>
-            <Link href={"/news"}>News</Link>
-          </li>
-          <li>
-            <Link href={"/bio"}>Bio</Link>
-          </li>
-          <li>
-            <Link href={"/faq"}>FAQ</Link>
-          </li>
-          <li>
-            <Link href={"/terms"}>Terms & Privacy</Link>
-          </li>
-          <li>
-            <Link href={"/plans"}>Plans</Link>
-          </li>
-          <li>
-            <Link href={"/contact"}>Contact us</Link>
-          </li>
+          {menuItems.map((menuItem, index) => {
+            return (
+              <li key={index} className="font-semibold text-black">
+                <Link
+                  href={menuItem.slug}
+                  onClick={() => {
+                    menuVisibilty.setMenu(!menuVisibilty.menu);
+                  }}
+                >
+                  {menuItem.value}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </section>

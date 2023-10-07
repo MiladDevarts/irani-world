@@ -107,7 +107,7 @@ body {
 .bar4 {
   bottom: 0;
 }
-
+/* 
 .menu:checked + label > .hamburger-inner > .bar1{
   transform: rotate(45deg);
   transform-origin: 5%;
@@ -128,7 +128,7 @@ body {
   transform-origin: 5%;
   transform: rotate(-45deg);
   width: 41px;
-}
+} */
 
 .no-scroll::-webkit-scrollbar {
   display: none;

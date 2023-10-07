@@ -1,35 +1,35 @@
 import Link from "next/link";
 import React from "react";
 
-interface BlogCardProps {
+interface NewsCarsProps {
   classes: string;
-  readingTime:string,
-  title:string,
-  summery:string,
-  author:string,
-  publish:string,
-  avatar:string,
-  cover:string,
-  cm:string,
-  like:string,
+  readingTime: string;
+  title: string;
+  summery: string;
+  author: string;
+  publish: string;
+  avatar: string;
+  cover: string;
+  cm: string;
+  like: string;
 }
 
-const BlogCard: React.FC<BlogCardProps> = (props) => {
+const NewsCars: React.FC<NewsCarsProps> = (props) => {
   return (
     <>
       <Link href={"#"} className="w-1/2">
         <div
-          className={`${props.classes} border-[1.5px] border-white-shade-3 rounded-2xl  hover:shadow-card transition-all duration-300 `}
+          className={`${props.classes} border-[1.5px] border-white-shade-3 rounded-2xl hover:shadow-card transition-all duration-300 `}
         >
           <div className="w-1/2 flex flex-col gap-y-5 p-5">
             <span className="w-[105px] h-10 flex items-center justify-center bg-white-shade-3 text-black font-medium font-opensans text-sm rounded-lg">
-            {props.readingTime}
+              {props.readingTime}
             </span>
             <h1 className="text-black text-xl font-outfit font-semibold lg:max-w-sm lg:text-lg">
-             {props.title}
+              {props.title}
             </h1>
             <p className="font-opensans text-white-shade-11 font-medium text-xs lg:max-w-xs">
-           {props.summery}
+              {props.summery}
             </p>
             <div>
               <div className="flex items-center gap-x-5 py-5 lg:py-0 lg:pt-7">
@@ -42,13 +42,12 @@ const BlogCard: React.FC<BlogCardProps> = (props) => {
                     </span>
                   </h1>
                 </div>
-               
               </div>
             </div>
           </div>
           <div
-            className="w-1/2 min-h-full bg-black bg-cover bg-center rounded-2xl ml-6 mr-3 my-3"
-           
+            className="w-1/2 min-h-full  bg-cover bg-center rounded-2xl ml-6 mr-3 my-3"
+            style={{ backgroundImage: `url('/images/thumbnails/1.png')` }}
           ></div>
         </div>
       </Link>
@@ -56,4 +55,4 @@ const BlogCard: React.FC<BlogCardProps> = (props) => {
   );
 };
 
-export default BlogCard;
+export default NewsCars;

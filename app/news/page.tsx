@@ -1,15 +1,14 @@
-
 import React from "react";
 
 import { ActiveBlogger, Tag } from "@/components/Sidebar";
-import { BlogCard } from "@/components/Blog";
+import { NewsCardFullWidth, NewsCars } from "@/components/Blog";
 
 const page = () => {
   return (
     <main className="flex container">
       <div className="w-4/5 pt-16">
-        <div className="w-full flex gap-x-6">
-          <BlogCard
+        <div className="w-full flex gap-x-6 mb-10">
+          <NewsCars
             classes={"lg:flex"}
             readingTime={"  3 min read"}
             title={"Exploring Shirez Canyon in the Heart of Zagros Mountains"}
@@ -23,7 +22,7 @@ const page = () => {
             cm={"120"}
             like={"2k"}
           />
-          <BlogCard
+          <NewsCars
             classes={"lg:flex"}
             readingTime={"  3 min read"}
             title={"Exploring Shirez Canyon in the Heart of Zagros Mountains"}
@@ -36,6 +35,19 @@ const page = () => {
             cover={"/images/thumbnails/1.png"}
             cm={"120"}
             like={"2k"}
+          />
+        </div>
+        <div className="w-full flex gap-y-4">
+          <NewsCardFullWidth
+            readingTime={"3"}
+            title={"Exploring Shirez Canyon in the Heart of Zagros Mountains"}
+            summery={
+              "Go from Figma to code in minimum amount of time using Locofy. Takeyour design to real world with Locofys AI powered plugin.Go from Figma to code in minimum amount of time using Locofy. Take your design to real world with Locofy's AI powered see post"
+            }
+            author={"Cameron Williamson"}
+            publish={"Sep 16,2023"}
+            avatar={"/images/avatar/1.png"}
+            cover={""}
           />
         </div>
       </div>

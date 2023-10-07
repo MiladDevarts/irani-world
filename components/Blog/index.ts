@@ -1,3 +1,4 @@
-import BlogCard from "./BlogCard";
+import NewsCars from "./NewsCard";
+import NewsCardFullWidth from "./NewsCardFullWidth";
 
-export { BlogCard };
+export { NewsCars, NewsCardFullWidth };

@@ -44,7 +44,7 @@ const Platforms = () => {
         {/* 2. Countries Platform List */}
         <div className="-z[200] w-full h-36 rounded-3xl bg-white-shade-2 grid grid-cols-3 gap-x-3 p-4">
           <div
-            className="relative flex items-center justify-center w-full h-full bg-white rounded-2xl hover:cursor-pointer hover:shadow-soft-shadow transition-all duration-300"
+            className="relative flex items-center justify-center w-full h-full bg-white hover:box-shadow rounded-2xl hover:cursor-pointer hover:shadow-soft-shadow transition-all duration-300"
           >
             <svg
               className="absolute top-0 left-0 m-2"

@@ -44,19 +44,19 @@ const page = () => {
             </div>
             <div className="flex gap-x-2 items-center">
               <Link
-                className="flex justify-center items-center bg-blue text-white text-lg font-semibold font-outfit rounded-full border border-white-shade-4 px-10 h-16"
+                className="flex justify-center items-center bg-blue text-white text-lg font-semibold font-outfit rounded-full border border-white-shade-4 px-10 h-14"
                 href={"/"}
               >
                 Popular
               </Link>
               <Link
-                className="flex justify-center items-center text-white-shade-8 text-lg font-semibold font-outfit rounded-full border border-white-shade-4 px-10 h-16"
+                className="flex justify-center items-center text-white-shade-8 text-lg font-semibold font-outfit rounded-full border border-white-shade-4 px-10 h-14"
                 href={"/"}
               >
                 Latest
               </Link>
               <Link
-                className="flex justify-center items-center text-white-shade-8 text-lg font-semibold font-outfit rounded-full border border-white-shade-4 px-10 h-16"
+                className="flex justify-center items-center text-white-shade-8 text-lg font-semibold font-outfit rounded-full border border-white-shade-4 px-10 h-14"
                 href={"/"}
               >
                 Design

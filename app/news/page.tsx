@@ -111,7 +111,7 @@ const page = () => {
               <h3 className="text-2xl font-outfit font-semibold text-black mb-4">
                 Most active bloggers
               </h3>
-              <div className="flex flex-col gap-y-6">
+              <div className="flex flex-col gap-y-4">
                 <ActiveBlogger
                   icon={"/images/bloggers/irani-world.png"}
                   title={"Irani World"}
@@ -119,7 +119,7 @@ const page = () => {
                 />
                 <ActiveBlogger
                   icon={"/images/bloggers/irani-usa.png"}
-                  title={"Irani World"}
+                  title={"Irani USA"}
                   role={"USA Platform"}
                 />
                 <ActiveBlogger

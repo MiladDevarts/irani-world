@@ -253,7 +253,7 @@ const page = () => {
               <h3 className="text-2xl font-outfit font-semibold text-black mb-10">
                 Most active bloggers
               </h3>
-              <div className="flex flex-col gap-y-7">
+              <div className="flex flex-col gap-y-5">
                 <ActiveBlogger
                   icon={"/images/bloggers/irani-world.png"}
                   title={"Irani World"}

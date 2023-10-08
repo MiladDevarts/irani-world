@@ -16,12 +16,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-      <Head>
-        <title>Irani World | About</title>
-      </Head>
-
       <OverlayMenu />
-
       <main className="container flex flex-col lg:flex-row gap-x-20 h-[500px] mt-28 lg:mt-10">
         <div className="w-full lg:w-2/3 flex flex-col lg:justify-between">
           <div>

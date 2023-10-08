@@ -12,12 +12,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <>
-      <Head>
-        <title>Irani World | Contact</title>
-      </Head>
-
       <OverlayMenu />
-
       <main className="flex flex-col lg:flex-row container">
         <div className="w-full flex flex-col mt-10">
           <h1 className="text-black text-3xl font-semibold font-outfit mb-20">

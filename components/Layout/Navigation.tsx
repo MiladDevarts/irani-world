@@ -1,13 +1,18 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { ReactNode, useState } from "react";
 import Link from "next/link";
 
 import { usePathname } from "next/navigation";
-import Logo from "../Logo";
 import HamburgerNav from "../Hamburger";
 
-const Navigation = () => {
+import IraniWorldLogo from "../Logo/IraniWorldLogo";
+
+interface NavigationProps {
+  LogoType: ReactNode;
+}
+
+const Navigation: React.FC<NavigationProps> = (props) => {
   const [menuItems, setMenuItesm] = useState([
     { value: "Home", slug: "/" },
     { value: "About us", slug: "/about" },
@@ -37,7 +42,7 @@ const Navigation = () => {
         <HamburgerNav />
         <div className="flex gap-x-6 items-center">
           <Link href={"/"}>
-            <Logo classes="lg:w-auto" />
+            {props.LogoType}
           </Link>
         </div>
       </div>

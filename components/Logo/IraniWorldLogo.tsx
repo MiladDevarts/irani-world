@@ -1,10 +1,10 @@
 import React from "react";
 
-interface LogoProps {
+interface IraniWorldLogoProps {
   classes: string;
 }
 
-const Logo: React.FC<LogoProps> = (props) => {
+const IraniWorldLogo: React.FC<IraniWorldLogoProps> = (props) => {
   return (
     <>
       <svg
@@ -53,4 +53,4 @@ const Logo: React.FC<LogoProps> = (props) => {
   );
 };
 
-export default Logo;
+export default IraniWorldLogo;

@@ -6,7 +6,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Logo from "../Logo";
 import HamburgerNav from "../Hamburger";
-import Switch from "../Dark/Switch";
 
 const Navigation = () => {
   const [menuItems, setMenuItesm] = useState([
@@ -37,7 +36,6 @@ const Navigation = () => {
         </ul>
         <HamburgerNav />
         <div className="flex gap-x-6 items-center">
-          <Switch />
           <Link href={"/"}>
             <Logo classes="lg:w-auto" />
           </Link>

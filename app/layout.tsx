@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="light">
       <body
         className={`w-full h-[90vh] lg:overflow-scroll dark:bg-[#10141c] ${openSans.variable} ${outfit.variable}`}
       >

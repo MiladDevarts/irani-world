@@ -15,6 +15,10 @@
   }
 }
 
+* {
+  transition: background .5s;
+}
+
 html,
 body {
   overflow-x: hidden !important;

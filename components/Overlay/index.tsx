@@ -35,10 +35,10 @@ const OverlayMenu = () => {
           backgroundImage: `url('/images/menu/overlay-background.png')`,
         }}
       >
-        <ul className="py-6 container flex flex-col  gap-y-6 font-opensans font-semibold text-xl  text-black mt-20">
+        <ul className="py-6 container flex flex-col  gap-y-8 font-opensans font-normal text-2xl  text-black mt-20">
           {menuItems.map((menuItem, index) => {
             return (
-              <li key={index} className="font-semibold text-black">
+              <li key={index} className="text-black">
                 <Link
                   href={menuItem.slug}
                   onClick={() => {

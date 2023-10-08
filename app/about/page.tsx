@@ -17,7 +17,8 @@ const page = () => {
   return (
     <>
       <OverlayMenu />
-      <main className="container flex flex-col lg:flex-row gap-x-20 h-[500px] mt-28 lg:mt-10">
+      <main className="">
+      <div className="container flex flex-col lg:flex-row gap-x-20 h-[500px] mt-28 lg:mt-10">
         <div className="w-full lg:w-2/3 flex flex-col lg:justify-between">
           <div>
             <h1 className="text-black text-2xl font-semibold font-outfit mb-8">
@@ -55,8 +56,7 @@ const page = () => {
           className="w-1/3 hidden lg:flex flex-col  h-full bg-cover bg-center rounded-3xl"
           style={{ backgroundImage: `url('/images/about/iranian-girl.png')` }}
         ></div>
-      </main>
-
+      </div>
       <section className="w-[95%] lg:w-[80%] mx-auto h-auto lg:h-[300px] lg:mt-20 mt-36 mb-10 flex flex-col gap-y-2 lg:flex-row gap-x-2 items-center bg-white-shade-2 rounded-2xl p-2">
         <div className=" w-full lg:w-1/3 h-[300px] lg:h-full rounded-2xl bg-white">
           <div className="flex justify-between items-center px-10 py-2">
@@ -182,6 +182,7 @@ const page = () => {
           </span>
         </div>
       </section>
+      </main>
     </>
   );
 };

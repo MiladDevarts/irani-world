@@ -20,8 +20,8 @@ const NewsCars: React.FC<NewsCarsProps> = (props) => {
         <div
           className={`flex flex-col lg:flex-row w-full border-[1.5px] p-3 border-white-shade-3 rounded-2xl hover:shadow-card transition-all duration-300 `}
         >
-          <div className="w-full lg:w-1/2 flex flex-col gap-y-5 p-5">
-            <span className="w-[105px] h-10 flex items-center justify-center group-hover:bg-black group-hover:text-white transition-all duration-300 bg-white-shade-3 text-black font-medium font-opensans text-sm rounded-lg">
+          <div className="w-full lg:w-1/2 flex flex-col gap-y-2 p-5">
+            <span className="w-[80px] h-10 flex items-center justify-center group-hover:bg-black group-hover:text-white transition-all duration-300 bg-white-shade-3 text-black font-medium font-opensans text-xs rounded-lg">
               {props.readingTime}
             </span>
             <h1 className="text-black text-xl font-outfit font-semibold lg:max-w-sm lg:text-lg">
@@ -31,7 +31,7 @@ const NewsCars: React.FC<NewsCarsProps> = (props) => {
               {props.summery}
             </p>
             <div>
-              <div className="flex items-center gap-x-5 py-5 lg:py-0 lg:pt-7">
+              <div className="flex items-center gap-x-5 py-5 lg:py-0 lg:pt-3">
                 <div className="flex items-center gap-x-3">
                   <img className="w-10" src="/images/avatar/1.png" alt="" />
                   <h1 className="text-black text-sm font-semibold font-opensans flex flex-col items-start">

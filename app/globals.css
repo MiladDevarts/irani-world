@@ -25,18 +25,6 @@ body {
   background: rgb(var(--background-rgb));
 }
 
-.jc {
-  @apply justify-center;
-}
-
-.jb {
-  @apply justify-between;
-}
-
-.ic {
-  @apply items-center;
-}
-
 .navigation li {
   display: flex;
   align-items: center;
@@ -46,8 +34,7 @@ body {
 }
 
 .navigation li.active {
-  color: #111;
-  border-top: 3px solid black;
+  @apply text-black border-t-4 border-black dark:text-white dark:border-white
 }
 
 .navigation li.normal {
@@ -55,8 +42,8 @@ body {
 }
 
 .navigation li:hover {
-  color: #111;
-  border-top: 3px solid black;
+  @apply text-black border-t-4 border-black dark:text-white dark:border-white
+
 }
 
 .visuallyHidden {
@@ -405,11 +392,14 @@ input:-webkit-autofill:active {
   padding: 0;
   width: 30px;
   height: 4px;
-  background-color: rgb(0, 0, 0);
   display: block;
   border-radius: 4px;
   transition: all 0.4s ease-in-out;
   position: absolute;
+}
+
+.hamburger .bar {
+  @apply bg-black dark:bg-white
 }
 
 .bar1 {
@@ -497,7 +487,7 @@ input:-webkit-autofill:active {
 }
 
 input:checked ~ .switch__Slider {
-  background: #050218;
+  background: #10141c;
   transition: 0.3s;
 }
 

@@ -21,7 +21,7 @@ const OverlayMenu = () => {
   ]);
 
   const OverlayClasses = classNames(
-    "z-[1010] block lg:hidden w-full h-auto transition-all fixed top-0 -left-[1200px] z-10 soft-shadow bg-white p-4 duration-500",
+    "z-[1010] block lg:hidden w-full h-auto transition-all fixed top-0 -left-[1200px] z-10 soft-shadow bg-white duration-500",
     {
       "left-0": menuVisibilty.menu,
       "-left-[1200px]": !menuVisibilty.menu,
@@ -30,15 +30,15 @@ const OverlayMenu = () => {
   return (
     <section className={OverlayClasses}>
       <div
-        className="w-full h-full bg-white text-black bg-cover"
+        className="w-full h-full bg-white dark:bg-[#131821] dark:text-white text-black bg-cover"
         style={{
           backgroundImage: `url('/images/menu/overlay-background.png')`,
         }}
       >
-        <ul className="py-6 container flex flex-col  gap-y-8 font-opensans font-normal text-2xl  text-black mt-20">
+        <ul className="py-6 container flex flex-col  gap-y-8 font-opensans font-normal text-2xl dark:text-white  text-black pt-28">
           {menuItems.map((menuItem, index) => {
             return (
-              <li key={index} className="text-black">
+              <li key={index} className="text-black dark:text-white">
                 <Link
                   href={menuItem.slug}
                   onClick={() => {

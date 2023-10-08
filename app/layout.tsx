@@ -6,6 +6,7 @@ import { Open_Sans } from "next/font/google";
 import { Outfit } from "next/font/google";
 
 import MenuProvider from "@/context/MenuProvider";
+import ThemeColorProvider from "@/context/ThemeColorProvider";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -27,13 +28,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="light">
       <body
-        className={`w-full h-[90vh] lg:overflow-scroll ${openSans.variable} ${outfit.variable}`}
+        className={`w-full h-[90vh] lg:overflow-scroll dark:bg-[#10141c] ${openSans.variable} ${outfit.variable}`}
       >
         <MenuProvider>
-          {children}
-          <Navigation />
+          <ThemeColorProvider>
+            {children}
+            <Navigation />
+          </ThemeColorProvider>
         </MenuProvider>
       </body>
     </html>

@@ -19,7 +19,7 @@ const page = () => {
       <main className="container flex flex-col lg:flex-row">
         <div className="w-full lg:w-5/6 pt-16 lg:mt-0 mt-16">
           <div className="w-full flex flex-col gap-y-4 lg:flex-row justify-between items-center mb-10 ">
-            <div className="flex items-center gap-x-3 px-3 py-3 w-full lg:w-1/2 h-22 rounded-full border border-white-shade-4">
+            <div className="group flex items-center gap-x-3 px-3 py-3 w-full lg:w-1/2 h-22 rounded-full border border-white-shade-4">
               <svg
                 width="58"
                 height="58"
@@ -29,6 +29,7 @@ const page = () => {
               >
                 <circle cx="29" cy="29" r="29" fill="#FAFAFA" />
                 <path
+                
                   fill-rule="evenodd"
                   clip-rule="evenodd"
                   d="M28.5 19.75C23.6675 19.75 19.75 23.6675 19.75 28.5C19.75 33.3325 23.6675 37.25 28.5 37.25C33.3325 37.25 37.25 33.3325 37.25 28.5C37.25 23.6675 33.3325 19.75 28.5 19.75ZM18.25 28.5C18.25 22.8391 22.8391 18.25 28.5 18.25C34.1609 18.25 38.75 22.8391 38.75 28.5C38.75 31.0605 37.8111 33.4017 36.2589 35.1982L39.5303 38.4697C39.8232 38.7626 39.8232 39.2374 39.5303 39.5303C39.2374 39.8232 38.7626 39.8232 38.4697 39.5303L35.1982 36.2589C33.4017 37.8111 31.0605 38.75 28.5 38.75C22.8391 38.75 18.25 34.1609 18.25 28.5Z"
@@ -39,7 +40,7 @@ const page = () => {
               <input
                 type="text"
                 placeholder="Search here..."
-                className="rounded-full text-lg text-black w-5/6 h-full focus:outline-none focus:border-none border-none outline-none"
+                className="group-focus-within:outline group-focus:outline-blue rounded-full text-lg text-black w-5/6 h-full focus:outline-none focus:border-none border-none outline-none"
               />
             </div>
             <div className="flex gap-x-2 items-center">
@@ -50,13 +51,13 @@ const page = () => {
                 Popular
               </Link>
               <Link
-                className="flex justify-center items-center text-white-shade-8 text-lg font-semibold font-outfit rounded-full border border-white-shade-4 px-10 h-14"
+                className="hover:bg-black hover:text-white transition-all duration-300 flex justify-center items-center text-white-shade-8 text-lg font-semibold font-outfit rounded-full border border-white-shade-4 px-10 h-14"
                 href={"/"}
               >
                 Latest
               </Link>
               <Link
-                className="flex justify-center items-center text-white-shade-8 text-lg font-semibold font-outfit rounded-full border border-white-shade-4 px-10 h-14"
+                className="hover:bg-black hover:text-white transition-all duration-300 flex justify-center items-center text-white-shade-8 text-lg font-semibold font-outfit rounded-full border border-white-shade-4 px-10 h-14"
                 href={"/"}
               >
                 Design

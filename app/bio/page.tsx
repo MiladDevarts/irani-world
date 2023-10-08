@@ -94,7 +94,7 @@ const page = () => {
               author={"Cameron Williamson"}
               publish={"Sep 16,2023"}
               avatar={"/images/avatar/1.png"}
-              cover={""}
+              cover={"/images/bio/hakhamanesh.png"}
             />
             <BioCardFullWidth
               readingTime={"3"}
@@ -105,7 +105,7 @@ const page = () => {
               author={"Cameron Williamson"}
               publish={"Sep 16,2023"}
               avatar={"/images/avatar/1.png"}
-              cover={""}
+              cover={"/images/bio/hakhamanesh.png"}
             />
             <BioCardFullWidth
               readingTime={"3"}
@@ -116,7 +116,7 @@ const page = () => {
               author={"Cameron Williamson"}
               publish={"Sep 16,2023"}
               avatar={"/images/avatar/1.png"}
-              cover={""}
+              cover={"/images/bio/hakhamanesh.png"}
             />
             <BioCardFullWidth
               readingTime={"3"}
@@ -127,7 +127,7 @@ const page = () => {
               author={"Cameron Williamson"}
               publish={"Sep 16,2023"}
               avatar={"/images/avatar/1.png"}
-              cover={""}
+              cover={"/images/bio/hakhamanesh.png"}
             />
             <BioCardFullWidth
               readingTime={"3"}
@@ -138,7 +138,7 @@ const page = () => {
               author={"Cameron Williamson"}
               publish={"Sep 16,2023"}
               avatar={"/images/avatar/1.png"}
-              cover={""}
+              cover={"/images/bio/hakhamanesh.png"}
             />
           </div>
         </div>

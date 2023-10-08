@@ -21,7 +21,7 @@ const BioCardFullWidth: React.FC<BioCardFullWidthProps> = (props) => {
     >
       <div
         className=" w-full lg:w-1/5 h-full flex items-center justify-center order-2 lg:order-1 p-5 lg:p-0  border rounded-3xl border-white-shade-4 group-hover:border-white-shade-18 transition-all duration-300">
-          <Image src={"/images/bio/hakhamanesh.png"} width={100} height={100} alt=""/>
+          <Image src={props.cover} width={100} height={100} alt=""/>
         </div>
       <div className="w-full lg:w-4/5 flex flex-col order-1 lg:order-2 gap-y-4">
         <h2 className="text-blacl text-xl font-outfit font-medium text-black">

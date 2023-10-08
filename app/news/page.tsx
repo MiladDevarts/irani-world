@@ -62,10 +62,10 @@ const page = () => {
         <div className="lg:relative w-full lg:w-1/5 lg:h-screen">
           <div className="lg:fixed w-full h-full pt-16">
             <div className="flex flex-col mx-12">
-              <h3 className="text-2xl font-outfit font-semibold text-black mb-10">
+              <h3 className="text-2xl font-outfit font-semibold text-black mb-8">
                 Most active bloggers
               </h3>
-              <div className="flex flex-col gap-y-7">
+              <div className="flex flex-col gap-y-6">
                 <ActiveBlogger
                   icon={"/images/bloggers/irani-world.png"}
                   title={"Irani World"}
@@ -93,8 +93,8 @@ const page = () => {
                 />
               </div>
             </div>
-            <div className="flex flex-col mx-12 mt-10">
-              <h3 className="text-2xl font-outfit font-semibold text-black mb-10">
+            <div className="flex flex-col mx-12 mt-6">
+              <h3 className="text-2xl font-outfit font-semibold text-black mb-6">
                 Tags
               </h3>
               <div className="max-w-sm flex items-center flex-wrap gap-x-2 gap-y-3">
@@ -104,6 +104,16 @@ const page = () => {
                 <Tag title={"tar"} />
                 <Tag title={"tar"} />
                 <Tag title={"tour"} />
+              </div>
+            </div>
+            <div className="flex flex-col mx-12">
+              <h3 className="text-2xl font-outfit font-semibold text-black mb-6 mt-10">
+                Featured blog
+              </h3>
+              <div className="flex w-full flex-col gap-y-6">
+                <div className="flex w-full gap-x-3">
+                    <div className="w-1/3 h-20 roundex-3xl"></div>
+                </div>
               </div>
             </div>
           </div>

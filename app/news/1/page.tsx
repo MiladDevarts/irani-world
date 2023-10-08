@@ -6,6 +6,7 @@ import { NewsCardFullWidth, NewsCars } from "@/components/Blog";
 import OverlayMenu from "@/components/Overlay";
 import { Metadata } from "next";
 import Link from "next/link";
+import BlogCardM from "@/components/Blog/BlogCardM";
 
 export const metadata: Metadata = {
   title: "invest time in the Irani.World platform",
@@ -173,55 +174,57 @@ const page = () => {
             className="w-full h-[400px] rounded-3xl bg-cover bg-center mb-10"
             style={{ backgroundImage: `url('/images/thumbnails/2.png')` }}
           ></div>
-          <div className="w-full flex gap-x-14 my-10">
-            <div className="flex flex-col gap-y-3">
-              <svg
-                width="54"
-                height="201"
-                viewBox="0 0 54 201"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M24.2614 18.7355C23.2079 18.7355 22.3801 19.5455 22.3801 20.5136C22.3801 21.4818 23.2079 22.2918 24.2614 22.2918C25.315 22.2918 26.1427 21.4818 26.1427 20.5136C26.1427 19.5455 25.315 18.7355 24.2614 18.7355ZM19.5404 20.5136C19.5404 18.0069 21.6686 16 24.2614 16C26.8543 16 28.9824 18.0069 28.9824 20.5136C28.9824 23.0204 26.8543 25.0273 24.2614 25.0273C21.6686 25.0273 19.5404 23.0204 19.5404 20.5136ZM32.7976 23.3365C33.9868 21.8759 34.8166 20.1744 35.2247 18.3602L38 18.9395C37.501 21.158 36.4862 23.2386 35.032 25.0247C33.5778 26.8109 31.722 28.256 29.6042 29.2515C28.2765 29.8756 26.8675 30.3128 25.4204 30.5533L27.4979 38.0223C27.7463 38.9156 28.6994 39.4456 29.6266 39.2063C30.5539 38.967 31.1041 38.0488 30.8557 37.1556L30.186 34.7479C30.1848 34.7482 30.1836 34.7485 30.1824 34.7488L30.1012 34.443L29.6138 32.691L29.6345 32.6857L29.4786 32.0986C31.3748 31.6313 33.1339 30.7495 34.6192 29.5215L36.4686 31.5974C35.3776 32.4993 34.1659 33.2485 32.8697 33.8269L33.5986 36.4476C34.253 38.8001 32.8037 41.2183 30.3616 41.8486C27.9195 42.479 25.4093 41.0829 24.7549 38.7304L22.5408 30.7703C20.2751 30.7381 18.0428 30.2303 16 29.281L17.2338 26.8171C18.9694 27.6237 20.8723 28.0405 22.7993 28.0364C24.7262 28.0322 26.6271 27.6071 28.3589 26.793C30.0907 25.979 31.6083 24.7972 32.7976 23.3365Z"
-                  fill="black"
-                />
-                <path
-                  d="M27 58.5V182.5L33.5 176"
-                  stroke="black"
-                  stroke-linecap="round"
-                />
-                <rect
-                  x="0.5"
-                  y="0.5"
-                  width="53"
-                  height="200"
-                  rx="15.5"
-                  stroke="#E6E6E6"
-                />
-              </svg>
+          <div className="w-full flex flex-col gap-x-14 my-10 pb-24 border-b border-white-shade-4">
+            <div className="flex gap-x-10 mb-10">
+              <div className="flex flex-col gap-y-3">
+                <svg
+                  width="54"
+                  height="201"
+                  viewBox="0 0 54 201"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M24.2614 18.7355C23.2079 18.7355 22.3801 19.5455 22.3801 20.5136C22.3801 21.4818 23.2079 22.2918 24.2614 22.2918C25.315 22.2918 26.1427 21.4818 26.1427 20.5136C26.1427 19.5455 25.315 18.7355 24.2614 18.7355ZM19.5404 20.5136C19.5404 18.0069 21.6686 16 24.2614 16C26.8543 16 28.9824 18.0069 28.9824 20.5136C28.9824 23.0204 26.8543 25.0273 24.2614 25.0273C21.6686 25.0273 19.5404 23.0204 19.5404 20.5136ZM32.7976 23.3365C33.9868 21.8759 34.8166 20.1744 35.2247 18.3602L38 18.9395C37.501 21.158 36.4862 23.2386 35.032 25.0247C33.5778 26.8109 31.722 28.256 29.6042 29.2515C28.2765 29.8756 26.8675 30.3128 25.4204 30.5533L27.4979 38.0223C27.7463 38.9156 28.6994 39.4456 29.6266 39.2063C30.5539 38.967 31.1041 38.0488 30.8557 37.1556L30.186 34.7479C30.1848 34.7482 30.1836 34.7485 30.1824 34.7488L30.1012 34.443L29.6138 32.691L29.6345 32.6857L29.4786 32.0986C31.3748 31.6313 33.1339 30.7495 34.6192 29.5215L36.4686 31.5974C35.3776 32.4993 34.1659 33.2485 32.8697 33.8269L33.5986 36.4476C34.253 38.8001 32.8037 41.2183 30.3616 41.8486C27.9195 42.479 25.4093 41.0829 24.7549 38.7304L22.5408 30.7703C20.2751 30.7381 18.0428 30.2303 16 29.281L17.2338 26.8171C18.9694 27.6237 20.8723 28.0405 22.7993 28.0364C24.7262 28.0322 26.6271 27.6071 28.3589 26.793C30.0907 25.979 31.6083 24.7972 32.7976 23.3365Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M27 58.5V182.5L33.5 176"
+                    stroke="black"
+                    stroke-linecap="round"
+                  />
+                  <rect
+                    x="0.5"
+                    y="0.5"
+                    width="53"
+                    height="200"
+                    rx="15.5"
+                    stroke="#E6E6E6"
+                  />
+                </svg>
+              </div>
+              <div className="flex flex-col gap-y-12">
+                <p className="text-white-shade-10 text-xl leading-8">
+                  Bringing Iranian businesses and professionals together has
+                  valuable positive impact both for the individual Iranian as
+                  well as the community as a whole. At minimum, community
+                  solidarity will help Iranian businesses survive hard times. In
+                  good times, community solidarity is a business bonus that can
+                  go to planning future growth, sustainability, or innovation.
+                </p>
+                <p className="text-white-shade-10 text-xl leading-8">
+                  Bringing Iranian businesses and professionals together has
+                  valuable positive impact both for the individual Iranian as
+                  well as the community as a whole. At minimum, community
+                  solidarity will help Iranian businesses survive hard times. In
+                  good times, community solidarity is a business bonus that can
+                  go to planning future growth, sustainability, or innovation.
+                </p>
+              </div>
             </div>
-            <div className="flex flex-col gap-y-12">
-              <p className="text-white-shade-10 text-xl leading-8">
-                Bringing Iranian businesses and professionals together has
-                valuable positive impact both for the individual Iranian as well
-                as the community as a whole. At minimum, community solidarity
-                will help Iranian businesses survive hard times. In good times,
-                community solidarity is a business bonus that can go to planning
-                future growth, sustainability, or innovation.
-              </p>
-              <p className="text-white-shade-10 text-xl leading-8">
-                Bringing Iranian businesses and professionals together has
-                valuable positive impact both for the individual Iranian as well
-                as the community as a whole. At minimum, community solidarity
-                will help Iranian businesses survive hard times. In good times,
-                community solidarity is a business bonus that can go to planning
-                future growth, sustainability, or innovation.
-              </p>
-            </div>
-            <div className="flex items-center">
+            <div className="ml-24 flex gap-x-5 items-center">
               <div className="flex gap-x-3 items-center text-black">
                 <svg
                   width="30"
@@ -244,6 +247,25 @@ const page = () => {
                 <Tag title={"Folk music"} />
                 <Tag title={"Radif"} />
               </div>
+            </div>
+          </div>
+          <div className="w-full flex flex-col mt-20 mb-2">
+            <div className="w-full flex gap-x-4">
+              <BlogCardM
+                classes={"lg:my-10 lg:w-1/2"}
+                readingTime={"3 min read"}
+                title={
+                  "Exploring Shirez Canyon in the Heart of Zagros Mountains"
+                }
+                summery={
+                  "Shirez Canyon: A Natural Wonder in the Heart of Zagros Mountains..."
+                }
+                author={"Anna Rosé"}
+                publish={"Posted just now"}
+                avatar={""}
+                cover={"/images/thumbnails/2.png"}
+                info={false}
+              />
             </div>
           </div>
         </div>

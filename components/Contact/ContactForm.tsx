@@ -1,14 +1,14 @@
 import React from "react";
-import { Button, Input, Textarea } from "../Form";
+
 import User from "../Icons/Outline/User";
 import { Email, Location } from "../Icons/Outline";
-import Countries from "./Countries";
+import { Button, Input, Textarea } from "../Form";
 
 const ContactForm = () => {
   return (
     <>
-      <section className="w-full">
-        <div className="relative z-[100] flex flex-col gap-y-5 bg-white  py-5 px-6 soft-shadow rounded-3xl">
+      <section className="w-full lg:w-1/2">
+        <div className="relative z-[100] flex flex-col gap-y-3 w-full p-7 border border-white-shade-4 rounded-3xl">
           <div className="lg:flex gap-x-12">
             <Input
               id={"lastname"}
@@ -43,6 +43,16 @@ const ContactForm = () => {
               classes={"w-full"}
               label={"City"}
               iconComp={<Location />}
+            />
+          </div>
+          <div className="w-full lg:flex gap-x-14">
+            <Input
+              id={"from"}
+              inputType={"text"}
+              placeHolder={"Company, Group, Community, Brand"}
+              classes={"w-full"}
+              label={"From"}
+              iconComp={<Email />}
             />
           </div>
           <Textarea

@@ -1,11 +1,8 @@
-import Link from "next/link";
 import React from "react";
-import Countries from "./Countries";
-import ContactMethods from "./ContactMethods";
 
 const ConatctOptions = () => {
   return (
-    <div className="w-full">
+    <div className="text-center">
       <h1 className="text-black text-3xl font-semibold font-outfit mb-6">
         Contact us
       </h1>
@@ -13,8 +10,6 @@ const ConatctOptions = () => {
         Ask about our platform, pricing, or something else. We will respond to
         your inquiry as soon as possible.
       </p>
-      <ContactMethods classes={"hidden lg:flex"} />
-      <Countries classes="hidden lg:grid" />
     </div>
   );
 };

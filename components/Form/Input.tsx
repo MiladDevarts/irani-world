@@ -12,7 +12,7 @@ interface InputProps {
 const Input: React.FC<InputProps> = (props) => {
   return (
     <>
-      <div>
+      <div className="w-full">
         <label
           className="block text-lg font-bold py-3 text-black"
           htmlFor={props.id}

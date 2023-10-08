@@ -40,7 +40,7 @@ const page = () => {
             <p className="text-white-shade-8 max-w-md">
             Find frequently asked questions here.If you cannot find your question answered here fell free to contact us directly.
             </p>
-            <div className="flex flex-col py-4">
+            <div className="hidden lg:flex flex-col py-4">
                 <Category classes={""} content={"General"} />
                 <Category classes={""} content={"Platform"} />
                 <Category classes={""} content={"Plans"} />
@@ -48,7 +48,7 @@ const page = () => {
               </div>
           </div>
         </div>
-        <div className="w-full lg;w-2/3 flex flex-col mt-16 rounded-3xl">
+        <div className="w-full lg:w-2/3 flex flex-col mt-6 lg:mt-16 rounded-3xl">
           <div className="w-full flex flex-col gap-y-4 lg:gap-6 p-5 rounded-xl">
             <FAQItem
               title={"What is White Snail American all about?"}

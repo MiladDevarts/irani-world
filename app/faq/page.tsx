@@ -1,9 +1,9 @@
 import React from "react";
-import Head from "next/head";
+import { Metadata } from "next";
 
 import OverlayMenu from "@/components/Overlay";
 import { FAQItem } from "@/components/FAQ";
-import { Metadata } from "next";
+import { Category } from "@/components/Blog";
 
 export const metadata: Metadata = {
   title: "Irani World | FAQ",
@@ -17,7 +17,7 @@ const page = () => {
       <main className="container flex flex-col lg:flex-row gap-x-20">
         <div className="w-full lg:w-1/3 flex flex-col mt-28 lg:mt-16">
           <div>
-            <h1 className="text-black text-2xl font-semibold font-outfit mb-6">
+            <h1 className="text-black text-3xl font-semibold font-outfit mb-6">
               <span className="flex items-center gap-x-3">
                 Frequently
                 <svg
@@ -38,13 +38,18 @@ const page = () => {
               asked questions
             </h1>
             <p className="text-white-shade-8 max-w-md">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod
+            Find frequently asked questions here.If you cannot find your question answered here fell free to contact us directly.
             </p>
+            <div className="flex flex-col py-4">
+                <Category classes={""} content={"General"} />
+                <Category classes={""} content={"Platform"} />
+                <Category classes={""} content={"Plans"} />
+                <Category classes={""} content={"Accounts"} />
+              </div>
           </div>
         </div>
         <div className="w-full lg;w-2/3 flex flex-col mt-16 rounded-3xl">
-          <div className="w-full bg-white-shade-2 flex flex-col gap-y-4 lg:gap-6 p-5 rounded-xl">
+          <div className="w-full flex flex-col gap-y-4 lg:gap-6 p-5 rounded-xl">
             <FAQItem
               title={"What is White Snail American all about?"}
               content={

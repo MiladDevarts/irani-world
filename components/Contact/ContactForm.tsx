@@ -8,7 +8,7 @@ import Modal from "../Modal";
 const ContactForm = () => {
   return (
     <>
-      <Modal />
+      {/* <Modal /> */}
       <section className="w-full lg:w-1/2">
         <div className="relative z-[100] flex flex-col gap-y-3 w-full p-7 border border-white-shade-4 rounded-3xl">
           <div className="lg:flex gap-x-12">

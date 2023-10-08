@@ -27,7 +27,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
   const pathname = usePathname();
 
   return (
-    <nav className="z-[1013] bg-white dark:bg-[#1a202c] shadow-deep absolute bottom-[90%] lg:bottom-0 w-full h-[9vh] border-t border-white-shade-4 dark:border-[#293446] soft-shadow">
+    <nav className="z-[1013] bg-white dark:bg-[#1a202c] shadow-deep absolute bottom-[90%] lg:bottom-0 w-full h-[8vh] border-t border-white-shade-4 dark:border-[#293446] soft-shadow">
       <div className="container flex gap-x-6 lg:gap-x-0 lg:justify-between items-center h-full">
         <ul className="navigation hidden h-full lg:flex items-center gap-x-10 text-white-shade-10 dark:text-white font-opensans font-medium">
           {menuItems.map((link) => {

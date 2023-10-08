@@ -16,7 +16,8 @@ const page = () => {
     <>
       <OverlayMenu />
       <main className="container flex flex-col lg:flex-row">
-        <div className="w-full lg:w-4/5 pt-16 mt-20">
+        <div className="w-full lg:w-5/6 pt-16 mt-20">
+          <div className="w-full flex flex-col lg:flex-row gap-y-6 gap-x-6 mb-10"></div>
           <div className="w-full flex flex-col lg:flex-row gap-y-6 gap-x-6 mb-10">
             <NewsCars
               readingTime={"  3 min read"}
@@ -59,10 +60,10 @@ const page = () => {
             />
           </div>
         </div>
-        <div className="lg:relative w-full lg:w-1/5 lg:h-screen">
+        <div className="lg:relative w-full lg:w-1/6 lg:h-screen">
           <div className="lg:fixed w-full h-full pt-16">
             <div className="flex flex-col mx-12">
-              <h3 className="text-2xl font-outfit font-semibold text-black mb-8">
+              <h3 className="text-2xl font-outfit font-semibold text-black mb-4">
                 Most active bloggers
               </h3>
               <div className="flex flex-col gap-y-6">
@@ -94,16 +95,13 @@ const page = () => {
               </div>
             </div>
             <div className="flex flex-col mx-12 mt-6">
-              <h3 className="text-2xl font-outfit font-semibold text-black mb-6">
+              <h3 className="text-2xl font-outfit font-semibold text-black mb-4">
                 Tags
               </h3>
               <div className="max-w-sm flex items-center flex-wrap gap-x-2 gap-y-3">
-                <Tag title={"Dastgah"} />
-                <Tag title={"Folk music"} />
-                <Tag title={"setar"} />
-                <Tag title={"tar"} />
-                <Tag title={"tar"} />
-                <Tag title={"tour"} />
+                <Tag title={"Platform"} />
+                <Tag title={"Design"} />
+                <Tag title={"Starter"} />
               </div>
             </div>
             <div className="flex flex-col mx-12">
@@ -111,8 +109,18 @@ const page = () => {
                 Featured blog
               </h3>
               <div className="flex w-full flex-col gap-y-6">
-                <div className="flex w-full gap-x-3">
-                    <div className="w-1/3 h-20 roundex-3xl"></div>
+                <div className="flex w-full h-32 gap-x-4 p-3">
+                  <div
+                    className="w-24 h-full roundex-3xl bg-center bg-cover rounded-xl"
+                    style={{ backgroundImage: `url('/images/featured/1.png')` }}
+                  ></div>
+                  <div className="flex flex-col gap-y-3">
+                    <span className="text-black font-outfit text-xl font-semibold mt-2">
+                      White Candle Black
+                      <br />– White Deer Anons
+                    </span>
+                    <span className="font-medium text-white-shade-8 text-lg">11 aug 2023</span>
+                  </div>
                 </div>
               </div>
             </div>

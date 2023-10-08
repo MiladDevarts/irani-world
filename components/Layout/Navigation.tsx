@@ -8,7 +8,6 @@ import Logo from "../Logo";
 import HamburgerNav from "../Hamburger";
 
 const Navigation = () => {
-  
   const [menuItems, setMenuItesm] = useState([
     { value: "Home", slug: "/" },
     { value: "About us", slug: "/about" },
@@ -36,9 +35,28 @@ const Navigation = () => {
           })}
         </ul>
         <HamburgerNav />
-        <Link href={"/"}>
-          <Logo classes="lg:w-auto" />
-        </Link>
+        {/* <div>
+          <label className="switch">
+            <input type="checkbox" />
+            <div className="switch__button"></div>
+            <div className="switch__background"></div>
+          </label>
+        </div> */}
+        <div className="flex gap-x-6 items-center">
+          <div className="App App--Day" id="app">
+            <label htmlFor="switch" className="Switch">
+              <input id="switch" type="checkbox" className="Switch__CheckBox" />
+              <span className="Switch__Label Switch__Label--Day font-out">DAY</span>
+              <div className="Switch__Slider">
+                <div className="Switch__SliderDot"></div>
+              </div>
+              <span className="Switch__Label Switch__Label--Night font-out">NIGHT</span>
+            </label>
+          </div>
+          <Link href={"/"}>
+            <Logo classes="lg:w-auto" />
+          </Link>
+        </div>
       </div>
     </nav>
   );

@@ -28,12 +28,17 @@ export default function Home() {
     <>
       <OverlayMenu />
 
-      <main className="flex flex-col lg:flex-row container">
-        <Titles />
-        <HeroImage />
-        <Platforms />
-        <Statistics classes="flex lg:hidden" />
-      </main>
+      <div
+        className="w-full bg-cover"
+        style={{ backgroundImage: `url('/images/general/bg.png')` }}
+      >
+        <main className="container flex flex-col lg:flex-row">
+          <Titles />
+          <HeroImage />
+          <Platforms />
+          <Statistics classes="flex lg:hidden" />
+        </main>
+      </div>
     </>
   );
 }

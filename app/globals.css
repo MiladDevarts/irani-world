@@ -167,7 +167,7 @@ input:-webkit-autofill:active {
 }
 .btn-flashing-animation {
   animation: light 1s;
-  -webkit-animation: light 0.2s;
+  -webkit-animation: light 1s;
 }
 
 .lablel-flashing-animation {
@@ -236,7 +236,7 @@ input:-webkit-autofill:active {
   animation-timing-function: ease-in-out;
 }
 
-.lablel-flashing-animation-hov {
+.lablel-flashing-animation-hover {
   border: 0;
   cursor: pointer;
   background: -moz-linear-gradient(

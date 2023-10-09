@@ -8,8 +8,9 @@ const UAEMap = () => {
       data-aos-duration="1000"
       className="hidden lg:block  z-[1000] my-5 w-full h-auto rounded-3xl bg-white dark:bg-[#212936] shadow-badge p-4"
     >
-      <div className="flex justify-center items-center w-full h-16 bg-center bg-cover text-white text-center rounded-2xl"
-              style={{ backgroundImage: `url('/images/banner/uae.png')` }}
+      <div
+        className="flex justify-center items-center w-full h-16 bg-center bg-cover text-white text-center rounded-2xl"
+        style={{ backgroundImage: `url('/images/banner/uae.png')` }}
       >
         <svg
           width="82"
@@ -69,7 +70,7 @@ const UAEMap = () => {
           }}
         ></div>
       </div>
-      <div className="flex w-full mt-3 h-16 gap-x-2">
+      <div className="flex w-full mt-3 h-12 gap-x-2">
         <Link
           href={""}
           className="flex font-bold justify-center items-center w-full h-full bg-[#AA8041]/10 text-[#3e2f1a] rounded-2xl"

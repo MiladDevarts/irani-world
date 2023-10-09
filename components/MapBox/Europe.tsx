@@ -8,9 +8,9 @@ const EuropeMap = () => {
       data-aos-duration="1000"
       className="hidden lg:block  z-[1000] my-5 w-full h-auto rounded-3xl bg-white dark:bg-[#212936] shadow-badge p-4"
     >
-      <div className="flex justify-center items-center w-full h-16 text-white bg-center bg-cover text-center rounded-2xl"
-              style={{ backgroundImage: `url('/images/banner/europe.png')` }}
-
+      <div
+        className="flex justify-center items-center w-full h-16 text-white bg-center bg-cover text-center rounded-2xl"
+        style={{ backgroundImage: `url('/images/banner/europe.png')` }}
       >
         <svg
           width="64"
@@ -71,7 +71,7 @@ const EuropeMap = () => {
           }}
         ></div>
       </div>
-      <div className="flex w-full mt-3 h-16 gap-x-2">
+      <div className="flex w-full mt-3 h-12 gap-x-2">
         <Link
           href={""}
           className="flex font-bold justify-center items-center w-full h-full bg-blue/10 text-blue rounded-2xl"

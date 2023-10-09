@@ -64,7 +64,7 @@ const Titles = () => {
           </p>
           <div className="flex gap-x-2">
             <Link
-              className="dark:hidden btn-flashing-animation inline-flex justify-center items-center font-opensans font-medium rounded-2xl bg-[#011223]  text-center p-3 w-40 h-12 hover:bg-[#333b44] transition-all"
+              className="dark:hidden btn-flashing-animation inline-flex justify-center items-center font-opensans font-medium rounded-2xl text-center p-3 w-40 h-12 hover:bg-[#333b44] transition-all"
               href="/"
             >
               Our platform

@@ -8,8 +8,7 @@ const USAMap = () => {
       data-aos-duration="1000"
       className="hidden lg:block  z-[1000] my-5 w-full h-auto rounded-3xl bg-white dark:bg-[#212936] shadow-badge p-4"
     >
-      <div className="lablel-flashing-animation flex justify-center items-center w-full h-16 bg-blue text-white text-center rounded-2xl"
-      >
+      <div className="lablel-flashing-animation flex justify-center items-center w-full h-16 bg-blue text-white text-center rounded-2xl">
         <svg
           width="83"
           height="25"
@@ -65,7 +64,7 @@ const USAMap = () => {
           }}
         ></div>
       </div>
-      <div className="flex w-full mt-3 h-16 gap-x-2">
+      <div className="flex w-full mt-3 h-12 gap-x-2">
         <Link
           href={""}
           className="flex justify-center items-center w-2/3 h-full bg-blue text-white rounded-2xl"

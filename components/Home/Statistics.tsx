@@ -10,12 +10,12 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
   return (
     <>
       <div
-        className={`${props.classes}  flex-col lg:flex-row gap-y-4 mt-10 lg:mt-2  items-center`}
+        className={`${props.classes}  flex-col lg:flex-row gap-x-4 gap-y-4 mt-10 lg:mt-16 items-center`}
       >
-        <video autoPlay muted loop className="w-48">
+        <video autoPlay muted loop className="w-28">
           <source src="/videos/hakhamanesh.mov" />
         </video>
-        <div className="flex flex-col gap-y-6 order-1 lg:order-2 -ml-4">
+        <div className="flex flex-col gap-y-6 order-1 lg:order-2">
           <div className="flex flex-col justify-center lg:items-start items-center gap-y-6 order-2 lg:order-1">
             <h4 className="text-black dark:text-white font-outfit text-2xl text-center lg:text-left font-medium">
               <span className="text-3xl font-semibold">+10M</span> users

@@ -32,7 +32,7 @@ export default function Home() {
         className="w-full bg-cover"
         style={{ backgroundImage: `url('/images/general/bg.png')` }}
       >
-        <main className="container flex flex-col lg:flex-row">
+        <main className="container flex flex-col lg:flex-row overflow-hidden">
           <Titles />
           <HeroImage />
           <Platforms />

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const USAMap = () => {
@@ -35,11 +36,11 @@ const USAMap = () => {
       </div>
       <div className="flex w-full mt-3">
         <div className="w-5/12 h-48 bg-white-shade-2 dark:bg-[#273140]/0 rounded-2xl p-2">
-          <div className="flex flex-col h-1/2 justify-center items-center">
-            <span className="font-opensans text-white-shade-10 dark:text-white text-sm">
+          <div className="flex flex-col h-1/2 justify-center items-center ">
+            <span className="font-opensans text-center text-white-shade-10 dark:text-white text-sm">
               Active Users
             </span>
-            <h5 className="font-outfit text-lg font-bold text-black dark:text-white">
+            <h5 className="font-outfit text-lg font-bold text-center text-black dark:text-white">
               200K users
             </h5>
           </div>
@@ -62,6 +63,20 @@ const USAMap = () => {
             backgroundImage: `url('/images/maps/ca-map-dark.png')`,
           }}
         ></div>
+      </div>
+      <div className="flex w-full mt-3 h-16 gap-x-2">
+        <Link
+          href={""}
+          className="flex justify-center items-center w-2/3 h-full bg-blue text-white rounded-2xl"
+        >
+          Open Irani Usa
+        </Link>
+        <Link
+          href={""}
+          className="flex justify-center items-center w-1/3 h-full bg-primaty-tint-2/10 text-primary-shade-4 rounded-2xl"
+        >
+          Join
+        </Link>
       </div>
     </div>
   );

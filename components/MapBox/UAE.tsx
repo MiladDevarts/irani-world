@@ -8,7 +8,9 @@ const UAEMap = () => {
       data-aos-duration="1000"
       className="hidden lg:block  z-[1000] my-5 w-full h-auto rounded-3xl bg-white dark:bg-[#212936] shadow-badge p-4"
     >
-      <div className="flex justify-center items-center w-full h-16 bg-[#AA8041] text-white text-center rounded-2xl">
+      <div className="flex justify-center items-center w-full h-16 bg-center bg-cover text-white text-center rounded-2xl"
+              style={{ backgroundImage: `url('/images/banner/uae.png')` }}
+      >
         <svg
           width="82"
           height="35"

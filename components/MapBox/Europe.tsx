@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const EuropeMap = () => {
@@ -66,6 +67,14 @@ const EuropeMap = () => {
             backgroundImage: `url('/images/maps/ca-map-dark.png')`,
           }}
         ></div>
+      </div>
+      <div className="flex w-full mt-3 h-16 gap-x-2">
+        <Link
+          href={""}
+          className="flex font-bold justify-center items-center w-full h-full bg-blue/10 text-blue rounded-2xl"
+        >
+          Coming Soon!
+        </Link>
       </div>
     </div>
   );

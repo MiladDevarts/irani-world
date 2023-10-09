@@ -2,7 +2,6 @@
 
 import Navigation from "@/components/Layout/Navigation";
 import "./globals.css";
-import type { Metadata } from "next";
 
 import { Open_Sans } from "next/font/google";
 import { Outfit } from "next/font/google";

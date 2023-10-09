@@ -18,33 +18,33 @@
 .no-scroll::-webkit-scrollbar {
   display: none;
 }
-.no-scroll{
+.no-scroll {
   scrollbar-width: none;
 }
 
 /* width */
-::-webkit-scrollbar { 
-  width: 10px; 
-} 
+::-webkit-scrollbar {
+  width: 10px;
+}
 
 /* Track */
-::-webkit-scrollbar-track { 
-  background: #f1f1f1; 
-} 
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
 
 /* Handle */
-::-webkit-scrollbar-thumb { 
-  background: #cacaca; 
-  border-radius: 5px; 
-} 
+::-webkit-scrollbar-thumb {
+  background: #cacaca;
+  border-radius: 5px;
+}
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover { 
-  background: #9a9a9a; 
+::-webkit-scrollbar-thumb:hover {
+  background: #9a9a9a;
 }
 
 * {
-  transition: background .5s;
+  transition: background 0.5s;
 }
 
 html,
@@ -57,9 +57,8 @@ body {
   background: rgb(var(--background-rgb));
 }
 
-
 .navigation Link:hover {
-  @apply text-black border-t-4 border-black dark:text-white dark:border-white
+  @apply text-black border-t-4 border-black dark:text-white dark:border-white;
 }
 
 .visuallyHidden {
@@ -168,7 +167,7 @@ input:-webkit-autofill:active {
 }
 .btn-flashing-animation {
   animation: light 1s;
-  -webkit-animation: light .2s;
+  -webkit-animation: light 0.2s;
 }
 
 .lablel-flashing-animation {
@@ -232,9 +231,9 @@ input:-webkit-autofill:active {
 .lablel-flashing-animation {
   animation: light 1s;
   -webkit-animation: light 1s;
-  animation-delay: 4s;
-  animation-iteration-count: infinite;
-  animation-timing-function:ease-in-out;
+  animation-delay: 3s;
+  /* animation-iteration-count: infinite; */
+  animation-timing-function: ease-in-out;
 }
 
 .lablel-flashing-animation-hov {
@@ -312,6 +311,9 @@ input:-webkit-autofill:active {
 @-webkit-keyframes light {
   0% {
     background-position: 100%;
+  }
+  50% {
+    background-position: 50%;
   }
   100% {
     background-position: 0%;
@@ -417,7 +419,7 @@ input:-webkit-autofill:active {
 }
 
 .hamburger .bar {
-  @apply bg-black dark:bg-white
+  @apply bg-black dark:bg-white;
 }
 
 .bar1 {
@@ -467,7 +469,6 @@ input:-webkit-autofill:active {
     background-size: 200%;
   }
 }
-
 
 .switch-container {
   display: flex;

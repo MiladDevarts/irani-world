@@ -212,13 +212,13 @@ const page = () => {
                 Featured blog
               </h3>
               <div className="flex w-full flex-col gap-y-6">
-                <div className="flex w-full h-32 gap-x-4 p-3">
+                <div className="flex w-full h-32 gap-x-3 p-3">
                   <div
-                    className="w-24 h-full roundex-3xl bg-center bg-cover rounded-xl"
+                    className="w-20 h-full roundex-3xl bg-center bg-cover rounded-xl"
                     style={{ backgroundImage: `url('/images/featured/1.png')` }}
                   ></div>
                   <div className="flex flex-col gap-y-3">
-                    <span className="text-black font-outfit text-xl font-semibold mt-2">
+                    <span className="text-black font-outfit text-lg font-semibold mt-2">
                       White Candle Black
                       <br />– White Deer Anons
                     </span>

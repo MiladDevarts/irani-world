@@ -1,5 +1,5 @@
-import NewsCars from "./NewsCard";
+import NewsCard from "./NewsCard";
 import NewsCardFullWidth from "./NewsCardFullWidth";
 import Category from "./Category";
 
-export { NewsCars, NewsCardFullWidth, Category };
+export { NewsCard, NewsCardFullWidth, Category };

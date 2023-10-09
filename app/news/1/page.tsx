@@ -1,7 +1,7 @@
 import React from "react";
 
 import { ActiveBlogger, Tag } from "@/components/Sidebar";
-import { NewsCardFullWidth, NewsCars } from "@/components/Blog";
+import { NewsCardFullWidth, NewsCard } from "@/components/Blog";
 
 import OverlayMenu from "@/components/Overlay";
 import { Metadata } from "next";

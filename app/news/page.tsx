@@ -1,7 +1,7 @@
 import React from "react";
 
 import { ActiveBlogger, Tag } from "@/components/Sidebar";
-import { NewsCardFullWidth, NewsCars } from "@/components/Blog";
+import { NewsCardFullWidth, NewsCard } from "@/components/Blog";
 
 import OverlayMenu from "@/components/Overlay";
 import { Metadata } from "next";
@@ -29,7 +29,6 @@ const page = () => {
               >
                 <circle cx="29" cy="29" r="29" fill="#FAFAFA" />
                 <path
-                
                   fill-rule="evenodd"
                   clip-rule="evenodd"
                   d="M28.5 19.75C23.6675 19.75 19.75 23.6675 19.75 28.5C19.75 33.3325 23.6675 37.25 28.5 37.25C33.3325 37.25 37.25 33.3325 37.25 28.5C37.25 23.6675 33.3325 19.75 28.5 19.75ZM18.25 28.5C18.25 22.8391 22.8391 18.25 28.5 18.25C34.1609 18.25 38.75 22.8391 38.75 28.5C38.75 31.0605 37.8111 33.4017 36.2589 35.1982L39.5303 38.4697C39.8232 38.7626 39.8232 39.2374 39.5303 39.5303C39.2374 39.8232 38.7626 39.8232 38.4697 39.5303L35.1982 36.2589C33.4017 37.8111 31.0605 38.75 28.5 38.75C22.8391 38.75 18.25 34.1609 18.25 28.5Z"
@@ -65,7 +64,7 @@ const page = () => {
             </div>
           </div>
           <div className="w-full flex flex-col lg:flex-row gap-y-6 gap-x-6 mb-10">
-            <NewsCars
+            <NewsCard
               readingTime={"  3 min read"}
               title={"Exploring Shirez Canyon in the Heart of Zagros Mountains"}
               summery={
@@ -78,7 +77,7 @@ const page = () => {
               cm={"120"}
               like={"2k"}
             />
-            <NewsCars
+            <NewsCard
               readingTime={"  3 min read"}
               title={"Exploring Shirez Canyon in the Heart of Zagros Mountains"}
               summery={

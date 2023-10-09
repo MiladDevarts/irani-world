@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-interface NewsCarsProps {
+interface NewsCardProps {
   readingTime: string;
   title: string;
   summery: string;
@@ -13,10 +13,13 @@ interface NewsCarsProps {
   like: string;
 }
 
-const NewsCars: React.FC<NewsCarsProps> = (props) => {
+const NewsCard: React.FC<NewsCardProps> = (props) => {
   return (
     <>
-      <Link href={"#"} className="w-full lg:w-1/2 group mt-0 lg:hover:-mt-2 transition-all duration-500">
+      <Link
+        href={"#"}
+        className="w-full lg:w-1/2 group mt-0 lg:hover:-mt-2 transition-all duration-500"
+      >
         <div
           className={`flex flex-col lg:flex-row w-full border-[1.5px] p-3 border-white-shade-3 rounded-2xl hover:shadow-card transition-all duration-300 `}
         >
@@ -48,7 +51,7 @@ const NewsCars: React.FC<NewsCarsProps> = (props) => {
             className="lg:block hidden w-full lg:w-1/2 max-h-full lg:max-h-full  bg-cover bg-center rounded-2xl my-3"
             style={{ backgroundImage: `url('/images/thumbnails/1.png')` }}
           ></div>
-            <div
+          <div
             className="lg:hidden block w-full lg:w-1/3 h-44 lg:max-h-full  bg-cover bg-center rounded-2xl my-3"
             style={{ backgroundImage: `url('/images/thumbnails/1.png')` }}
           ></div>
@@ -58,4 +61,4 @@ const NewsCars: React.FC<NewsCarsProps> = (props) => {
   );
 };
 
-export default NewsCars;
+export default NewsCard;

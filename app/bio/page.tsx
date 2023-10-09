@@ -1,7 +1,7 @@
 import React from "react";
 
 import { ActiveBlogger, Tag } from "@/components/Sidebar";
-import { NewsCars } from "@/components/Blog";
+import { NewsCard } from "@/components/Blog";
 import BioCardFullWidth from "@/components/Bio/BioCardFullWidth";
 
 import OverlayMenu from "@/components/Overlay";
@@ -78,7 +78,7 @@ const page = () => {
             </svg>
           </div>
           <div className="w-full flex flex-col gap-y-4 lg:flex-row gap-x-6">
-            <NewsCars
+            <NewsCard
               readingTime={"  3 min read"}
               title={"Exploring Shirez Canyon in the Heart of Zagros Mountains"}
               summery={
@@ -91,7 +91,7 @@ const page = () => {
               cm={"120"}
               like={"2k"}
             />
-            <NewsCars
+            <NewsCard
               readingTime={"  3 min read"}
               title={"Exploring Shirez Canyon in the Heart of Zagros Mountains"}
               summery={

@@ -1,13 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import { useDraggable } from "react-use-draggable-scroll";
 
 import IraniWorldBox from "./IraniWorldBox";
-import Terms from "./Terms";
 import { IraniCanada, IraniUAE, IraniUSA } from "../Logo/Platforms";
+
+import Terms from "./Terms";
 
 const Platforms = () => {
   const [canadaBox, setCanadaBox] = useState(false);
   const [usaBox, setUSABox] = useState(true);
   const [uaeBox, setUAEBox] = useState(false);
+
+  const ref =
+    useRef<HTMLDivElement>() as React.MutableRefObject<HTMLInputElement>;
+  const { events } = useDraggable(ref);
 
   // const handleUsaEnter = () => {
   //   setCanadaBox(true);
@@ -43,8 +49,12 @@ const Platforms = () => {
       <section className="w-full lg:w-1/3 lg:h-full pt-10 pl-0 lg:pl-20 text-black">
         <IraniWorldBox />
         {/* 2. Countries Platform List */}
-        <div className="-z[200] w-full h-36 rounded-3xl bg-white-shade-2 dark:bg-[#273140]  grid grid-cols-3 gap-x-3 p-4">
-          <div className="relative flex items-center justify-center w-full h-full bg-white dark:bg-[#191f2b] hover:box-shadow rounded-2xl hover:cursor-pointer hover:shadow-soft-shadow transition-all duration-300">
+        <div
+          ref={ref}
+          {...events}
+          className="grid auto-cols-[100px] grid-flow-col gap-x-3 overflow-x-auto p-4 -z[200] w-full h-36 rounded-3xl bg-white-shade-2 dark:bg-[#273140]"
+        >
+          <div className="relative flex items-center col-span-1 justify-center w-full h-full bg-white dark:bg-[#191f2b] hover:box-shadow rounded-2xl hover:cursor-pointer hover:shadow-soft-shadow transition-all duration-300">
             <svg
               className="absolute top-0 left-0 m-2"
               width="24"
@@ -71,10 +81,9 @@ const Platforms = () => {
                 fill="#43D100"
               />
             </svg>
-           <IraniUSA/>
+            <IraniUSA />
           </div>
-
-          <div className="relative flex items-center justify-center w-full h-full bg-white rounded-2xl hover:cursor-pointer hover:shadow-soft-shadow dark:bg-[#191f2b] transition-all duration-300">
+          <div className="relative flex items-center col-span-1 justify-center w-full h-full bg-white rounded-2xl hover:cursor-pointer hover:shadow-soft-shadow dark:bg-[#191f2b] transition-all duration-300">
             <svg
               className=" absolute top-0 left-0 m-2"
               width="15"
@@ -92,10 +101,9 @@ const Platforms = () => {
                 stroke-width="2"
               />
             </svg>
-            <IraniCanada/>
+            <IraniCanada />
           </div>
-          
-          <div className="hover:fill-primary relative flex items-center justify-center w-full h-full bg-white dark:bg-[#191f2b] rounded-2xl">
+          <div className="relative flex items-center col-span-1 justify-center w-full h-full bg-white dark:bg-[#191f2b] rounded-2xl">
             <svg
               className=" absolute top-0 left-0 m-2"
               width="15"
@@ -113,7 +121,67 @@ const Platforms = () => {
                 stroke-width="2"
               />
             </svg>
-            <IraniUAE/>
+            <IraniUAE />
+          </div>
+          <div className="relative flex items-center col-span-1 justify-center w-full h-full bg-white dark:bg-[#191f2b] rounded-2xl">
+            <svg
+              className=" absolute top-0 left-0 m-2"
+              width="15"
+              height="15"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="7.5"
+                cy="7.5"
+                r="6.5"
+                fill="#E1CB00"
+                stroke="white"
+                stroke-width="2"
+              />
+            </svg>
+            <IraniUAE />
+          </div>
+          <div className="relative flex items-center col-span-1 justify-center w-full h-full bg-white dark:bg-[#191f2b] rounded-2xl">
+            <svg
+              className=" absolute top-0 left-0 m-2"
+              width="15"
+              height="15"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="7.5"
+                cy="7.5"
+                r="6.5"
+                fill="#E1CB00"
+                stroke="white"
+                stroke-width="2"
+              />
+            </svg>
+            <IraniUAE />
+          </div>
+          <div className="relative flex items-center col-span-1 justify-center w-full h-full bg-white dark:bg-[#191f2b] rounded-2xl">
+            <svg
+              className=" absolute top-0 left-0 m-2"
+              width="15"
+              height="15"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="7.5"
+                cy="7.5"
+                r="6.5"
+                fill="#E1CB00"
+                stroke="white"
+                stroke-width="2"
+              />
+            </svg>
+            <IraniUAE />
           </div>
         </div>
 

@@ -4,7 +4,7 @@ const EuropeMap = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration="1500"
+      data-aos-duration="1000"
       className="hidden lg:block  z-[1000] my-5 w-full h-auto rounded-3xl bg-white dark:bg-[#212936] shadow-badge p-4"
     >
       <div className="flex justify-center items-center w-full h-16 bg-[#174197] text-white text-center rounded-2xl">
@@ -50,7 +50,7 @@ const EuropeMap = () => {
           </div>
           <div className="flex flex-col h-1/2 justify-center items-center rounded-3xl bg-white p-1 dark:bg-[#23374a] dark:text-white">
             <h5 className="font-outfit text-lg font-bold text-black text-center dark:text-white">
-            Europe
+              Europe
               <br />
               (GMT+4)
             </h5>

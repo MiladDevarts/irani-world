@@ -78,7 +78,7 @@ const page = () => {
               like={"2k"}
             />
             <NewsCard
-              readingTime={"  3 min read"}
+              readingTime={"3 min read"}
               title={"Exploring Shirez Canyon in the Heart of Zagros Mountains"}
               summery={
                 "Go from Figma to code in minimum amount of time using Locofy. Take your design to real world with Locofy's AI powered plugin."

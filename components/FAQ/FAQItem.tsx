@@ -11,7 +11,7 @@ const FAQItem: React.FC<FAQItemProps> = (props) => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <div className="group flex flex-col faq-shadow w-full m-auto p-6 bg-white text-black hover:cursor-pointer leading-8 rounded-xl hover:bg-blue hover:text-white duration-300">
+    <div className="transition-all group flex flex-col faq-shadow w-full m-auto p-6 bg-white text-black hover:cursor-pointer leading-8 rounded-xl hover:bg-blue hover:text-white duration-300">
       <div
         className="flex justify-between"
         onClick={() => setIsActive(!isActive)}

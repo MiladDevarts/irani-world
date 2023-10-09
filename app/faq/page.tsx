@@ -1,16 +1,78 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import { Metadata } from "next";
 
 import OverlayMenu from "@/components/Overlay";
 import { FAQItem } from "@/components/FAQ";
 import { Category } from "@/components/Blog";
-
-export const metadata: Metadata = {
-  title: "Irani World | FAQ",
-  description: "",
-};
+import Link from "next/link";
 
 const page = () => {
+  const [faqList, setFaqList] = useState({
+    general: [
+      {
+        question: "In which countries is this platform currently active?",
+        answer:
+          "In its initial stage, all Iranians can access and use the services of this platform at IraniUSA.com.",
+      },
+      {
+        question: "How can I find my desired region?",
+        answer:
+          "On the homepage of the irani.world website, you can find and enter all the accessible regions and the regions that will be added to the platform soon.",
+      },
+      {
+        question:
+          "Can I collaborate with your organization or be employed by you?",
+        answer:
+          "Yes, you can contact us for collaboration at enquiries@irani.world. If you're interested in job opportunities on our team, visit irani.world/jobs.",
+      },
+      {
+        question: "Who is this platform for?",
+        answer:
+          "his platform is for anyone who has a business or profession, as well as those who need services from businesses or professionals. Anyone can access the platform and start their journey today!",
+      },
+    ],
+    platform: [
+      {
+        question: "Will this platform be active in other countries as well?",
+        answer:
+          "Yes, although this platform is currently available only in the United States, it will be made available to other countries in the not-so-distant future. You can check out the list of upcoming platforms at this link!",
+      },
+      {
+        question:
+          "Can companies and investors buy this platform to launch it in other countries and communities?",
+        answer:
+          "Yes, simply contact us with your company's official email address at Rivdesign.se.",
+      },
+      {
+        question: "Can we advertise our business on this platform?",
+        answer:
+          "Yes, if you have a business or offer services, you can register on the platform and display your advertisements in designated spots. You can advertise your business banner in the ads reserve section.",
+      },
+      {
+        question: "Can artists collaborate on this platform?",
+        answer:
+          "Yes, artists can have their own profiles by registering in the Artist & Event plan.",
+      },
+    ],
+    accounts: [
+      {
+        question: "How can I request a verified badge?",
+        answer:
+          "After creating an account on the platform, simply go to the Verify section in the user panel and review the requirements of the verification process.",
+      },
+    ],
+    plans: [
+      {
+        question: "Can I create an account on the platform for free? ",
+        answer:
+          "Except for the Ultra plans, all platform plans will be accessible for free, but they will have fewer features compared to paid plans.",
+      },
+    ],
+  });
+  const [faqCategory, setFaqCategory] = useState("general");
+
   return (
     <>
       <OverlayMenu />
@@ -46,51 +108,103 @@ const page = () => {
                 question answered here fell free to contact us directly.
               </p>
               <div className="hidden lg:flex flex-col py-4">
-                <Category classes={""} content={"General"} />
-                <Category classes={""} content={"Platform"} />
-                <Category classes={""} content={"Plans"} />
-                <Category classes={""} content={"Accounts"} />
+                <Link
+                  onClick={() => {
+                    setFaqCategory("general");
+                  }}
+                  href={"#"}
+                  className=""
+                >
+                  <div className="py-6 border-b-[1.5px] pl-8 text-white-shade-9  border-white-shade-3 hover:scale-105 hover:text-black hover:font-semibold transition-all duration-500">
+                    <span className="flex items-center  justify-between font-opensans ">
+                      General
+                    </span>
+                  </div>
+                </Link>
+                <Link
+                  onClick={() => {
+                    setFaqCategory("platform");
+                  }}
+                  href={"#"}
+                  className=""
+                >
+                  <div className="py-6 border-b-[1.5px] pl-8 text-white-shade-9  border-white-shade-3 hover:scale-105 hover:text-black hover:font-semibold transition-all duration-500">
+                    <span className="flex items-center  justify-between font-opensans ">
+                      Platform
+                    </span>
+                  </div>
+                </Link>
+                <Link
+                  onClick={() => {
+                    setFaqCategory("plans");
+                  }}
+                  href={"#"}
+                  className=""
+                >
+                  <div className="py-6 border-b-[1.5px] pl-8 text-white-shade-9  border-white-shade-3 hover:scale-105 hover:text-black hover:font-semibold transition-all duration-500">
+                    <span className="flex items-center  justify-between font-opensans ">
+                      Plans
+                    </span>
+                  </div>
+                </Link>
+                <Link
+                  onClick={() => {
+                    setFaqCategory("accounts");
+                  }}
+                  href={"#"}
+                  className=""
+                >
+                  <div className="py-6 border-b-[1.5px] pl-8 text-white-shade-9  border-white-shade-3 hover:scale-105 hover:text-black hover:font-semibold transition-all duration-500">
+                    <span className="flex items-center  justify-between font-opensans ">
+                      Accounts
+                    </span>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
           <div className="w-full lg:w-2/3 flex flex-col mt-6 lg:mt-16 rounded-3xl">
             <div className="w-full flex flex-col gap-y-4 lg:gap-6 p-5 rounded-xl">
-              <FAQItem
-                title={"What is White Snail American all about?"}
-                content={
-                  "Our platform is designed for Iranian people who have any business ideas. Business owners can use our platform to reach their target audience and promote their products or services. Students and educators can use our platform to access educational resources and opportunities. Producers can use this platform to sell their products."
-                }
-              />
-              <FAQItem
-                title={"Who can use your platform?"}
-                content={
-                  "Our platform is designed for Iranian people who have any business ideas. Business owners can use our platform to reach their target audience and promote their products or services. Students and educators can use our platform to access educational resources and opportunities. Producers can use this platform to sell their products."
-                }
-              />
-              <FAQItem
-                title={"Why is brand development important for my business?"}
-                content={
-                  "Our platform is designed for Iranian people who have any business ideas. Business owners can use our platform to reach their target audience and promote their products or services. Students and educators can use our platform to access educational resources and opportunities. Producers can use this platform to sell their products."
-                }
-              />
-              <FAQItem
-                title={"What types of ideas and startups do you invest in?"}
-                content={
-                  "Our platform is designed for Iranian people who have any business ideas. Business owners can use our platform to reach their target audience and promote their products or services. Students and educators can use our platform to access educational resources and opportunities. Producers can use this platform to sell their products."
-                }
-              />
-              <FAQItem
-                title={"How much funding do you typically provide?"}
-                content={
-                  "Our platform is designed for Iranian people who have any business ideas. Business owners can use our platform to reach their target audience and promote their products or services. Students and educators can use our platform to access educational resources and opportunities. Producers can use this platform to sell their products."
-                }
-              />
-              <FAQItem
-                title={"What other resources do you provide besides funding?"}
-                content={
-                  "Our platform is designed for Iranian people who have any business ideas. Business owners can use our platform to reach their target audience and promote their products or services. Students and educators can use our platform to access educational resources and opportunities. Producers can use this platform to sell their products."
-                }
-              />
+              {faqCategory == "general" &&
+                faqList.general.map((faq, id) => {
+                  return (
+                    <FAQItem
+                      key={id}
+                      title={faq.question}
+                      content={faq.answer}
+                    />
+                  );
+                })}{" "}
+              {faqCategory == "platform" &&
+                faqList.platform.map((faq, id) => {
+                  return (
+                    <FAQItem
+                      key={id}
+                      title={faq.question}
+                      content={faq.answer}
+                    />
+                  );
+                })}
+              {faqCategory == "plans" &&
+                faqList.plans.map((faq, id) => {
+                  return (
+                    <FAQItem
+                      key={id}
+                      title={faq.question}
+                      content={faq.answer}
+                    />
+                  );
+                })}
+              {faqCategory == "accounts" &&
+                faqList.accounts.map((faq, id) => {
+                  return (
+                    <FAQItem
+                      key={id}
+                      title={faq.question}
+                      content={faq.answer}
+                    />
+                  );
+                })}
             </div>
           </div>
         </main>

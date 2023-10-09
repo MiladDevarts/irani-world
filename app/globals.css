@@ -29,25 +29,9 @@ body {
   background: rgb(var(--background-rgb));
 }
 
-.navigation li {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  height: 100%;
-  transition: all 0.1s ease-in-out;
-}
 
-.navigation li.active {
+.navigation Link:hover {
   @apply text-black border-t-4 border-black dark:text-white dark:border-white
-}
-
-.navigation li.normal {
-  border-top: none;
-}
-
-.navigation li:hover {
-  @apply text-black border-t-4 border-black dark:text-white dark:border-white
-
 }
 
 .visuallyHidden {

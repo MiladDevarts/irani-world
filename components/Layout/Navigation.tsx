@@ -3,10 +3,9 @@
 import React, { ReactNode, useState } from "react";
 import Link from "next/link";
 
-import { usePathname } from "next/navigation";
 import HamburgerNav from "../Hamburger";
 
-import IraniWorldLogo from "../Logo/IraniWorldLogo";
+import { usePathname } from "next/navigation";
 
 interface NavigationProps {
   LogoType: ReactNode;
@@ -24,26 +23,35 @@ const Navigation: React.FC<NavigationProps> = (props) => {
     { value: "Contact us", slug: "/contact" },
   ]);
 
-  const pathname = usePathname();
+  const currentRoute = usePathname();
+
+  const linkStyle =
+    "h-full flex items-center hover:cursor-pointer transitaion-all";
+  const activeStyle =
+    linkStyle +
+    "text-black border-t-4 border-black dark:text-white dark:border-white";
+  const nonActiveStyle = linkStyle + " border-t-none";
 
   return (
     <nav className="z-[1013] bg-white dark:bg-[#1a202c] shadow-deep absolute bottom-[90%] lg:bottom-0 w-full h-[8vh] border-t border-white-shade-4 dark:border-[#293446] soft-shadow">
       <div className="container flex gap-x-6 lg:gap-x-0 lg:justify-between items-center h-full">
-        <ul className="navigation hidden h-full lg:flex items-center gap-x-10 text-white-shade-10 dark:text-white font-opensans font-medium">
+        <div className="navigation hidden h-full lg:flex items-center gap-x-10 text-white-shade-10 dark:text-white font-opensans font-medium">
           {menuItems.map((link) => {
-            const isActive = pathname.startsWith(link.slug);
             return (
-              <li className={isActive ? "active" : "normal"}>
-                <Link href={link.slug}>{link.value}</Link>
-              </li>
+              <Link
+                className={
+                  currentRoute === link.slug ? activeStyle : nonActiveStyle
+                }
+                href={link.slug}
+              >
+                {link.value}
+              </Link>
             );
           })}
-        </ul>
+        </div>
         <HamburgerNav />
         <div className="flex gap-x-6 items-center">
-          <Link href={"/"}>
-            {props.LogoType}
-          </Link>
+          <Link href={"/"}>{props.LogoType}</Link>
         </div>
       </div>
     </nav>

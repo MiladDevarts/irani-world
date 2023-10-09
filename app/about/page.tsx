@@ -59,8 +59,8 @@ const page = () => {
           ></div>
         </div>
         <section className="w-full mx-auto h-auto lg:h-[300px] lg:mt-20 mt-36 mb-10 flex flex-col gap-y-2 lg:flex-row gap-x-2 items-center bg-white-shade-2 rounded-2xl p-2">
-          <div className="relative w-full h-[300px] lg:h-full rounded-2xl bg-white">
-            <div className="flex justify-between items-center px-10 py-2">
+          <div className="relative w-full h-[300px] lg:h-full rounded-2xl bg-white pt-4">
+            <div className="flex justify-between items-center px-8 py-2">
               <Link href={"/"}>
                 <svg
                   width="103"
@@ -87,7 +87,7 @@ const page = () => {
                   />
                 </svg>
               </Link>
-              <span className="flex justify-center items-center gap-x-3 py-4 px-6 bg-[#43D100]/10 text-[#43D100] rounded-full">
+              <span className="flex justify-center items-center gap-x-3 py-2 px-6 bg-[#43D100]/10 text-[#43D100] rounded-full">
                 <svg
                   width="11"
                   height="12"
@@ -107,7 +107,7 @@ const page = () => {
                 LIVE
               </span>
             </div>
-            <div className="flex justify-between items-center gap-x-10 px-6 py-4">
+            <div className="flex justify-between items-center gap-x-3 px-2 py-2">
               <div className="w-1/2 h-16 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-2xl">
                 300k users
               </div>
@@ -115,9 +115,9 @@ const page = () => {
                 New York <span className="text-sm">(GMT-4)</span>
               </div>
             </div>
-            <div className="px-6 my-2">
+            <div className="px-2">
               <div
-                className="w-full h-24  bg-center bg-cover rounded-3xl"
+                className="w-full h-[120px]  bg-center bg-cover rounded-3xl"
                 style={{ backgroundImage: `url('/images/maps/usa-map.png')` }}
               ></div>
             </div>

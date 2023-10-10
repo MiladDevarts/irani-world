@@ -110,10 +110,10 @@ const page = () => {
               </span>
             </div>
             <div className="flex justify-between items-center gap-x-3 px-2 py-2">
-              <div className="text-lg w-1/2 h-14 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
+              <div className="text-lg w-1/2 h-12 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
                 1K users
               </div>
-              <div className="w-1/2 h-14 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
+              <div className="w-1/2 h-12 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
                 New York <span className="text-sm">(GMT-4)</span>
               </div>
             </div>

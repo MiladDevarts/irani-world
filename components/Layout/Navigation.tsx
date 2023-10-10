@@ -15,7 +15,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
   const [menuItems, setMenuItesm] = useState([
     { value: "Home", slug: "/" },
     { value: "About us", slug: "/about" },
-    { value: "News", slug: "/news" },
+    { value: "News", slug: "https://irani.news" },
     { value: "Bio", slug: "https://irani.bio" },
     { value: "FAQ", slug: "/faq" },
     { value: "Help", slug: "/help" },

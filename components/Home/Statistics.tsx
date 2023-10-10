@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 
 interface StatisticsProps {
   classes: string;
@@ -18,27 +18,24 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
         <div className="flex flex-col gap-y-6 order-1 lg:order-2">
           <div className="flex flex-col justify-center lg:items-start items-center gap-y-6 order-2 lg:order-1">
             <h4 className="text-black dark:text-white font-outfit text-2xl text-center lg:text-left font-medium">
-              <span className="text-3xl font-semibold">+10M</span> users
+              <span className="text-3xl font-semibold">
+                <span className="mr-1">
+                  6
+                </span>
+              </span>
+             Platform
             </h4>
-            <span className="font-opensans font-medium -mt-4 text-white-shade-8 dark:text-white">
-              From all around the world
+            <span className="font-opensans font-medium -mt-6 text-white-shade-8 dark:text-white">
+               All around the world
             </span>
           </div>
           <div className="flex gap-x-10 order-1 lg:order-2 text-center lg:text-left">
             <div className="">
               <h4 className="text-black dark:text-white  font-outfit text-5xl lg:text-2xl font-semibold">
-                3,452k
+                7.5M
               </h4>
               <span className="font-opensans text-white-shade-8 dark:text-white">
-                Followers
-              </span>
-            </div>
-            <div className="flex flex-col items-center text-center lg:text-left">
-              <h4 className="text-black dark:text-white  font-outfit text-5xl lg:text-2xl font-semibold">
-                600
-              </h4>
-              <span className="font-opensans text-white-shade-8 dark:text-white">
-                Followers
+                Iranian Community
               </span>
             </div>
           </div>

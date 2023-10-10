@@ -14,7 +14,7 @@ const Titles = () => {
         <div>
           <span
             data-aos="zoom-in-right"
-            className="inline-block p-4 text-sm rounded-full font-opensans text-black bg-white mb-0 dark:text-white dark:bg-[#1F2836] shadow-badge mt-10 hover:cursor-pointer lg:mt-0 transition-all duration-300"
+            className="inline-block p-4 text-sm rounded-full font-opensans text-black bg-white hover:text-white hover:bg-blue mb-0 dark:text-white dark:bg-[#1F2836] shadow-badge mt-10 hover:cursor-pointer lg:mt-0 transition-all duration-500"
           >
             🎉 Made for persian people
           </span>

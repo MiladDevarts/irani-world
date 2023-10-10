@@ -42,7 +42,7 @@ const page = () => {
                 bringing Iranian people closer together.
               </p>
             </div>
-            <div className="mt-5">
+            {/* <div className="mt-5">
               <h2 className="text-black text-2xl font-semibold font-outfit mb-2">
                 Partners
               </h2>
@@ -51,7 +51,7 @@ const page = () => {
                 <WSA />
                 <WPS />
               </div>
-            </div>
+            </div> */}
           </div>
           <div
             className="w-1/3 hidden lg:flex flex-col  h-full bg-cover bg-center rounded-3xl"
@@ -87,7 +87,7 @@ const page = () => {
                   />
                 </svg>
               </Link>
-              <span className="flex justify-center items-center gap-x-3 py-2 px-6 bg-[#43D100]/10 text-[#43D100] rounded-full">
+              <span className="flex justify-center items-center gap-x-3 py-2 px-6 bg-[#43D100]/10 text-[#43D100] rounded-full font-semibold">
                 <svg
                   width="11"
                   height="12"
@@ -108,10 +108,10 @@ const page = () => {
               </span>
             </div>
             <div className="flex justify-between items-center gap-x-3 px-2 py-2">
-              <div className="w-1/2 h-16 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-2xl">
+              <div className="text-lg w-1/2 h-16 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
                 300k users
               </div>
-              <div className="w-1/2 h-16 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-2xl">
+              <div className="w-1/2 h-16 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
                 New York <span className="text-sm">(GMT-4)</span>
               </div>
             </div>

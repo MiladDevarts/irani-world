@@ -15,14 +15,14 @@ const Input: React.FC<InputProps> = (props) => {
     <>
       <div className="w-full">
         <label
-          className="block text-lg font-semibold py-3 text-black"
+          className="block text-lg font-semibold py-2 text-black"
           htmlFor={props.id}
         >
           {props.label}
           {props.isRequired && <span className="text-[#FF0000] ml-2 inline-block">*</span>}
         </label>
         <div
-          className={`${props.classes} group text-black font-opensans flex items-center gap-x-4 bg-white-shade-3 text-lg font-medium rounded-xl w-full h-14 px-4`}
+          className={`${props.classes} group text-black font-opensans flex items-center gap-x-4 bg-white-shade-3 font-medium rounded-xl w-full h-12 px-4`}
         >
           {props.iconComp}
           <input

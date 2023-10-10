@@ -66,7 +66,7 @@ const UAEMap = () => {
         <div
           className="hidden dark:block w-7/12 h-48 bg-cover bg-center rounded-3xl"
           style={{
-            backgroundImage: `url('/images/maps/ca-map-dark.png')`,
+            backgroundImage: `url('/images/maps/uae-map.png')`,
           }}
         ></div>
       </div>

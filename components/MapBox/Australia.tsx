@@ -57,7 +57,7 @@ const AustraliaMap = () => {
         </div>
         <div
           className="dark:hidden w-7/12 h-48 bg-cover bg-center rounded-xl"
-          style={{ backgroundImage: `url('/images/maps/ca-map.png')` }}
+          style={{ backgroundImage: `url('/images/maps/au-map.png')` }}
         ></div>
         <div
           className="hidden dark:block w-7/12 h-48 bg-cover bg-center rounded-3xl"

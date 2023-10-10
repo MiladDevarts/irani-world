@@ -13,7 +13,7 @@ const OverlayMenu = () => {
     { value: "Home", slug: "/" },
     { value: "About us", slug: "/about" },
     { value: "News", slug: "/news" },
-    { value: "Bio", slug: "/bio" },
+    { value: "Bio", slug: "https://irani.bio" },
     { value: "FAQ", slug: "/faq" },
     { value: "Help", slug: "/help" },
     { value: "Terms", slug: "/terms" },

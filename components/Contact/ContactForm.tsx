@@ -10,23 +10,26 @@ const ContactForm = () => {
     <>
       {/* <Modal /> */}
       <section className="w-full lg:w-1/2">
-        <div className="relative z-[100] flex flex-col gap-y-3 w-full p-7 border border-white-shade-4 rounded-3xl">
+        <div className="relative z-[100] flex flex-col gap-y-2 w-full px-10 py-5 border border-white-shade-4 rounded-3xl">
           <div className="lg:flex gap-x-12">
             <Input
-              id={"lastname"}
+              id={"firstname"}
               inputType={"text"}
               placeHolder={"Walker"}
               classes={"w-full"}
               label={"First name"}
               iconComp={<User />}
+              isRequired={true}
+
             />
             <Input
-              id={"firstname"}
+              id={"lastname"}
               inputType={"text"}
               placeHolder={"Jason"}
               classes={"w-full"}
               label={"Last name"}
               iconComp={<User />}
+              isRequired={false}
             />
           </div>
           <div className="lg:flex gap-x-14">
@@ -37,6 +40,7 @@ const ContactForm = () => {
               classes={"w-full"}
               label={"E-mail address"}
               iconComp={<Email />}
+              isRequired={true}
             />
             <Input
               id={"city"}
@@ -45,6 +49,7 @@ const ContactForm = () => {
               classes={"w-full"}
               label={"City"}
               iconComp={<Location />}
+              isRequired={true}
             />
           </div>
           <div className="w-full lg:flex gap-x-14">
@@ -55,6 +60,7 @@ const ContactForm = () => {
               classes={"w-full"}
               label={"From"}
               iconComp={<Email />}
+              isRequired={false}
             />
           </div>
           <Textarea
@@ -65,7 +71,7 @@ const ContactForm = () => {
             classes={"w-full"}
             label={"Message"}
           />
-          <Button content={"Send message"} classes={"py-5"} />
+          <Button content={"Send message"} classes={"py-5 mt-3"} />
         </div>
       </section>
     </>

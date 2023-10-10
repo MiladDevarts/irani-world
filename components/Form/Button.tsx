@@ -8,7 +8,7 @@ interface ButtonProps {
 
 const Button: React.FC<ButtonProps> = (props) => {
   return (
-    <button className={`${props.classes} font-opensans bg-blue text-white text-lg font-medium rounded-2xl w-full text-center border-2 border-blue hover:bg-white hover:text-blue transition-all duration-300`}>{props.content}</button>
+    <button className={`${props.classes} font-opensans bg-blue text-white text-lg rounded-2xl w-full text-center border-2 border-blue hover:bg-white hover:text-blue transition-all duration-300`}>{props.content}</button>
   )
 }
 

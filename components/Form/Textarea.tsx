@@ -11,7 +11,7 @@ const Textarea: React.FC<TextareaProps> = (props) => {
   return (
     <>
           <div>
-          <label className='block text-lg font-bold py-3 text-black' htmlFor={props.id}>{props.label}</label>
+          <label className='block text-lg font-semibold py-3 text-black' htmlFor={props.id}>{props.label}</label>
             
             <textarea className={`${props.classes} w-full h-24 text-black px-3 py-3 font-normal rounded-xl bg-white-shade-3 focus:outline-none focus:shadow-none`} rows={4} id={props.id} placeholder={props.placeHolder}>
                 

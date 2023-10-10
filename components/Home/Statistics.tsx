@@ -35,7 +35,7 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
                 7.5M
               </h4>
               <span className="font-opensans text-white-shade-8 dark:text-white">
-                Iranian Community
+              Iranian immigrant community
               </span>
             </div>
           </div>

@@ -66,13 +66,13 @@ const USAMap = () => {
       </div>
       <div className="flex w-full mt-3 h-12 gap-x-2">
         <Link
-          href={""}
+          href={"https://iraniusa.com"}
           className="flex justify-center items-center w-2/3 h-full hover:text-blue hover:bg-white/0 hover:border-2 hover:border-blue bg-blue text-white rounded-2xl"
         >
           Open Irani Usa
         </Link>
         <Link
-          href={""}
+          href={"https://iraniusa.com/plans"}
           className="flex justify-center items-center w-1/3 h-full hover:bg-primaty-tint-4/10 bg-primaty-tint-2/10 text-primary-shade-4 rounded-2xl"
         >
           Join

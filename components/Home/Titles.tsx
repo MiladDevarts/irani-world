@@ -65,14 +65,16 @@ const Titles = () => {
           <div className="flex gap-x-2">
             <Link
               className="dark:hidden btn-flashing-animation inline-flex justify-center items-center font-opensans font-medium rounded-2xl text-center p-3 w-40 h-12 hover:bg-[#333b44] transition-all"
-              href="/"
+              href="https://iraniusa.com"
+              target="_blank"
             >
               Our platform
             </Link>
 
             <Link
               className="hidden dark:inline-flex justify-center items-center font-opensans font-medium rounded-2xl bg-[#2E81FF]  text-center p-3 w-40 h-12 hover:bg-[#333b44] transition-all"
-              href="/"
+              href="https://iraniusa.com"
+              target="_blank"
             >
               Our platform
             </Link>

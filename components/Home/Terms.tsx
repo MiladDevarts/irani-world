@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Terms = () => {
   return (
@@ -24,9 +25,10 @@ const Terms = () => {
           <line y1="0.5" x2="284" y2="0.5" stroke="#E6E6E6" />
         </svg>
         <p className="font-opensans text-white-shade-8">
-          Terms and conditions outline
+          <Link href={"/terms"} className="font-semibold mr-1 text-white-shade-15">Terms</Link>
+           and conditions outline
           <br />
-          what users can and cannot do with your
+          what users can and cannot do 
         </p>
       </div>
     </>

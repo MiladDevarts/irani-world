@@ -9,7 +9,7 @@ const UAEMap = () => {
       className="hidden lg:block  z-[1000] my-5 w-full h-auto rounded-3xl bg-white dark:bg-[#212936] shadow-badge p-4"
     >
       <div
-        className="flex justify-center items-center w-full h-16 bg-center bg-cover text-white text-center rounded-2xl"
+        className="flex justify-center items-center w-full h-14 bg-center bg-cover text-white text-center rounded-2xl"
         style={{ backgroundImage: `url('/images/banner/uae.png')` }}
       >
         <svg

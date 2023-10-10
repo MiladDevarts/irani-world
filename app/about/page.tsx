@@ -58,8 +58,8 @@ const page = () => {
             style={{ backgroundImage: `url('/images/about/iranian-girl.png')` }}
           ></div>
         </div>
-        <section className="w-full mx-auto h-auto lg:h-[300px] lg:mt-20 mt-36 mb-10 flex flex-col gap-y-2 lg:flex-row gap-x-2 items-center bg-white-shade-2 rounded-2xl p-2">
-          <div className="relative w-full h-[300px] lg:h-full rounded-2xl bg-white pt-4">
+        <section className="w-full mx-auto h-auto lg:h-[260px] lg:mt-20 mt-36 mb-10 flex flex-col gap-y-2 lg:flex-row gap-x-2 items-center bg-white-shade-2 rounded-2xl p-2">
+          <div className="relative w-full h-[200px] lg:h-full rounded-2xl bg-white pt-4">
             <div className="flex justify-between items-center px-8 py-2">
               <Link href={"/"}>
                 <svg
@@ -108,21 +108,21 @@ const page = () => {
               </span>
             </div>
             <div className="flex justify-between items-center gap-x-3 px-2 py-2">
-              <div className="text-lg w-1/2 h-16 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
+              <div className="text-lg w-1/2 h-14 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
                 300k users
               </div>
-              <div className="w-1/2 h-16 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
+              <div className="w-1/2 h-14 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
                 New York <span className="text-sm">(GMT-4)</span>
               </div>
             </div>
             <div className="px-2">
               <div
-                className="w-full h-[120px]  bg-center bg-cover rounded-3xl"
+                className="w-full h-[90px]  bg-center bg-cover rounded-3xl"
                 style={{ backgroundImage: `url('/images/maps/usa-map.png')` }}
               ></div>
             </div>
           </div>
-          <div className="relative w-full h-[300px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white">
+          <div className="relative w-full h-[200px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white">
             <svg
               width="120"
               height="51"
@@ -155,7 +155,7 @@ const page = () => {
               Soon
             </span>
           </div>
-          <div className="relative w-full h-[300px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white">
+          <div className="relative w-full h-[200px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white">
             <svg
               width="89"
               height="51"

@@ -10,7 +10,7 @@ const ContactForm = () => {
     <>
       {/* <Modal /> */}
       <section className="w-full lg:w-1/2">
-        <div className="relative z-[100] flex flex-col gap-y-2 w-full px-10 py-5 border border-white-shade-4 rounded-3xl">
+        <div className="relative z-[100] flex flex-col gap-y-2 w-full px-4 lg:px-10 py-3 lg:py-5 border border-white-shade-4 rounded-3xl">
           <div className="lg:flex gap-x-12">
             <Input
               id={"firstname"}

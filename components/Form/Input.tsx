@@ -13,9 +13,9 @@ interface InputProps {
 const Input: React.FC<InputProps> = (props) => {
   return (
     <>
-      <div className="w-full">
+      <div className="w-full ">
         <label
-          className="block text-lg font-semibold py-2 text-black"
+          className="block text-lg font-semibold py-4 lg:py-2 text-black"
           htmlFor={props.id}
         >
           {props.label}
@@ -26,7 +26,7 @@ const Input: React.FC<InputProps> = (props) => {
         >
           {props.iconComp}
           <input
-            className={`${props.classes}  w-full h-full group-focus-within:outline group-focus:outline-blue rounded-xl bg-white-shade-3 focus:outline-none focus:shadow-none`}
+            className={`${props.classes} py-2 lg:py-0 w-full h-full group-focus-within:outline group-focus:outline-blue rounded-xl bg-white-shade-3 focus:outline-none focus:shadow-none`}
             id={props.id}
             type={props.inputType}
             placeholder={props.placeHolder}

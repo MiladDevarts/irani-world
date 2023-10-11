@@ -11,12 +11,12 @@ const FAQItem: React.FC<FAQItemProps> = (props) => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <div className="transition-all group flex flex-col faq-shadow w-full m-auto p-6 bg-white text-black hover:cursor-pointer leading-8 rounded-xl hover:bg-blue hover:text-white duration-300">
+    <div className="group transition-all group flex flex-col faq-shadow w-full m-auto p-6 bg-white text-black hover:cursor-pointer leading-8 rounded-xl hover:bg-blue hover:text-white duration-300">
       <div
         className="flex justify-between"
         onClick={() => setIsActive(!isActive)}
       >
-        <h4 className="text-sm lg:text-base font-opensans font-semibold">
+        <h4 className="max-w-xs lg:max-w-none text-lg lg:text-base font-opensans lg:font-semibold">
           {props.title}
         </h4>
         <div>
@@ -54,11 +54,11 @@ const FAQItem: React.FC<FAQItemProps> = (props) => {
       </div>
       {
         <div
-          className={`px-6 overflow-hidden transition-[max-height] duration-300 ease-in ${
+          className={` overflow-hidden transition-[max-height] duration-300 ease-in ${
             isActive ? "max-h-40" : "max-h-0"
           }`}
         >
-          <p>
+          <p className="group-hover:text-white-shade-9">
             <br />
             {props.content}
           </p>

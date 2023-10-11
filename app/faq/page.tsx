@@ -83,7 +83,7 @@ const page = () => {
         <main className="container flex flex-col lg:flex-row gap-x-2">
           <div className="w-full lg:w-1/3 flex flex-col mt-28 lg:mt-16">
             <div>
-              <h1 className="text-black text-3xl font-semibold font-outfit mb-6">
+              <h1 className="text-black text-4xl lg:text-3xl font-semibold font-outfit my-6 lg:mb-6">
                 <span className="flex items-center gap-x-3">
                   Frequently
                   <svg
@@ -103,7 +103,7 @@ const page = () => {
                 </span>
                 asked questions
               </h1>
-              <p className="text-white-shade-8 max-w-md">
+              <p className="text-white-shade-8 max-w-md lg:text-base text-xl my-9 lg:my-0">
                 Find frequently asked questions here.If you cannot find your
                 question answered here fell free to contact us directly.
               </p>
@@ -164,7 +164,7 @@ const page = () => {
             </div>
           </div>
           <div className="w-full lg:w-2/3 flex flex-col mt-6 lg:mt-16 rounded-3xl">
-            <div className="w-full flex flex-col gap-y-4 lg:gap-6 p-5 rounded-xl">
+            <div className="w-full flex flex-col gap-y-4 lg:gap-6 lg:p-5 rounded-xl">
               {faqCategory == "general" &&
                 faqList.general.map((faq, id) => {
                   return (

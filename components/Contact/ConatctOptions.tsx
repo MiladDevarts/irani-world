@@ -2,9 +2,10 @@ import React from "react";
 
 const ConatctOptions = () => {
   return (
-    <div className="flex flex-col items-center text-center">
-      <h1 className="w-full flex items-center gap-x-6 text-black text-3xl font-semibold font-outfit mb-6">
+    <div className="flex flex-col items-center lg:mb-0 mb-14">
+     <h1 className="w-full flex items-center gap-x-6 text-black text-4xl lg:text-3xl font-semibold font-outfit mb-6">
         <svg
+                className="hidden lg:block"
           width="319"
           height="1"
           viewBox="0 0 319 1"
@@ -21,6 +22,7 @@ const ConatctOptions = () => {
         </svg>
         Contact us
         <svg
+        className="hidden lg:block"
           width="319"
           height="1"
           viewBox="0 0 319 1"
@@ -36,12 +38,12 @@ const ConatctOptions = () => {
           />
         </svg>
       </h1>
-      <p className="text-white-shade-9 max-w-md text-lg font-normal mb-4">
+      <p className="block lg:hidden text-white-shade-9 max-w-md text-2xl font-normal mb-4">
         Ask about our platform, pricing, or something else. We will respond to
         your inquiry as soon as possible.
       </p>
     </div>
   );
 };
-
+ 
 export default ConatctOptions;

@@ -61,7 +61,7 @@ const page = () => {
           {...events}
           className="no-scroll grid auto-cols-[400px] grid-flow-col gap-4 overflow-x-auto w-full mx-auto h-auto lg:h-[260px] lg:mt-20 mt-36 mb-10  gap-y-2 lg:flex-row gap-x-2 items-center bg-white-shade-2 rounded-2xl p-2"
         >
-          <div className="relative w-full h-[200px] lg:h-full rounded-2xl bg-white pt-4">
+          <div className="group border-2 hover:border-2 hover:border-blue hover:cursor-pointer transition-all duration-300 relative w-full h-[200px] lg:h-full rounded-2xl bg-white pt-4">
             <div className="flex justify-between items-center px-8 py-2">
               <Link href={"/"}>
                 <svg
@@ -110,10 +110,10 @@ const page = () => {
               </span>
             </div>
             <div className="flex justify-between items-center gap-x-3 px-2 py-2">
-              <div className="text-lg w-1/2 h-12 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
+              <div className="group-hover:bg-black group-hover:text-white  text-lg w-1/2 h-12 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
                 1K users
               </div>
-              <div className="w-1/2 h-12 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
+              <div className="group-hover:bg-black group-hover:text-white w-1/2 h-12 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
                 New York <span className="text-sm">(GMT-4)</span>
               </div>
             </div>

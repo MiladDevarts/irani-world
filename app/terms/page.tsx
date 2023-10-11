@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "next/head";
 
 import OverlayMenu from "@/components/Overlay";
 import { Metadata } from "next";
@@ -15,7 +14,7 @@ const page = () => {
       <OverlayMenu />
       <main className="flex flex-col lg:flex-row container">
         <div className="w-full flex flex-col mt-10">
-          <h1 className="text-black text-3xl font-semibold font-outfit mb-20">
+          <h1 className="text-black text-3xl font-semibold font-outfit mb-20 lg:mt-0 mt-28">
             Terms & privacy policy
           </h1>
           <h4 className="text-blue text-xl">

@@ -87,7 +87,7 @@ const page = () => {
               author={"Anna Rosé"}
               publish={"Posted just now"}
               avatar={"/images/blog/blogCar.webp"}
-              cover={"/images/thumbnails/1.png"}
+              cover={"/images/thumbnails/1.jpg"}
               cm={"120"}
               like={"2k"}
             />
@@ -100,7 +100,7 @@ const page = () => {
               author={"Anna Rosé"}
               publish={"Posted just now"}
               avatar={"/images/blog/blogCar.webp"}
-              cover={"/images/thumbnails/1.png"}
+              cover={"/images/thumbnails/1.jpg"}
               cm={"120"}
               like={"2k"}
             />

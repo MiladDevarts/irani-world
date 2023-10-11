@@ -1,4 +1,3 @@
-
 import React from "react";
 
 import Image from "next/image";
@@ -43,7 +42,7 @@ const NewsCardFullWidth: React.FC<NewsCardFullWidthProps> = (props) => {
       </div>
       <div
         className="w-full lg:w-1/5 h-44 lg:h-32 bg-black rounded-3xl bg-center bg-cover"
-        style={{ backgroundImage: `url('/images/thumbnails/2.png')` }}
+        style={{ backgroundImage: `url('/images/thumbnails/2.jpg')` }}
       ></div>
     </Link>
   );

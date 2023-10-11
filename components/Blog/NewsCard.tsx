@@ -49,11 +49,11 @@ const NewsCard: React.FC<NewsCardProps> = (props) => {
           </div>
           <div
             className="lg:block hidden w-full lg:w-1/2 max-h-full lg:max-h-full  bg-cover bg-center rounded-2xl my-3"
-            style={{ backgroundImage: `url('/images/thumbnails/1.png')` }}
+            style={{ backgroundImage: `url('/images/thumbnails/1.jpg')` }}
           ></div>
           <div
             className="lg:hidden block w-full lg:w-1/3 h-44 lg:max-h-full  bg-cover bg-center rounded-2xl my-3"
-            style={{ backgroundImage: `url('/images/thumbnails/1.png')` }}
+            style={{ backgroundImage: `url('/images/thumbnails/1.jpg')` }}
           ></div>
         </div>
       </Link>

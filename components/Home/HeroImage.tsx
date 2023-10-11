@@ -6,7 +6,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 const HeroImage = () => {
-
   const [currentSlide, setCurrentSlide] = useState(1);
 
   useEffect(() => {
@@ -39,7 +38,7 @@ const HeroImage = () => {
             data-aos="zoom-in"
             data-aso-duration="2000"
             className="slider-bg absolute top-0 left-0 w-full h-full bg-center bg-cover bg-no-repeat"
-            style={{ backgroundImage: `url('/images/home/background-1.png')` }}
+            style={{ backgroundImage: `url('/images/home/background-1.jpg')` }}
           ></div>
           <div className="flex items-center gap-x-3 w-[80%] bottom-8 absolute">
             <span className="text-2xl font-semibold w-1/12">01</span>
@@ -56,7 +55,7 @@ const HeroImage = () => {
             data-aso-duration="2000"
             data-aso-delay="10000"
             className="slider-bg absolute top-0 left-0 w-full h-full bg-center bg-cover bg-no-repeat"
-            style={{ backgroundImage: `url('/images/home/background-2.png')` }}
+            style={{ backgroundImage: `url('/images/home/background-2.jpg')` }}
           ></div>
           <div className="flex items-center gap-x-3 w-[80%] bottom-8 absolute">
             <span className="text-2xl font-semibold w-1/12">02</span>

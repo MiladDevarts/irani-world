@@ -75,7 +75,7 @@ const page = () => {
           </div>
           <div
             className="w-full h-[400px] rounded-3xl bg-cover bg-center"
-            style={{ backgroundImage: `url('/images/thumbnails/3.png')` }}
+            style={{ backgroundImage: `url('/images/thumbnails/3.jpg')` }}
           ></div>
           <div className="w-full flex gap-x-14 my-10">
             <div className="flex flex-col gap-y-3">
@@ -172,7 +172,7 @@ const page = () => {
           </div>
           <div
             className="w-full h-[400px] rounded-3xl bg-cover bg-center mb-10"
-            style={{ backgroundImage: `url('/images/thumbnails/2.png')` }}
+            style={{ backgroundImage: `url('/images/thumbnails/2.jpg')` }}
           ></div>
           <div className="w-full flex flex-col gap-x-14 my-10 pb-24 border-b border-white-shade-4">
             <div className="flex gap-x-10 mb-10">
@@ -263,7 +263,7 @@ const page = () => {
                 author={"Anna Rosé"}
                 publish={"Posted just now"}
                 avatar={""}
-                cover={"/images/thumbnails/2.png"}
+                cover={"/images/thumbnails/2.jpg"}
                 info={false}
               />
             </div>

@@ -124,7 +124,10 @@ const page = () => {
               ></div>
             </div>
           </div>
-          <div className="group hover:cursor-pointer hover:bg-[#AA8041] group-hover:bg-[#c6964e] transition-all duration-300 relative w-full h-[200px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white">
+          <div
+            className="group hover:cursor-pointer bg-cover hover:bg-[#AA8041] group-hover:bg-[#c6964e] transition-all duration-300 relative w-full h-[200px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white"
+            style={{ backgroundImage: `url('/images/about/uae-bg.png')` }}
+          >
             <svg
               className="-mt-10"
               width="120"
@@ -162,7 +165,10 @@ const page = () => {
               Soon
             </span>
           </div>
-          <div className="group hover:cursor-pointer hover:bg-[#FCD506] transition-all duration-300  relative w-full h-[200px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white">
+          <div
+            className="group hover:cursor-pointer bg-cover hover:bg-[#FCD506] transition-all duration-300  relative w-full h-[200px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white"
+            style={{ backgroundImage: `url('/images/about/europe-bg.png')` }}
+          >
             <svg
               className="-mt-10"
               width="96"
@@ -190,7 +196,10 @@ const page = () => {
               Soon
             </span>
           </div>
-          <div className="group hover:cursor-pointer hover:bg-[#CA353B] transition-all duration-300 relative w-full h-[200px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white">
+          <div
+            className="group hover:cursor-pointer bg-cover hover:bg-[#CA353B] transition-all duration-300 relative w-full h-[200px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white"
+            style={{ backgroundImage: `url('/images/about/canada-bg.png')` }}
+          >
             <svg
               className="-mt-10"
               width="146"
@@ -223,7 +232,10 @@ const page = () => {
               Soon
             </span>
           </div>
-          <div className="group hover:cursor-pointer hover:bg-[#00008B] transition-all duration-300 relative w-full h-[200px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white">
+          <div
+            className="group hover:cursor-pointer bg-cover hover:bg-[#00008B] transition-all duration-300 relative w-full h-[200px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white"
+            style={{ backgroundImage: `url('/images/about/australia-bg.png')` }}
+          >
             <svg
               className="-mt-10"
               width="161"
@@ -256,7 +268,10 @@ const page = () => {
               Soon
             </span>
           </div>
-          <div className="group hover:cursor-pointer hover:bg-[#222521] transition-all duration-300 relative w-full h-[200px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white">
+          <div
+            className="group hover:cursor-pointer bg-cover hover:bg-[#222521] transition-all duration-300 relative w-full h-[200px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white"
+            style={{ backgroundImage: `url('/images/about/asia-bg.png')` }}
+          >
             <svg
               className="-mt-10"
               width="157"

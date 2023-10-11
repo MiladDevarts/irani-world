@@ -4,17 +4,18 @@ import Statistics from "./Statistics";
 
 import Link from "next/link";
 import Socials from "./Socials";
+import Platforms from "./Platforms";
 
 const Titles = () => {
   return (
     <>
       {/* Left => Titles, Statics */}
 
-      <section className="w-full lg:w-1/3 pt-20 lg:pt-10">
+      <section className="w-full lg:w-1/3 pt-28 lg:pt-10">
         <div>
           <span
             data-aos="zoom-in-right"
-            className="inline-block p-4 text-sm rounded-full font-opensans text-black bg-white hover:text-white hover:bg-blue mb-0 dark:text-white dark:bg-[#1F2836] shadow-badge mt-10 hover:cursor-pointer lg:mt-0 transition-all duration-500"
+            className="hidden lg:inline-block p-4 text-sm rounded-full font-opensans text-black bg-white hover:text-white hover:bg-blue mb-0 dark:text-white dark:bg-[#1F2836] shadow-badge mt-10 hover:cursor-pointer lg:mt-0 transition-all duration-500"
           >
             🎉 Made for persian people
           </span>
@@ -57,29 +58,21 @@ const Titles = () => {
             data-aos="zoom-in-right"
             data-aos-delay="300
           "
-            className="max-w-sm text-lg text-white-shade-8 dark:text-[#ffffff] my-6 font-light"
+            className="max-w-sm text-[20px] lg:text-lg text-white-shade-8 dark:text-[#ffffff] my-6 font-normal lg:font-light"
           >
             with history and heritage in mind to fuel an economic and cultural
             renaissance
           </p>
           <div className="flex gap-x-2">
             <Link
-              className="dark:hidden btn-flashing-animation inline-flex justify-center items-center font-opensans font-medium rounded-2xl text-center p-3 w-40 h-12 hover:bg-[#333b44] transition-all"
-              href="https://iraniusa.com"
-              target="_blank"
-            >
-              Our platform
-            </Link>
-
-            <Link
-              className="hidden dark:inline-flex justify-center items-center font-opensans font-medium rounded-2xl bg-[#2E81FF]  text-center p-3 w-40 h-12 hover:bg-[#333b44] transition-all"
+              className="dark:hidden btn-flashing-animation inline-flex justify-center items-center font-opensans font-normal lg:font-medium rounded-2xl text-center text-xl lg:text-base p-3 w-52 lg:w-40 h-16 lg:h-12 hover:bg-[#333b44] transition-all"
               href="https://iraniusa.com"
               target="_blank"
             >
               Our platform
             </Link>
             <Link
-              className="inline-flex justify-center items-center font-opensans border border-bg-white-shade-3 bg-white-shade-3  font-medium rounded-2xl text-center p-3 w-10 h-12 hover:bg-white hover:border hover:border-[#011223] transition-all duration-300"
+              className="inline-flex justify-center items-center font-opensans border border-bg-white-shade-3 bg-white-shade-3  font-medium rounded-2xl text-center p-3 w-12 h-16 lg:h-12 hover:bg-white hover:border hover:border-[#011223] transition-all duration-300"
               href="/"
             >
               <svg
@@ -99,8 +92,9 @@ const Titles = () => {
             </Link>
           </div>
         </div>
-        <Socials />
+        <Socials classes="hidden lg:flex" />
         <Statistics classes="hidden lg:flex" />
+        <Platforms classes={"block lg:hidden"}/>
       </section>
     </>
   );

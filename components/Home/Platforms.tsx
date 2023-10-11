@@ -22,45 +22,21 @@ import {
   AsiaMap,
 } from "../MapBox";
 
-const Platforms = () => {
+interface PlatformsProps {
+  classes:string
+}
+
+const Platforms:React.FC<PlatformsProps> = (props) => {
   const [activePlatform, setActivePlatform] = useState("usa");
 
   const ref =
     useRef<HTMLDivElement>() as React.MutableRefObject<HTMLInputElement>;
   const { events } = useDraggable(ref);
 
-  // const handleUsaEnter = () => {
-  //   setCanadaBox(true);
-  // };
-
-  // const handleUsaOut = () => {
-  //   setCanadaBox(false);
-  // };
-
-  // const handleCanadaEnter = () => {
-  //   setCanadaBox(false);
-  //   setUSABox(true);
-  // };
-
-  // const handleCanadaOut = () => {
-  //   setUSABox(false);
-  //   setCanadaBox(true);
-  // };
-
-  // const handleUaeEnter = () => {
-  //   setCanadaBox(false);
-  //   setUAEBox(true);
-  // };
-
-  // const handleUaeOut = () => {
-  //   setUAEBox(false);
-  //   setCanadaBox(true);
-  // };
-
   return (
     <>
       {/* Right => Services in Countries */}
-      <section className="w-full lg:w-1/3 lg:h-full pt-10 pl-0 lg:pl-20 text-black">
+      <section className={`${props.classes} w-full lg:w-1/3 lg:h-full pt-10 pl-0 lg:pl-20 text-black`}>
         <IraniWorldBox />
         {/* 2. Countries Platform List */}
         <div

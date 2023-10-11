@@ -35,7 +35,7 @@ export default function Home() {
         <main className="w-full container flex flex-col lg:flex-row overflow-hidden">
           <Titles />
           <HeroImage />
-          <Platforms />
+          <Platforms classes={"hidden lg:block"} />
           <Statistics classes="flex lg:hidden" />
         </main>
       </div>

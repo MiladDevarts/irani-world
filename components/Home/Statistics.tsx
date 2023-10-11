@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import React, { useEffect } from "react";
+import Socials from "./Socials";
 
 interface StatisticsProps {
   classes: string;
@@ -11,7 +12,7 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
   return (
     <>
       <div
-        className={`${props.classes}  flex-col lg:flex-row gap-x-4 gap-y-4 mt-10 lg:mt-16`}
+        className={`${props.classes} flex-col lg:flex-row gap-x-4 gap-y-4 mt-10 lg:mt-16 items-center`}
       >
         <div className="flex flex-col items-center gap-y-4">
           <video autoPlay muted loop className="w-28">
@@ -38,7 +39,7 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
             </svg>
           </Link>
         </div>
-        <div className="flex flex-col gap-y-6 order-1 lg:order-2 lg:mt-4">
+        <div className="flex flex-col items-center lg:items-start gap-y-6 lg:order-2 lg:mt-4">
           <div className="flex flex-col justify-center lg:items-start items-center gap-y-6 order-2 lg:order-1">
             <h4 className="text-black dark:text-white font-outfit text-2xl text-center lg:text-left font-medium">
               <span className="text-3xl font-semibold">
@@ -61,6 +62,7 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
             </div>
           </div>
         </div>
+        <Socials classes="flex lg:hidden" />
       </div>
     </>
   );

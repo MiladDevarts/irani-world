@@ -8,7 +8,7 @@ const Terms = () => {
       {/* 4. Terms + Flag Icons List */}
       <div className="flex flex-col items-center lg:items-start mt-10 w-full h-auto lg:text-left text-center">
         <Image
-          className="w-auto"
+          className="w-52 lg:w-auto"
           src={"/images/home/flags.png"}
           width={100}
           height={100}
@@ -24,7 +24,7 @@ const Terms = () => {
         >
           <line y1="0.5" x2="284" y2="0.5" stroke="#E6E6E6" />
         </svg>
-        <p className="font-opensans text-white-shade-8">
+        <p className="text-2xl lg:text-base font-opensans text-white-shade-8">
           <Link href={"/terms"} className="font-semibold mr-1 text-white-shade-15">Terms</Link>
            and conditions outline
           <br />

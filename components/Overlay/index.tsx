@@ -1,6 +1,6 @@
 "use client";
 
-import { useContext, useState } from "react";
+import { useEffect, useContext, useState, useRef } from "react";
 import Link from "next/link";
 
 import { MenuContext } from "@/context/MenuProvider";
@@ -8,6 +8,7 @@ import classNames from "classnames";
 
 const OverlayMenu = () => {
   let menuVisibilty = useContext(MenuContext);
+
 
   const [menuItems, setMenuItesm] = useState([
     { value: "Home", slug: "/" },
@@ -19,6 +20,7 @@ const OverlayMenu = () => {
     { value: "Terms", slug: "/terms" },
     { value: "Contact us", slug: "/contact" },
   ]);
+  
 
   const OverlayClasses = classNames(
     "z-[1010] block lg:hidden w-full h-auto transition-all fixed top-0 -left-[1200px] z-10 soft-shadow bg-white duration-500",
@@ -35,10 +37,10 @@ const OverlayMenu = () => {
           backgroundImage: `url('/images/menu/overlay-background.png')`,
         }}
       >
-        <ul className="py-6 container flex flex-col  gap-y-8 font-opensans font-normal text-2xl dark:text-white  text-black pt-28">
+        <ul className="py-10 container flex flex-col  gap-y-8 font-opensans font-normal text-2xl dark:text-white  text-black pt-28">
           {menuItems.map((menuItem, index) => {
             return (
-              <li key={index} className="text-black dark:text-white">
+              <li key={index} className="text-black dark:text-white font-normal">
                 <Link
                   href={menuItem.slug}
                   onClick={() => {

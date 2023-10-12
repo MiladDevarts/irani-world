@@ -114,7 +114,7 @@ const page = () => {
                 1K users
               </div>
               <div className="group-hover:bg-black group-hover:text-white w-1/2 h-12 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
-                New York <span className="text-sm">(GMT-4)</span>
+                New York <span className="text-sm hidden lg:inline">(GMT-4)</span>
               </div>
             </div>
             <div className="px-2">

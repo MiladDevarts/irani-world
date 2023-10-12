@@ -16,7 +16,7 @@ const page = () => {
     <>
       <OverlayMenu />
       <main className="container">
-        <div className="flex flex-col lg:flex-row gap-x-20 h-[500px] mt-28 lg:mt-10">
+        <div className="flex flex-col lg:flex-row gap-x-20 h-[500px] mt-28 lg:mt-10 mb-72">
           <div className="w-full lg:w-2/3 flex flex-col lg:justify-between">
             <div>
               <h1 className="text-black text-2xl font-semibold font-outfit mb-8">

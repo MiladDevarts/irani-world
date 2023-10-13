@@ -16,7 +16,7 @@ const page = () => {
     <>
       <OverlayMenu />
       <main className="container">
-        <div className="flex flex-col lg:flex-row gap-x-20 h-[500px] mt-28 lg:mt-10 mb-72">
+        <div className="flex flex-col lg:flex-row gap-x-20 h-[500px] mt-28 lg:mt-10 mb-72 lg:mb-10">
           <div className="w-full lg:w-2/3 flex flex-col lg:justify-between">
             <div>
               <h1 className="text-black text-2xl font-semibold font-outfit mb-8">
@@ -59,7 +59,7 @@ const page = () => {
         <section
           ref={ref}
           {...events}
-          className="no-scroll flex flex-col lg:grid lg:auto-cols-[400px] lg:grid-flow-col gap-4 overflow-x-auto w-full mx-auto h-auto lg:h-[260px] lg:mt-20 mt-10 mb-10  gap-y-2 lg:flex-row gap-x-2 items-center bg-white-shade-2 rounded-2xl p-2"
+          className="no-scroll flex flex-col lg:grid lg:auto-cols-[400px] lg:grid-flow-col gap-4 overflow-x-auto w-full mx-auto h-auto lg:h-[260px] lg:mt-10 mt-20 mb-10  gap-y-2 lg:flex-row gap-x-2 items-center bg-white-shade-2 rounded-2xl p-2"
         >
           <div className="group border-2 hover:border-2 hover:border-blue hover:cursor-pointer transition-all duration-300 relative w-full lg:h-full h-[240px] rounded-2xl bg-white pt-4">
             <div className="flex justify-between items-center px-8 py-2">
@@ -114,7 +114,8 @@ const page = () => {
                 1K users
               </div>
               <div className="group-hover:bg-black group-hover:text-white w-1/2 h-12 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
-                New York <span className="text-sm hidden lg:inline">(GMT-4)</span>
+                New York{" "}
+                <span className="text-sm hidden lg:inline">(GMT-4)</span>
               </div>
             </div>
             <div className="px-2">
@@ -309,9 +310,9 @@ const page = () => {
           </div>
         </section>
         <div
-            className="w-full flex lg:hidden flex-col h-auto bg-cover bg-center rounded-3xl"
-            style={{ backgroundImage: `url('/images/about/iranian-girl.png')` }}
-          ></div>
+          className="w-full flex lg:hidden flex-col h-auto bg-cover bg-center rounded-3xl"
+          style={{ backgroundImage: `url('/images/about/iranian-girl.png')` }}
+        ></div>
       </main>
     </>
   );

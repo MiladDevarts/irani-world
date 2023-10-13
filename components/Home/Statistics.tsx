@@ -3,6 +3,7 @@
 import Link from "next/link";
 import React, { useEffect } from "react";
 import Socials from "./Socials";
+import Image from "next/image";
 
 interface StatisticsProps {
   classes: string;
@@ -15,9 +16,10 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
         className={`${props.classes} flex-col lg:flex-row gap-x-4 gap-y-4 mt-10 lg:mt-16 items-center`}
       >
         <div className="flex flex-col items-center gap-y-4">
-          <video autoPlay muted loop className="w-28">
-            <source src="/videos/hakhamanesh.mov" />
-          </video>
+          {/* <video autoPlay muted loop className="w-28">
+            <source src="/videos/hakhamanesh.gif" />
+          </video> */}
+          <Image src={"/videos/hakhamanesh.gif"} className="w-28" width={40} height={40} alt="irani world" />
           <Link className="group hover:bg-black transition-all duration-300 p-2 rounded-full border border-white-shade-4" href={"https://irani.bio"}>
             <svg
               width="19"

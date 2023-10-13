@@ -42,11 +42,11 @@ const Platforms:React.FC<PlatformsProps> = (props) => {
         <div
           ref={ref}
           {...events}
-          className="grid no-scroll auto-cols-[100px] grid-flow-col gap-x-3 overflow-x-auto p-4 -z[200] w-full h-36 rounded-3xl bg-white-shade-2 dark:bg-[#273140] hover:cursor-pointer transition-all duration-300"
+          className="grid no-scroll auto-cols-[100px] grid-flow-col gap-x-3 overflow-x-auto p-4 -z[200] w-full h-32 rounded-3xl bg-white-shade-2 dark:bg-[#273140] hover:cursor-pointer transition-all duration-300"
         >
           <div
             onClick={() => setActivePlatform("usa")}
-            className="relative flex items-center col-span-1 justify-center w-full h-full bg-white dark:bg-[#191f2b] hover:box-shadow rounded-2xl hover:cursor-pointer transition-all duration-300"
+            className="platform-shadow relative flex items-center col-span-1 justify-center w-full h-full bg-white dark:bg-[#191f2b] hover:box-shadow rounded-2xl hover:cursor-pointer transition-all duration-300"
           >
             <svg
               className="absolute top-0 left-0 m-2"
@@ -78,7 +78,7 @@ const Platforms:React.FC<PlatformsProps> = (props) => {
           </div>
           <div
             onClick={() => setActivePlatform("uae")}
-            className="relative flex items-center col-span-1 justify-center w-full h-full bg-white rounded-2xl hover:cursor-pointer dark:bg-[#191f2b] transition-all duration-300"
+            className="platform-shadow relative flex items-center col-span-1 justify-center w-full h-full bg-white rounded-2xl hover:cursor-pointer dark:bg-[#191f2b] transition-all duration-300"
           >
             <svg
               className=" absolute top-0 left-0 m-2"
@@ -101,7 +101,7 @@ const Platforms:React.FC<PlatformsProps> = (props) => {
           </div>
           <div
             onClick={() => setActivePlatform("ca")}
-            className="relative flex items-center col-span-1 justify-center w-full h-full bg-white rounded-2xl dark:bg-[#273140] hover:cursor-pointer transition-all duration-300"
+            className="platform-shadow relative flex items-center col-span-1 justify-center w-full h-full bg-white rounded-2xl dark:bg-[#273140] hover:cursor-pointer transition-all duration-300"
           >
             <svg
               className=" absolute top-0 left-0 m-2"
@@ -124,7 +124,7 @@ const Platforms:React.FC<PlatformsProps> = (props) => {
           </div>
           <div
             onClick={() => setActivePlatform("eu")}
-            className="relative flex items-center col-span-1 justify-center w-full h-full bg-white rounded-2xl dark:bg-[#273140] hover:cursor-pointer transition-all duration-300"
+            className="platform-shadow relative flex items-center col-span-1 justify-center w-full h-full bg-white rounded-2xl dark:bg-[#273140] hover:cursor-pointer transition-all duration-300"
           >
             <svg
               className=" absolute top-0 left-0 m-2"
@@ -147,7 +147,7 @@ const Platforms:React.FC<PlatformsProps> = (props) => {
           </div>
           <div
             onClick={() => setActivePlatform("au")}
-            className="relative flex items-center col-span-1 justify-center w-full h-full bg-white rounded-2xl dark:bg-[#273140] hover:cursor-pointer transition-all duration-300"
+            className="platform-shadow relative flex items-center col-span-1 justify-center w-full h-full bg-white rounded-2xl dark:bg-[#273140] hover:cursor-pointer transition-all duration-300"
           >
             <svg
               className=" absolute top-0 left-0 m-2"
@@ -170,7 +170,7 @@ const Platforms:React.FC<PlatformsProps> = (props) => {
           </div>
           <div
             onClick={() => setActivePlatform("as")}
-            className="relative flex items-center col-span-1 justify-center w-full h-full bg-white dark:bg-[#191f2b] rounded-2xl"
+            className="platform-shadow relative flex items-center col-span-1 justify-center w-full h-full bg-white dark:bg-[#191f2b] rounded-2xl"
           >
             <svg
               className=" absolute top-0 left-0 m-2"

@@ -640,3 +640,14 @@ input:checked ~ .switch__Label--Night {
     transform: scale(1.1);
   }
 } /*End of Zoom out Keyframes */
+
+.platform-shadow {
+  filter: drop-shadow(10px 10px 40px rgba(0, 0, 0, 0.1));
+  transition: all .5s ease-in-out;
+}
+
+
+.platform-shadow:hover {
+  cursor: pointer;
+  filter: drop-shadow(10px 10px 40px rgba(0, 0, 0, 0.3));
+}

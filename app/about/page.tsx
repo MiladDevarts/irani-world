@@ -35,7 +35,11 @@ const page = () => {
                 Iranians with support from Swedish company
                 <br />
                 <br />
-                Platform development is led by Riv Design, a Swedish company, in
+                Platform development is led by 
+                <Link href={"https://rivdesign.se"} className="px-1 font-semibold text-black">
+                Riv Design
+                </Link>
+                , a Swedish company, in
                 partnership with{" "}
                 <Link
                   href={"https://wps.community/"}
@@ -54,8 +58,9 @@ const page = () => {
                 non-profit, artists, developers, and business people who have
                 the common goal of bringing Iranian people closer together.
               </p>
-              <p className="lg:max-w-3xl text-lg text-white-shade-8 my-10">
-                PUBLIC EDUCATION THROUGH THE ARTS AND ARTISTS Patriotic artists
+              <p className="lg:max-w-3xl text-base text-white-shade-8 my-10">
+                <span className="inline-block text-black pr-2 font-medium">PUBLIC EDUCATION THROUGH THE ARTS AND ARTISTS</span>
+                 Patriotic artists
                 have unique and intimate relationships with the people of their
                 nation. The heartfelt creation of art that is directed towards
                 society and one’s nation, coupled with the support of people,

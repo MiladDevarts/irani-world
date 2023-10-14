@@ -7,6 +7,7 @@ import Link from "next/link";
 import OverlayMenu from "@/components/Overlay";
 
 import { useDraggable } from "react-use-draggable-scroll";
+import { Riv, WPS, WSA } from "@/components/Partners";
 
 const page = () => {
   const ref =
@@ -35,12 +36,14 @@ const page = () => {
                 Iranians with support from Swedish company
                 <br />
                 <br />
-                Platform development is led by 
-                <Link href={"https://rivdesign.se"} className="px-1 font-semibold text-black">
-                Riv Design
+                Platform development is led by
+                <Link
+                  href={"https://rivdesign.se"}
+                  className="px-1 font-semibold text-black"
+                >
+                  Riv Design
                 </Link>
-                , a Swedish company, in
-                partnership with{" "}
+                , a Swedish company, in partnership with{" "}
                 <Link
                   href={"https://wps.community/"}
                   className="px-1 font-semibold text-black"
@@ -59,40 +62,40 @@ const page = () => {
                 the common goal of bringing Iranian people closer together.
               </p>
               <p className="lg:max-w-3xl text-base text-white-shade-8 my-10">
-                <span className="inline-block text-black pr-2 font-medium">PUBLIC EDUCATION THROUGH THE ARTS AND ARTISTS</span>
-                 Patriotic artists
-                have unique and intimate relationships with the people of their
-                nation. The heartfelt creation of art that is directed towards
-                society and one’s nation, coupled with the support of people,
-                has created a bond that has always kept the relationships
-                between artists and society close and sincere.
+                <span className="inline-block text-black pr-2 font-medium">
+                  PUBLIC EDUCATION THROUGH THE ARTS AND ARTISTS
+                </span>
+                Patriotic artists have unique and intimate relationships with
+                the people of their nation. The heartfelt creation of art that
+                is directed towards society and one’s nation, coupled with the
+                support of people, has created a bond that has always kept the
+                relationships between artists and society close and sincere.
                 <br />
                 <br />
+                <span className="text-white-shade-6">
                 The artists and programmers of WPS community are trying to keep
                 the first official Iranian platform in the world moving properly
                 forward.
+                </span>
               </p>
             </div>
-            {/* <div className="mt-5">
-              <h2 className="text-black text-2xl font-semibold font-outfit mb-2">
-                Partners
-              </h2>
+            <div className="mt-5">
               <div className="flex gap-x-8 items-center">
                 <Riv />
                 <WSA />
                 <WPS />
               </div>
-            </div> */}
+            </div>
           </div>
           <div
-            className="w-1/3 hidden lg:flex flex-col  h-full bg-cover bg-center rounded-3xl"
+            className="w-1/3 hidden lg:flex flex-col  h-[700px] bg-cover bg-center rounded-3xl"
             style={{ backgroundImage: `url('/images/about/iranian-girl.png')` }}
           ></div>
         </div>
         <section
           ref={ref}
           {...events}
-          className="relative top-0 left-0 no-scroll flex flex-col lg:grid lg:auto-cols-[400px] lg:grid-flow-col gap-4 overflow-x-auto w-full mx-auto h-auto lg:h-[260px] mt-96 sm:mt-96 lg:mt-44 mb-10  gap-y-2 lg:flex-row gap-x-2 items-center bg-white-shade-2 rounded-2xl p-2 before:absolute bofore:top-0 before:right-0 before:contents-[''] before:w-[200px] bofore:h-[200px] before:bg-black"
+          className="relative top-0 left-0 no-scroll flex flex-col lg:grid lg:auto-cols-[400px] lg:grid-flow-col gap-4 overflow-x-auto w-full mx-auto h-auto lg:h-[260px] mt-96 sm:mt-96 lg:mt-56 mb-10  gap-y-2 lg:flex-row gap-x-2 items-center bg-white-shade-2 rounded-2xl p-2 before:absolute bofore:top-0 before:right-0 before:contents-[''] before:w-[200px] bofore:h-[200px] before:bg-black"
         >
           <div className="group border-2 hover:border-2 hover:border-blue hover:cursor-pointer transition-all duration-300 relative w-full lg:h-full h-[240px] rounded-2xl bg-white pt-4">
             <div className="flex justify-between items-center px-8 py-2">

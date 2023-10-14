@@ -26,18 +26,46 @@ const page = () => {
                 By Persians, For Persians
               </h3>
               <p className="lg:max-w-3xl text-lg text-white-shade-8 mt-6">
-                Irani.World is a platform built to help Iranian people around
-                the world reach one another for professional and business
-                services in one convenient place. This platform is 100%
-                independently built by Iranians with support from Swedes and is
-                free to use.
+                <Link href={"/"} className="pr-1 font-semibold text-black">
+                  Irani.World
+                </Link>
+                is a platform built to help Iranian people around the world
+                reach one another for professional and business services in one
+                convenient place. This platform is 100% independently built by
+                Iranians with support from Swedish company
                 <br />
                 <br />
-                Platform development is led by Riv Designs, a USA company, in
-                partnership with Riv Design & WPS and WSA. This platform is
-                essentially a partnership between a non-profit, artists,
-                developers, and business people who have the common goal of
-                bringing Iranian people closer together.
+                Platform development is led by Riv Design, a Swedish company, in
+                partnership with{" "}
+                <Link
+                  href={"https://wps.community/"}
+                  className="px-1 font-semibold text-black"
+                >
+                  WPS
+                </Link>{" "}
+                and{" "}
+                <Link
+                  href={"https://wsa.team/"}
+                  className="pl-1 font-semibold text-black"
+                >
+                  WSA
+                </Link>{" "}
+                . This platform is essentially a partnership between a
+                non-profit, artists, developers, and business people who have
+                the common goal of bringing Iranian people closer together.
+              </p>
+              <p className="lg:max-w-3xl text-lg text-white-shade-8 my-10">
+                PUBLIC EDUCATION THROUGH THE ARTS AND ARTISTS Patriotic artists
+                have unique and intimate relationships with the people of their
+                nation. The heartfelt creation of art that is directed towards
+                society and one’s nation, coupled with the support of people,
+                has created a bond that has always kept the relationships
+                between artists and society close and sincere.
+                <br />
+                <br />
+                The artists and programmers of WPS community are trying to keep
+                the first official Iranian platform in the world moving properly
+                forward.
               </p>
             </div>
             {/* <div className="mt-5">
@@ -59,7 +87,7 @@ const page = () => {
         <section
           ref={ref}
           {...events}
-          className="relative top-0 left-0 no-scroll flex flex-col lg:grid lg:auto-cols-[400px] lg:grid-flow-col gap-4 overflow-x-auto w-full mx-auto h-auto lg:h-[260px] lg:mt-10 mt-20 mb-10  gap-y-2 lg:flex-row gap-x-2 items-center bg-white-shade-2 rounded-2xl p-2 before:absolute bofore:top-0 before:right-0 before:contents-[''] before:w-[200px] bofore:h-[200px] before:bg-black"
+          className="relative top-0 left-0 no-scroll flex flex-col lg:grid lg:auto-cols-[400px] lg:grid-flow-col gap-4 overflow-x-auto w-full mx-auto h-auto lg:h-[260px] mt-96 sm:mt-96 lg:mt-44 mb-10  gap-y-2 lg:flex-row gap-x-2 items-center bg-white-shade-2 rounded-2xl p-2 before:absolute bofore:top-0 before:right-0 before:contents-[''] before:w-[200px] bofore:h-[200px] before:bg-black"
         >
           <div className="group border-2 hover:border-2 hover:border-blue hover:cursor-pointer transition-all duration-300 relative w-full lg:h-full h-[240px] rounded-2xl bg-white pt-4">
             <div className="flex justify-between items-center px-8 py-2">

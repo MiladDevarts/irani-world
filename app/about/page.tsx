@@ -41,9 +41,9 @@ const page = () => {
                   href={"https://rivdesign.se"}
                   className="px-1 font-semibold text-black"
                 >
-                  Riv Design
+                  Riv Design,
                 </Link>
-                , a Swedish company, in partnership with{" "}
+                 a Swedish company, in partnership with{" "}
                 <Link
                   href={"https://wps.community/"}
                   className="px-1 font-semibold text-black"
@@ -55,9 +55,9 @@ const page = () => {
                   href={"https://wsa.team/"}
                   className="pl-1 font-semibold text-black"
                 >
-                  WSA
+                  WSA.
                 </Link>{" "}
-                . This platform is essentially a partnership between a
+                 This platform is essentially a partnership between a
                 non-profit, artists, developers, and business people who have
                 the common goal of bringing Iranian people closer together.
               </p>

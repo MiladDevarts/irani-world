@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { useDraggable } from "react-use-draggable-scroll";
 
 import IraniWorldBox from "./IraniWorldBox";
@@ -23,26 +23,32 @@ import {
 } from "../MapBox";
 
 interface PlatformsProps {
-  classes:string
+  classes: string;
 }
 
-const Platforms:React.FC<PlatformsProps> = (props) => {
+const Platforms: React.FC<PlatformsProps> = (props) => {
+
   const [activePlatform, setActivePlatform] = useState("usa");
 
   const ref =
     useRef<HTMLDivElement>() as React.MutableRefObject<HTMLInputElement>;
   const { events } = useDraggable(ref);
 
+  const platformsBox = useRef();
+
+
   return (
     <>
       {/* Right => Services in Countries */}
-      <section className={`${props.classes} w-full lg:w-1/3 lg:h-full pt-10 pl-0 lg:pl-20 text-black`}>
+      <section
+        className={`${props.classes} w-full lg:w-1/3 lg:h-full pt-10 pl-0 lg:pl-20 text-black`}
+      >
         <IraniWorldBox />
         {/* 2. Countries Platform List */}
         <div
           ref={ref}
           {...events}
-          className="grid no-scroll auto-cols-[100px] grid-flow-col gap-x-3 overflow-x-auto p-4 -z[200] w-full h-32 rounded-3xl bg-white-shade-2 dark:bg-[#273140] hover:cursor-pointer transition-all duration-300"
+          className="relative grid no-scroll auto-cols-[100px] grid-flow-col gap-x-3 overflow-x-auto p-4 -z[200] w-full h-32 rounded-3xl bg-white-shade-2 dark:bg-[#273140] hover:cursor-pointer transition-all duration-300"
         >
           <div
             onClick={() => setActivePlatform("usa")}
@@ -201,7 +207,6 @@ const Platforms:React.FC<PlatformsProps> = (props) => {
         {activePlatform == "as" && <AsiaMap />}
 
         <Terms />
-        
       </section>
     </>
   );

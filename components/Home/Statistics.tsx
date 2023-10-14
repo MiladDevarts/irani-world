@@ -13,13 +13,13 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
   return (
     <>
       <div
-        className={`${props.classes} flex-col lg:flex-row gap-x-4 gap-y-4 mt-10 lg:mt-16 items-center`}
+        className={`${props.classes} flex-col lg:flex-row gap-x-4 gap-y-4 mt-10 lg:mt-16 items-start`}
       >
-        <div className="flex flex-col items-center gap-y-4">
+        <div className="flex flex-col items-center gap-y-2">
           {/* <video autoPlay muted loop className="w-28">
             <source src="/videos/hakhamanesh.gif" />
           </video> */}
-          <Image src={"/videos/hakhamanesh.gif"} className="w-28" width={40} height={40} alt="irani world" />
+          <Image src={"/videos/hakhamanesh.gif"} className="w-32" width={40} height={40} alt="irani world" />
           <Link className="group hover:bg-black transition-all duration-300 p-2 rounded-full border border-white-shade-4" href={"https://irani.bio"}>
             <svg
               width="19"
@@ -41,7 +41,7 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
             </svg>
           </Link>
         </div>
-        <div className="flex flex-col items-center lg:items-start gap-y-6 lg:order-2 lg:mt-4">
+        <div className="flex flex-col items-center lg:items-start gap-y-4 lg:order-2 lg:mt-7">
           <div className="flex flex-col justify-center lg:items-start items-center gap-y-6 order-2 lg:order-1">
             <h4 className="text-black dark:text-white font-outfit text-2xl text-center lg:text-left font-medium">
               <span className="text-3xl font-semibold">
@@ -59,7 +59,7 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
                 7.5M
               </h4>
               <span className="font-opensans text-white-shade-8 dark:text-white">
-                Iranian immigrant community
+                Iranian immigrant
               </span>
             </div>
           </div>

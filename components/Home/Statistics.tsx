@@ -13,7 +13,7 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
   return (
     <>
       <div
-        className={`${props.classes} flex-col lg:flex-row gap-x-4 gap-y-4 mt-10 lg:mt-16 items-start`}
+        className={`${props.classes} flex-col lg:flex-row gap-x-4 gap-y-4 mt-10 lg:mt-16 items-center lg:items-start`}
       >
         <div className="flex flex-col items-center gap-y-2">
           {/* <video autoPlay muted loop className="w-28">

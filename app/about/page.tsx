@@ -73,9 +73,9 @@ const page = () => {
                 <br />
                 <br />
                 <span className="text-white-shade-6">
-                The artists and programmers of WPS community are trying to keep
-                the first official Iranian platform in the world moving properly
-                forward.
+                  The artists and programmers of WPS community are trying to
+                  keep the first official Iranian platform in the world moving
+                  properly forward.
                 </span>
               </p>
             </div>
@@ -162,7 +162,7 @@ const page = () => {
             </div>
           </div>
           <div
-            className="group hover:cursor-pointer bg-cover hover:bg-[#AA8041] group-hover:bg-[#c6964e] transition-all duration-300 relative w-full  h-[240px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white"
+            className="group hover:cursor-pointer bg-cover hover:bg-[#023113] group-hover:bg-[#c6964e] transition-all duration-300 relative w-full  h-[240px] lg:h-full flex flex-col items-center justify-center rounded-2xl bg-white"
             style={{ backgroundImage: `url('/images/about/uae-bg.png')` }}
           >
             <svg
@@ -340,7 +340,7 @@ const page = () => {
                 className="group-hover:fill-white"
               />
             </svg>
-            <span className="group-hover:bg-[#F7F5F5]/30 group-hover:text-white absolute bottom-4 left-0 flex items-center justify-center self-end font-semibold w-[90%] h-12 mx-5 px-4 bg-[#F7F5F5] text-[#E1CB00] text-center rounded-2xl">
+            <span className="group-hover:bg-[#F7F5F5]/30 group-hover:text-white absolute bottom-4 left-0 flex items-center justify-center self-end font-semibold w-[90%] h-12 mx-5 px-4 bg-[#F7F5F5] text-black text-center rounded-2xl">
               Soon
             </span>
           </div>

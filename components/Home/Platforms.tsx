@@ -27,7 +27,6 @@ interface PlatformsProps {
 }
 
 const Platforms: React.FC<PlatformsProps> = (props) => {
-
   const [activePlatform, setActivePlatform] = useState("usa");
 
   const ref =
@@ -35,7 +34,6 @@ const Platforms: React.FC<PlatformsProps> = (props) => {
   const { events } = useDraggable(ref);
 
   const platformsBox = useRef();
-
 
   return (
     <>

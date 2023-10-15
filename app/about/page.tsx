@@ -7,7 +7,6 @@ import Link from "next/link";
 import OverlayMenu from "@/components/Overlay";
 
 import { useDraggable } from "react-use-draggable-scroll";
-import { Riv, WPS, WSA } from "@/components/Partners";
 
 const page = () => {
   const ref =
@@ -83,7 +82,7 @@ const page = () => {
               <div className="flex flex-col gap-y-4 lg:flex-row gap-x-4 items-center">
                 <Link
                   href={"https://irani.bio"}
-                  className="group hover:bg-black transition-all duration-300 border border-white-shade-6 w-40 h-20 flex items-center justify-center rounded-3xl"
+                  className="group hover:bg-blue transition-all duration-300 border-white-shade-6 w-40 h-20 flex items-center justify-center rounded-3xl"
                 >
                   <svg
                     width="90"
@@ -122,7 +121,7 @@ const page = () => {
                 </Link>
                 <Link
                   href={"https://irani.bio"}
-                  className="group hover:bg-black transition-all duration-300 border border-white-shade-6 w-40 h-20 flex items-center justify-center rounded-3xl"
+                  className="group hover:bg-blue transition-all duration-300 border-white-shade-6 w-40 h-20 flex items-center justify-center rounded-3xl"
                 >
                   <svg
                     width="110"
@@ -305,10 +304,10 @@ const page = () => {
               </span>
             </div>
             <div className="flex justify-between items-center gap-x-3 px-2 py-2">
-              <div className="group-hover:bg-black group-hover:text-white  text-lg w-1/2 h-12 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
+              <div className="group-hover:bg-blue group-hover:text-white  text-lg w-1/2 h-12 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
                 1K users
               </div>
-              <div className="group-hover:bg-black group-hover:text-white w-1/2 h-12 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
+              <div className="group-hover:bg-blue group-hover:text-white w-1/2 h-12 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
                 New York{" "}
                 <span className="text-sm hidden lg:inline">(GMT-4)</span>
               </div>
@@ -393,7 +392,7 @@ const page = () => {
             </span>
           </div>
           <div
-            className="group hover:cursor-pointer bg-cover hover:bg-[#CA353B] transition-all duration-300 relative w-full lg:h-full h-[240px] flex flex-col items-center justify-center rounded-2xl bg-white"
+            className="group hover:cursor-pointer bg-cover hover:bg-[#BA131A] transition-all duration-300 relative w-full lg:h-full h-[240px] flex flex-col items-center justify-center rounded-2xl bg-white"
             style={{ backgroundImage: `url('/images/about/canada-bg.png')` }}
           >
             <svg

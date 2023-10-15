@@ -651,3 +651,8 @@ input:checked ~ .switch__Label--Night {
   cursor: pointer;
   filter: drop-shadow(10px 10px 40px rgba(0, 0, 0, 0.3));
 }
+
+
+.canada-bg-hover:hover {
+  background-image: url('../public/images/about/canada-hover.png');
+}

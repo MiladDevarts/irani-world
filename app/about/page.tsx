@@ -392,7 +392,7 @@ const page = () => {
             </span>
           </div>
           <div
-            className="group hover:cursor-pointer bg-cover hover:bg-[#BA131A] transition-all duration-300 relative w-full lg:h-full h-[240px] flex flex-col items-center justify-center rounded-2xl bg-white"
+            className="canada-bg-hover group hover:cursor-pointer bg-cover hover:bg-[#BA131A] transition-all duration-300 relative w-full lg:h-full h-[240px] flex flex-col items-center justify-center rounded-2xl bg-white"
             style={{ backgroundImage: `url('/images/about/canada-bg.png')` }}
           >
             <svg

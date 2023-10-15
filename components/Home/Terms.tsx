@@ -8,14 +8,14 @@ const Terms = () => {
       {/* 4. Terms + Flag Icons List */}
       <div className="flex flex-col items-center lg:items-start mt-10 w-full h-auto lg:text-left text-center">
         <Image
-          className="w-52 lg:w-auto"
+          className="w-40 lg:w-auto"
           src={"/images/home/flags.png"}
           width={100}
           height={100}
           alt="Irani World"
         />
         <svg
-        className="my-4"
+        className="mt-5 mb-7"
           width="284"
           height="1"
           viewBox="0 0 284 1"

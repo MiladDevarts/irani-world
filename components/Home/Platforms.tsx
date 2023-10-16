@@ -35,6 +35,12 @@ const Platforms: React.FC<PlatformsProps> = (props) => {
 
   const platformsBox = useRef();
 
+  // useEffect(() => {
+  //   setInterval(() => {
+  //     ref.current.scrollLeft = 100;
+  //   }, 3000);
+  // }, []);
+
   return (
     <>
       {/* Right => Services in Countries */}
@@ -46,7 +52,10 @@ const Platforms: React.FC<PlatformsProps> = (props) => {
         <div
           ref={ref}
           {...events}
-          className="relative grid no-scroll auto-cols-[100px] grid-flow-col gap-x-3 overflow-x-auto p-4 -z[200] w-full h-32 rounded-3xl bg-white-shade-2 dark:bg-[#273140] hover:cursor-pointer transition-all duration-300"
+          onClick={() => {
+            scrollTo(200, 0);
+          }}
+          className="scroll-smooth relative grid no-scroll auto-cols-[100px] grid-flow-col gap-x-3 overflow-x-auto p-4 -z[200] w-full h-32 rounded-3xl bg-white-shade-2 dark:bg-[#273140] hover:cursor-pointer transition-all duration-300"
         >
           <div
             onClick={() => setActivePlatform("usa")}

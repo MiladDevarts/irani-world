@@ -38,7 +38,7 @@ const ConatctOptions = () => {
           />
         </svg>
       </h1>
-      <p className="block lg:hidden text-white-shade-9 max-w-md text-2xl font-normal mb-4">
+      <p className="block lg:hidden text-white-shade-9 max-w-md text-lg font-normal mb-1">
         Ask about our platform, pricing, or something else. We will respond to
         your inquiry as soon as possible.
       </p>

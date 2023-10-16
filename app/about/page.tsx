@@ -79,10 +79,10 @@ const page = () => {
               </p>
             </div>
             <div className="mt-5">
-              <div className="flex flex-col gap-y-4 lg:flex-row gap-x-6 items-center">
+              <div className="flex flex-col gap-y-5 lg:flex-row gap-x-6 lg:items-center items-start">
                 <Link
                   href={"https://irani.bio"}
-                  className="grouptransition-all duration-300 border-white-shade-6 h-20 px-4 flex items-center justify-center rounded-3xl"
+                  className="grouptransition-all duration-300 border-white-shade-6 h-20 flex items-center justify-center rounded-3xl"
                 >
                   <svg
                     width="90"
@@ -118,7 +118,7 @@ const page = () => {
                 </Link>
                 <Link
                   href={"https://irani.news"}
-                  className="group  transition-all duration-300 border-white-shade-6 px-2 h-20 flex items-center justify-center rounded-3xl"
+                  className="group  transition-all duration-300 border-white-shade-6 h-20 flex items-center justify-center rounded-3xl"
                 >
                   <svg
                     width="110"
@@ -151,9 +151,10 @@ const page = () => {
                     />
                   </svg>
                 </Link>
-                <Link className="group flex relative" href={"/"}>
-                  <svg
-                    className="opacity-25 mx-6"
+              
+                <Link className="group flex relative -mt-6 lg:mt-0" href={"/"}>
+                <svg
+                    className="opacity-25"
                     width="110"
                     height="110"
                     viewBox="0 0 661 189"
@@ -192,12 +193,12 @@ const page = () => {
                   </svg>
                   <span
                     className="font-outfit duration-500 group-hover:opacity-100 transition-opacity bg-black px-2 text-sm text-white rounded-md absolute -top-10 left-1/2 
-    -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto"
+    -translate-x-1/2 translate-y-full opacity-0"
                   >
                     Soon!
                   </span>
                 </Link>
-                <Link className="group flex relative -mt-6 lg:mt-0" href={"/"}>
+                <Link className="group flex relative -mt-10 lg:mt-0" href={"/"}>
                   <svg
                     className="opacity-25"
                     width="110"
@@ -230,7 +231,7 @@ const page = () => {
                   </svg>
                   <span
                     className="font-outfit duration-500 group-hover:opacity-100 transition-opacity bg-black px-2 text-sm text-white rounded-md absolute -top-10 left-1/2 
-    -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto"
+    -translate-x-1/2 translate-y-full opacity-0"
                   >
                     Soon!
                   </span>
@@ -276,15 +277,16 @@ const page = () => {
                   />
                 </svg>
               </Link>
-              <span className="flex justify-center items-center gap-x-3 py-2 px-6 bg-[#43D100]/10 text-[#43D100] rounded-full font-semibold">
+              <span className="flex justify-center items-center gap-x-3 py-2 px-6 bg-[#43D100]/10 text-[#43D100] rounded-full font-extrabold">
                 <svg
-                  width="11"
-                  height="12"
+                  width="16"
+                  height="16"
                   viewBox="0 0 11 12"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle
+                  <circle 
+                  className="animate-pulse"
                     cx="5.5"
                     cy="6"
                     r="4.76667"
@@ -301,13 +303,13 @@ const page = () => {
                 1K users
               </div>
               <div className="group-hover:bg-blue group-hover:text-white w-1/2 h-12 flex justify-center items-center bg-white-shade-2 text-black text-center font-outfit font-semibold rounded-3xl">
-                New York{" "}
+                New York
                 <span className="text-sm hidden lg:inline">(GMT-4)</span>
               </div>
             </div>
             <div className="px-2">
               <div
-                className="w-full h-[90px]  bg-center bg-cover rounded-3xl"
+                className="w-full h-[90px]  bg-center bg-cover rounded-3xl animate-pulse"
                 style={{ backgroundImage: `url('/images/maps/usa-map.png')` }}
               ></div>
             </div>

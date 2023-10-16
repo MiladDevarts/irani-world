@@ -48,14 +48,14 @@ const page = () => {
                   className="px-1 font-semibold text-black"
                 >
                   WPS
-                </Link>{" "}
-                and{" "}
+                </Link>
+                and
                 <Link
                   href={"https://wsa.team/"}
                   className="pl-1 font-semibold text-black"
                 >
                   WSA.
-                </Link>{" "}
+                </Link>
                 This platform is essentially a partnership between a non-profit,
                 artists, developers, and business people who have the common
                 goal of bringing Iranian people closer together.

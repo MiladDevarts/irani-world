@@ -23,7 +23,7 @@ const OverlayMenu = () => {
   
 
   const OverlayClasses = classNames(
-    "z-[1010] block lg:hidden w-full h-auto transition-all fixed top-0 -left-[1200px] z-10 soft-shadow bg-white duration-500",
+    "z-[1010] block lg:hidden w-full h-auto transition-all fixed top-0 -left-[1200px] z-10 soft-shadow bg-white duration-200",
     {
       "left-0": menuVisibilty.menu,
       "-left-[1200px]": !menuVisibilty.menu,
@@ -42,6 +42,7 @@ const OverlayMenu = () => {
             return (
               <li key={index} className="text-black dark:text-white font-normal">
                 <Link
+                data-aos="fade-right"
                   href={menuItem.slug}
                   onClick={() => {
                     menuVisibilty.setMenu(!menuVisibilty.menu);

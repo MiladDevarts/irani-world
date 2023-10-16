@@ -25,7 +25,7 @@ const page = () => {
               <h3 className="text-[#FA092B] text-3xl font-semibold font-outfit">
                 By Persians, For Persians
               </h3>
-              <p className="lg:max-w-3xl text-lg text-white-shade-8 mt-6">
+              <p className="lg:max-w-3xl text-base text-white-shade-8 mt-6">
                 <Link href={"/"} className="pr-1 font-semibold text-black">
                   Irani.World
                 </Link>

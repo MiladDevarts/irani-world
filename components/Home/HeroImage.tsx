@@ -32,7 +32,7 @@ const HeroImage = () => {
       {currentSlide == 1 && (
         <section
           data-aos="fade-up"
-          className="relative top-0 left-0 overflow-hidden flex justify-center py-10 w-full lg:w-1/3 h-[400px] lg:h-[92vh] my-20 lg:my-0 bg-center bg-cover bg-no-repeat rounded-3xl lg:rounded-none bg-animate"
+          className="relative top-0 left-0 overflow-hidden hidden lg:flex  justify-center py-10 w-full lg:w-1/3 h-[400px] lg:h-[92vh] my-20 lg:my-0 bg-center bg-cover bg-no-repeat rounded-3xl lg:rounded-none bg-animate"
         >
           <div
             data-aos="zoom-in"
@@ -49,7 +49,7 @@ const HeroImage = () => {
         </section>
       )}
       {currentSlide == 2 && (
-        <section className="relative top-0 left-0 overflow-hidden flex justify-center py-10 w-full lg:w-1/3 h-[600px] lg:h-[92vh] my-20 lg:my-0 bg-center bg-cover bg-no-repeat rounded-3xl lg:rounded-none bg-animate">
+        <section className="relative top-0 left-0 overflow-hidden hidden lg:flex justify-center py-10 w-full lg:w-1/3 h-[600px] lg:h-[92vh] my-20 lg:my-0 bg-center bg-cover bg-no-repeat rounded-3xl lg:rounded-none bg-animate">
           <div
             data-aos="zoom-in"
             data-aso-duration="2000"

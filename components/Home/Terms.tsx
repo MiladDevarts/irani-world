@@ -24,7 +24,7 @@ const Terms = () => {
         >
           <line y1="0.5" x2="284" y2="0.5" stroke="#E6E6E6" />
         </svg>
-        <p className="text-2xl lg:text-base font-opensans text-white-shade-8">
+        <p className="text-lg lg:text-base font-opensans text-white-shade-8">
           <Link href={"/terms"} className="font-semibold mr-1 text-white-shade-15">Terms</Link>
            and conditions outline
           <br />

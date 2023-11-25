@@ -56,7 +56,7 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
               <span className="text-3xl font-semibold">
                 <span className="mr-1">6</span>
               </span>
-              Platform
+              Platforms
             </h4>
             <span className="font-opensans font-medium -mt-6 text-white-shade-8 dark:text-white">
               All around the world
@@ -100,10 +100,10 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
           <div className="flex gap-x-10 order-1 lg:order-2 text-center lg:text-left">
             <div className="">
               <h4 className="text-black dark:text-white  font-outfit text-5xl lg:text-2xl font-semibold">
-                7.5M
+                8.5M
               </h4>
               <span className="font-opensans text-white-shade-8 dark:text-white">
-                Iranian immigrant
+                Iranian immigrants
               </span>
             </div>
           </div>

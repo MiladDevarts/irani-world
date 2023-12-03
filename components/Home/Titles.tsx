@@ -17,7 +17,7 @@ const Titles = () => {
   useEffect(() => {
     setInterval(() => {
       setShowMainData(true)
-    },1500)
+    },1000)
   },[])
 
   return (
@@ -27,11 +27,11 @@ const Titles = () => {
       <section className="w-full lg:w-1/3 pt-28 lg:pt-10">
         {!showMainData ? (
           <>
-          <Skeleton duration={1.5} count={1} className="max-w-[100px] mb-14 mt-4" />
-          <Skeleton duration={1.5} count={3} className="max-w-xs my-2" />
-          <Skeleton duration={1.5} count={1} className="max-w-[150px] mt-8" />
-          <Skeleton duration={1.5} count={1} className="max-w-[100px] mb-8" />
-          <Skeleton duration={1.5} count={1} className="max-w-[180px] mt-8 mb-3" />
+          <Skeleton duration={1} count={1} className="max-w-[100px] mb-14 mt-4" />
+          <Skeleton duration={1} count={3} className="max-w-xs my-2" />
+          <Skeleton duration={1} count={1} className="max-w-[150px] mt-8" />
+          <Skeleton duration={1} count={1} className="max-w-[100px] mb-8" />
+          <Skeleton duration={1} count={1} className="max-w-[180px] mt-8 mb-3" />
           
           </>
         ) : (

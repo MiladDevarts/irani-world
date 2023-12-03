@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import Script from "next/script";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -26,6 +27,10 @@ export default function Home() {
 
   return (
     <>
+      <Script
+        src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"
+        strategy="beforeInteractive"
+      />
       <OverlayMenu />
 
       <div

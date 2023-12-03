@@ -85,7 +85,7 @@ const Titles = () => {
           "
               className="max-w-sm text-[20px] lg:text-lg text-white-shade-8 dark:text-[#ffffff] my-6 font-normal lg:font-light"
             >
-              with history and heritage in mind to fuel an economic and cultural
+              With history and heritage in mind to fuel an economic and cultural
               renaissance
             </p>
             <div className="flex gap-x-2">

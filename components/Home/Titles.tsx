@@ -90,7 +90,7 @@ const Titles = () => {
             </p>
             <div className="flex gap-x-2">
               <Link
-                className="dark:hidden btn-flashing-animation inline-flex justify-center items-center font-opensans font-normal lg:font-medium rounded-2xl text-center text-xl lg:text-base p-3 w-52 lg:w-40 h-16 lg:h-12 hover:bg-[#333b44] transition-all"
+                className="dark:hidden text-white btn-flashing-animation inline-flex justify-center items-center font-opensans font-normal lg:font-medium rounded-2xl text-center text-xl lg:text-base p-3 w-52 lg:w-40 h-16 lg:h-12 hover:bg-[#333b44] transition-all"
                 href="https://iraniusa.com"
                 target="_blank"
               >

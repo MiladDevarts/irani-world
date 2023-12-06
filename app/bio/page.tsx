@@ -14,9 +14,8 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <>
-      <OverlayMenu />
-      <main className="container flex flex-col lg:flex-row">
+
+      {/* <main className="container flex flex-col lg:flex-row">
         <div className="w-full lg:w-5/6 pt-16">
           <div className="w-full flex items-center gap-x-8 pb-10 mt-20 lg:mt-0">
             <svg
@@ -231,8 +230,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </main>
-    </>
+      </main> */}
   );
 };
 

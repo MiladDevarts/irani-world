@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 interface NewsCardProps {
+  url:string;
   readingTime: string;
   title: string;
   summery: string;
@@ -11,7 +12,6 @@ interface NewsCardProps {
   cover: string;
   cm: string;
   like: string;
-  url:string
 }
 
 const NewsCard: React.FC<NewsCardProps> = (props) => {

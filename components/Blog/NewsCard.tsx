@@ -11,13 +11,14 @@ interface NewsCardProps {
   cover: string;
   cm: string;
   like: string;
+  url:string
 }
 
 const NewsCard: React.FC<NewsCardProps> = (props) => {
   return (
     <>
       <Link
-        href={"#"}
+        href={props.url}
         className="w-full lg:w-1/2 group mt-0 lg:hover:-mt-2 transition-all duration-500"
       >
         <div
@@ -36,7 +37,7 @@ const NewsCard: React.FC<NewsCardProps> = (props) => {
             <div>
               <div className="flex items-center gap-x-5 py-5 lg:py-0 lg:pt-3">
                 <div className="flex items-center gap-x-3">
-                  <img className="w-10" src="/images/avatar/1.png" alt="" />
+                  <img className="w-10" src={props.avatar} alt="" />
                   <h1 className="text-black text-sm font-semibold font-opensans flex flex-col items-start">
                     {props.author}
                     <span className="font-opensans text-sm text-white-shade-9 font-normal">
@@ -49,11 +50,11 @@ const NewsCard: React.FC<NewsCardProps> = (props) => {
           </div>
           <div
             className="lg:block hidden w-full lg:w-1/2 max-h-full lg:max-h-full  bg-cover bg-center rounded-2xl my-3"
-            style={{ backgroundImage: `url('/images/thumbnails/1.jpg')` }}
+            style={{ backgroundImage: `url(${props.cover})` }}
           ></div>
           <div
             className="lg:hidden block w-full lg:w-1/3 h-44 lg:max-h-full  bg-cover bg-center rounded-2xl my-3"
-            style={{ backgroundImage: `url('/images/thumbnails/1.jpg')` }}
+            style={{ backgroundImage: `url(${props.cover})` }}
           ></div>
         </div>
       </Link>

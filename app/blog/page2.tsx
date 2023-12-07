@@ -79,7 +79,7 @@ const page = () => {
               like={"2k"}
             />
             <NewsCard
-              url="blog/why-should-you-use-and-invest-time-in-the-Iraniworld-platform"
+              url="blog/why-use-invest-time-iraniworld"
               readingTime={"6 min read"}
               title={
                 "Why should you use and invest time in the Irani.World platform? "
@@ -125,7 +125,7 @@ const page = () => {
               cover={"/images/thumbnails/wsa-cover.jpg"}
             />
             <NewsCardFullWidth
-              url="/riv-design-company"
+              url="/wps-associations-new-endeavor"
               readingTime={"3"}
               title={
                 "Bridging Boundaries: WPS Association's New Endeavor - WSA"

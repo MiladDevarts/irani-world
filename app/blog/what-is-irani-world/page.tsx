@@ -1,7 +1,6 @@
 import React from "react";
 
 import { ActiveBlogger, Tag } from "@/components/Sidebar";
-import { NewsCardFullWidth, NewsCard } from "@/components/Blog";
 
 import OverlayMenu from "@/components/Overlay";
 import { Metadata } from "next";
@@ -9,7 +8,7 @@ import Link from "next/link";
 import BlogCardM from "@/components/Blog/BlogCardM";
 
 export const metadata: Metadata = {
-  title: "invest time in the Irani.World platform",
+  title: "What is the Irani.World platform ?",
   description: "",
 };
 
@@ -21,7 +20,7 @@ const page = () => {
         <div className="w-full lg:w-4/5 pt-16">
           <div className="w-full flex flex-col items-center mb-10">
             <h1 className="text-black font-outfit text-3xl font-semibold text-center max-w-xl">
-              What is the Irani.World platform
+              What is the Irani.World platform ?
             </h1>
             <div className="flex items-center gap-x-6 mt-6  text-white-shade-8 font-medium">
               <div className="flex items-center gap-x-2 text-sm">
@@ -66,7 +65,7 @@ const page = () => {
                 September 4, 2020
               </div>
               <div className="flex items-center gap-x-3">
-                <img className="w-8" src="/images/avatar/1.png" alt="" />
+                <img className="w-8" src="/images/bloggers/irani-world.png" alt="" />
                 <h1 className="text-sm font-semibold font-opensans flex flex-col items-start">
                   By Irani World Board
                 </h1>

@@ -67,7 +67,7 @@ const page = () => {
             <NewsCard
               url="blog/what-is-irani-world"
               readingTime={"3 min read"}
-              title={"What is the Irani.World platform"}
+              title={"What is the Irani.World platform?"}
               summery={
                 "All people who have some connection to Iranian culture or ethnicity, are welcome to this platform. "
               }

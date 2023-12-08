@@ -110,7 +110,7 @@ const page = () => {
               cover={"/images/thumbnails/riv-cover.jpg"}
             />
             <NewsCardFullWidth
-              url="blog/wps-associations-new-endeavor"
+              url="blog/wsa-riv-wps-partnership-innovative-ad-platform"
               readingTime={"3"}
               title={
                 "WSA Company Announces Exciting Partnership with RIV Company and WPS Association for Innovative Advertising Platform"

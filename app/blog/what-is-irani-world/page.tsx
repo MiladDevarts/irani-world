@@ -1,6 +1,4 @@
-"use client"
-
-import React from "react";
+import { Metadata } from "next";
 
 import { ActiveBlogger, Tag } from "@/components/Sidebar";
 
@@ -8,7 +6,10 @@ import OverlayMenu from "@/components/Overlay";
 import Link from "next/link";
 import BlogCardM from "@/components/Blog/BlogCardM";
 
-
+export const metadata: Metadata = {
+  title: "What is the Irani.World platform?",
+  description: "",
+};
 
 const page = () => {
 

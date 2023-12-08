@@ -9,7 +9,7 @@ import Link from "next/link";
 import BlogCardM from "@/components/Blog/BlogCardM";
 
 export const metadata: Metadata = {
-  title: "invest time in the Irani.World platform",
+  title: "WSA Riv WPS Partnership Innovative AD Platform",
   description: "",
 };
 
@@ -67,9 +67,9 @@ const page = () => {
                 September 4, 2020
               </div>
               <div className="flex items-center gap-x-3">
-                <img className="w-8" src="/images/avatar/1.png" alt="" />
+                <img className="w-8" src="/images/bloggers/wsa.png" alt="" />
                 <h1 className="text-sm font-semibold font-opensans flex flex-col items-start">
-                  By Irani World Board
+                  By WSA
                 </h1>
               </div>
             </div>

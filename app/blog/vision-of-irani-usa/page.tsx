@@ -9,7 +9,7 @@ import Link from "next/link";
 import BlogCardM from "@/components/Blog/BlogCardM";
 
 export const metadata: Metadata = {
-  title: "invest time in the Irani.World platform",
+  title: "Crafting the Vision of Irani USA from Idea to Reality",
   description: "",
 };
 
@@ -251,7 +251,7 @@ const page = () => {
           <div className="w-full flex flex-col mt-20 mb-2">
             <div className="w-full flex gap-x-4">
               <BlogCardM
-              url={"blog/what-is-irani-world"}
+                url={"blog/what-is-irani-world"}
                 classes={"lg:my-10 lg:w-1/2"}
                 readingTime={"6 min read"}
                 title={"What is the Irani.World platform"}
@@ -265,7 +265,7 @@ const page = () => {
                 info={false}
               />
               <BlogCardM
-              url={"/"}
+                url={"/"}
                 classes={"lg:my-10 lg:w-1/2"}
                 readingTime={"3 min read"}
                 title={
@@ -322,7 +322,7 @@ const page = () => {
                 Tags
               </h3>
               <div className="max-w-sm flex items-center flex-wrap gap-x-2 gap-y-3">
-              <Tag title={"USA"} />
+                <Tag title={"USA"} />
                 <Tag title={"Irani_USA"} />
                 <Tag title={"Irani_World"} />
                 <Tag title={"Vision"} />

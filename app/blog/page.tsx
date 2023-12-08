@@ -19,7 +19,7 @@ const page = () => {
       <main className="container flex flex-col lg:flex-row">
         <div className="w-full lg:w-5/6 pt-16 lg:mt-0 mt-16">
           <div className="w-full flex flex-col gap-y-4 lg:flex-row justify-between items-center mb-10 ">
-            <div className="group flex items-center gap-x-3 px-3 py-3 w-full lg:w-1/2 h-22 rounded-full border border-white-shade-4">
+            <div className="focus-within:border-black focus-within:border-2 transition-all flex items-center gap-x-3 px-3 py-3 w-full lg:w-1/2 h-22 rounded-full border-2 border-white-shade-4">
               <svg
                 width="58"
                 height="58"
@@ -72,7 +72,7 @@ const page = () => {
                 "All people who have some connection to Iranian culture or ethnicity, are welcome to this platform. "
               }
               author={"Irani World"}
-              publish={"Posted just now"}
+              publish={"Dec 1 , 2023"}
               avatar={"/images/bloggers/irani-world.png"}
               cover={"/images/thumbnails/iw-1-cover.jpg"}
               cm={"120"}
@@ -88,7 +88,7 @@ const page = () => {
                 "Bringing Iranian businesses and professionals together has valuable positive "
               }
               author={"Irani World"}
-              publish={"Posted just now"}
+              publish={"Nov 25 , 2023"}
               avatar={"/images/bloggers/irani-world.png"}
               cover={"/images/thumbnails/iw-2-cover.jpg"}
               cm={"120"}
@@ -125,7 +125,7 @@ const page = () => {
               cover={"/images/thumbnails/wsa-cover.jpg"}
             />
             <NewsCardFullWidth
-              url="/wps-associations-new-endeavor"
+              url="blog/wps-associations-new-endeavor"
               readingTime={"3"}
               title={
                 "Bridging Boundaries: WPS Association's New Endeavor - WSA"
@@ -208,15 +208,16 @@ const page = () => {
                 <div className="flex w-full h-32 gap-x-3 p-3">
                   <div
                     className="w-20 h-full roundex-3xl bg-center bg-cover rounded-xl"
-                    style={{ backgroundImage: `url('/images/featured/1.png')` }}
+                    style={{ backgroundImage: `url('/images/thumbnails/riv-cover.jpg')` }}
                   ></div>
                   <div className="flex flex-col gap-y-3">
                     <span className="text-black font-outfit text-lg font-semibold mt-2">
-                      White Candle Black
-                      <br />– White Deer Anons
+                    Crafting the Vision of 
+                    <br />
+                    Irani USA from Idea to Reality
                     </span>
-                    <span className="font-medium text-white-shade-8 text-lg">
-                      11 aug 2023
+                    <span className="font-medium text-white-shade-8">
+                      15 oct 2023
                     </span>
                   </div>
                 </div>

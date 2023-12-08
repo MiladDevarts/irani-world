@@ -1,22 +1,21 @@
+"use client"
+
 import React from "react";
 
 import { ActiveBlogger, Tag } from "@/components/Sidebar";
 
 import OverlayMenu from "@/components/Overlay";
-import { Metadata } from "next";
 import Link from "next/link";
 import BlogCardM from "@/components/Blog/BlogCardM";
 
-export const metadata: Metadata = {
-  title: "What is the Irani.World platform ?",
-  description: "",
-};
+
 
 const page = () => {
+
   return (
     <>
       <OverlayMenu />
-      <main className="container flex flex-col lg:flex-row">
+      <main className="relative container flex flex-col lg:flex-row">
         <div className="w-full lg:w-4/5 pt-16">
           <div className="w-full flex flex-col items-center mb-10">
             <h1 className="text-black font-outfit text-3xl font-semibold text-center max-w-xl">
@@ -62,7 +61,7 @@ const page = () => {
                     fill="#A6A6A6"
                   />
                 </svg>
-                September 4, 2020
+                December 1, 2023
               </div>
               <div className="flex items-center gap-x-3">
                 <img className="w-8" src="/images/bloggers/irani-world.png" alt="" />
@@ -251,7 +250,7 @@ const page = () => {
                   "Bringing Iranian businesses and professionals together has valuable positive "
                 }
                 author={"Irani World"}
-                publish={"Posted just now"}
+                publish={"Nov 25 , 2023"}
                 avatar={"/images/bloggers/irani-world.png"}
                 cover={"/images/thumbnails/iw-inside-1.jpg"}
                 info={false}
@@ -320,6 +319,7 @@ const page = () => {
             </div>
           </div>
         </div>
+       
       </main>
     </>
   );

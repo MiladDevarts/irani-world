@@ -240,11 +240,11 @@ const page = () => {
                 Tags
               </div>
               <div className="flex gap-x-2 items-center">
-                <Tag title={"Platform"} />
-                <Tag title={"Launch"} />
-                <Tag title={"Iran"} />
-                <Tag title={"Community"} />
-                <Tag title={"Iranian"} />
+                <Tag title={"USA"} />
+                <Tag title={"Irani_USA"} />
+                <Tag title={"Irani_World"} />
+                <Tag title={"Vision"} />
+                <Tag title={"Future"} />
               </div>
             </div>
           </div>
@@ -258,7 +258,7 @@ const page = () => {
                   "All people who have some connection to Iranian culture or ethnicity, are welcome to this platform. "
                 }
                 author={"Irani World"}
-                publish={"Posted just now"}
+                publish={"Dec 1 , 2023"}
                 avatar={"/images/bloggers/irani-world.png"}
                 cover={"/images/thumbnails/iw-1-cover.jpg"}
                 info={false}
@@ -320,11 +320,11 @@ const page = () => {
                 Tags
               </h3>
               <div className="max-w-sm flex items-center flex-wrap gap-x-2 gap-y-3">
-                <Tag title={"Platform"} />
-                <Tag title={"Launch"} />
-                <Tag title={"Iran"} />
-                <Tag title={"Community"} />
-                <Tag title={"Iranian"} />
+              <Tag title={"USA"} />
+                <Tag title={"Irani_USA"} />
+                <Tag title={"Irani_World"} />
+                <Tag title={"Vision"} />
+                <Tag title={"Future"} />
               </div>
             </div>
           </div>

@@ -275,7 +275,7 @@ const page = () => {
                   "All people who have some connection to Iranian culture or ethnicity, are welcome to this platform. "
                 }
                 author={"Irani World"}
-                publish={"Posted just now"}
+                publish={"Dec 1 , 2023"}
                 avatar={"/images/bloggers/irani-world.png"}
                 cover={"/images/thumbnails/iw-1-cover.jpg"}
                 info={false}
@@ -288,7 +288,7 @@ const page = () => {
                   "In the world of web design and development, there are  ... "
                 }
                 author={"Riv Design"}
-                publish={"Posted just now"}
+                publish={"Dec 1 , 2023"}
                 avatar={"/images/bloggers/riv.png"}
                 cover={"/images/thumbnails/riv-cover.jpg"}
                 info={false}

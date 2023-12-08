@@ -251,7 +251,7 @@ const page = () => {
                   "Bringing Iranian businesses and professionals together has valuable positive "
                 }
                 author={"Irani World"}
-                publish={"Posted just now"}
+                publish={"Nov 25 , 2023"}
                 avatar={"/images/bloggers/irani-world.png"}
                 cover={"/images/thumbnails/iw-inside-1.jpg"}
                 info={false}
@@ -264,7 +264,7 @@ const page = () => {
                   "In the world of web design and development, there are  ... "
                 }
                 author={"Riv Design"}
-                publish={"Posted just now"}
+                publish={"Oct 15, 2023"}
                 avatar={"/images/bloggers/riv.png"}
                 cover={"/images/thumbnails/riv-cover.jpg"}
                 info={false}

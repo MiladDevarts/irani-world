@@ -8,7 +8,7 @@ import Link from "next/link";
 import BlogCardM from "@/components/Blog/BlogCardM";
 
 export const metadata: Metadata = {
-  title: "What is the Irani.World platform ?",
+  title: "Unveiling Irani.World's American Section: A Job and Personalization Platform Tailored for Iranian Americans",
   description: "",
 };
 
@@ -325,11 +325,11 @@ const page = () => {
                 Tags
               </div>
               <div className="flex gap-x-2 items-center">
-                <Tag title={"Platform"} />
-                <Tag title={"Launch"} />
-                <Tag title={"Iran"} />
+              <Tag title={"Job_Seeking"} />
+                <Tag title={"jobs"} />
+                <Tag title={"iranian"} />
+                <Tag title={"Iranian_Amarican"} />
                 <Tag title={"Community"} />
-                <Tag title={"Iranian"} />
               </div>
             </div>
           </div>
@@ -345,7 +345,7 @@ const page = () => {
                   "Bringing Iranian businesses and professionals together has valuable positive "
                 }
                 author={"Irani World"}
-                publish={"Posted just now"}
+                publish={"Nov 25 , 2023"}
                 avatar={"/images/bloggers/irani-world.png"}
                 cover={"/images/thumbnails/iw-inside-1.jpg"}
                 info={false}
@@ -358,7 +358,7 @@ const page = () => {
                   "In the world of web design and development, there are  ... "
                 }
                 author={"Riv Design"}
-                publish={"Posted just now"}
+                publish={"Oct 15 , 2023"}
                 avatar={"/images/bloggers/riv.png"}
                 cover={"/images/thumbnails/riv-cover.jpg"}
                 info={false}
@@ -405,11 +405,11 @@ const page = () => {
                 Tags
               </h3>
               <div className="max-w-sm flex items-center flex-wrap gap-x-2 gap-y-3">
-                <Tag title={"Platform"} />
-                <Tag title={"Launch"} />
-                <Tag title={"Iran"} />
+                <Tag title={"Job_Seeking"} />
+                <Tag title={"jobs"} />
+                <Tag title={"iranian"} />
+                <Tag title={"Iranian_Amarican"} />
                 <Tag title={"Community"} />
-                <Tag title={"Iranian"} />
               </div>
             </div>
           </div>

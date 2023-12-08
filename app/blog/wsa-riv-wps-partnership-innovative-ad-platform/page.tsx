@@ -301,7 +301,7 @@ const page = () => {
                   "All people who have some connection to Iranian culture or ethnicity, are welcome to this platform. "
                 }
                 author={"Irani World"}
-                publish={"Posted just now"}
+                publish={"Dec 1 , 2023"}
                 avatar={"/images/bloggers/irani-world.png"}
                 cover={"/images/thumbnails/iw-1-cover.jpg"}
                 info={false}

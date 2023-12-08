@@ -337,7 +337,7 @@ const page = () => {
           <div className="w-full flex flex-col mt-20 mb-2">
             <div className="w-full flex gap-x-4">
               <BlogCardM
-                url={"blog/why-use-invest-time-iraniworld"}
+                url={"/blog/why-use-invest-time-iraniworld"}
                 classes={"lg:my-10 lg:w-1/2"}
                 readingTime={"6 min read"}
                 title={

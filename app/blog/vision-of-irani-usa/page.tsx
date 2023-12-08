@@ -265,6 +265,7 @@ const page = () => {
                 info={false}
               />
               <BlogCardM
+              url={"/"}
                 classes={"lg:my-10 lg:w-1/2"}
                 readingTime={"3 min read"}
                 title={

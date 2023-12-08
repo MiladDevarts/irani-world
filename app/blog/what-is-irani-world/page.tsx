@@ -257,6 +257,7 @@ const page = () => {
                 info={false}
               />
                <BlogCardM
+               url={"blog/vision-of-irani-usa"}
                 classes={"lg:my-10 lg:w-1/2"}
                 readingTime={"3 min read"}
                 title={"Crafting the Vision of Irani USA from Idea to Reality"}

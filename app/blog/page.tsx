@@ -100,10 +100,10 @@ const page = () => {
               url="blog/why-use-invest-time-iraniworld"
               readingTime={"3 min read"}
               title={
-                "Why should you use and invest time in the Irani.World platform? "
+                "Why should you use and invest time in the Irani.World ? "
               }
               summery={
-                "Bringing Iranian businesses and professionals together has valuable positive "
+                "BBringing Iranian businesses and professionals together has valuable positive impact ... "
               }
               author={"Irani World"}
               publish={"Nov 25 , 2023"}

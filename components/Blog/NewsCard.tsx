@@ -1,8 +1,13 @@
+"use client";
+
 import Link from "next/link";
-import React from "react";
+import { useEffect, useState } from "react";
+
+import Skeleton from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 
 interface NewsCardProps {
-  url:string;
+  url: string;
   readingTime: string;
   title: string;
   summery: string;
@@ -15,6 +20,14 @@ interface NewsCardProps {
 }
 
 const NewsCard: React.FC<NewsCardProps> = (props) => {
+  const [showMainData, setShowMainData] = useState(false);
+
+  useEffect(() => {
+    setInterval(() => {
+      setShowMainData(true);
+    }, 1000);
+  }, []);
+
   return (
     <>
       <Link
@@ -28,12 +41,36 @@ const NewsCard: React.FC<NewsCardProps> = (props) => {
             <span className="w-[80px] h-10 flex items-center justify-center group-hover:bg-black group-hover:text-white transition-all duration-300 bg-white-shade-3 text-black font-medium font-opensans text-xs rounded-lg">
               {props.readingTime}
             </span>
-            <h1 className="text-black text-xl font-outfit font-semibold lg:max-w-sm lg:text-lg">
-              {props.title}
-            </h1>
-            <p className="font-opensans text-white-shade-11 font-medium text-xs lg:max-w-xs">
-              {props.summery}
-            </p>
+            {!showMainData ? (
+              <>
+
+                <Skeleton
+                  duration={1}
+                  count={1}
+                  className="max-w-full"
+                />
+                 <Skeleton
+                  duration={1}
+                  count={1}
+                  className="max-w-[100px]"
+                />
+                <Skeleton
+                  duration={1}
+                  count={2}
+                  className="max-w-[180px]"
+                />
+              </>
+            ) : (
+              <>
+                <h1 className="text-black text-xl font-outfit font-semibold lg:max-w-sm lg:text-lg">
+                  {props.title}
+                </h1>
+                <p className="font-opensans text-white-shade-11 font-medium text-xs lg:max-w-xs">
+                  {props.summery}
+                </p>
+              </>
+            )}
+
             <div>
               <div className="flex items-center gap-x-5 py-5 lg:py-0 lg:pt-3">
                 <div className="flex items-center gap-x-3">

@@ -69,7 +69,7 @@ const page = () => {
               <div className="flex items-center gap-x-3">
                 <img className="w-8" src="/images/bloggers/riv.png" alt="" />
                 <h1 className="text-sm font-semibold font-opensans flex flex-col items-start">
-                  By Irani World Board
+                  By Riv Design
                 </h1>
               </div>
             </div>

@@ -8,7 +8,8 @@ import Link from "next/link";
 import BlogCardM from "@/components/Blog/BlogCardM";
 
 export const metadata: Metadata = {
-  title: "Unveiling Irani.World's American Section: A Job and Personalization Platform Tailored for Iranian Americans",
+  title:
+    "Unveiling Irani.World's American Section: A Job and Personalization Platform Tailored for Iranian Americans",
   description: "",
 };
 
@@ -72,7 +73,7 @@ const page = () => {
                   alt=""
                 />
                 <h1 className="text-sm font-semibold font-opensans flex flex-col items-start">
-                  By Irani World Board
+                  By IraniUSA
                 </h1>
               </div>
             </div>
@@ -269,7 +270,7 @@ const page = () => {
                   webinars, and expert advice that can help you navigate the
                   American job market successfully.
                 </p>
-                
+
                 <p className="text-white-shade-10 text-xl leading-8 my-7">
                   Why We Chose to Launch IraniUSA.com As we expand into
                   different parts of the world, we felt that it was essential to
@@ -325,7 +326,7 @@ const page = () => {
                 Tags
               </div>
               <div className="flex gap-x-2 items-center">
-              <Tag title={"Job_Seeking"} />
+                <Tag title={"Job_Seeking"} />
                 <Tag title={"jobs"} />
                 <Tag title={"iranian"} />
                 <Tag title={"Iranian_Amarican"} />
@@ -336,6 +337,7 @@ const page = () => {
           <div className="w-full flex flex-col mt-20 mb-2">
             <div className="w-full flex gap-x-4">
               <BlogCardM
+                url={"blog/why-use-invest-time-iraniworld"}
                 classes={"lg:my-10 lg:w-1/2"}
                 readingTime={"6 min read"}
                 title={
@@ -351,6 +353,7 @@ const page = () => {
                 info={false}
               />
               <BlogCardM
+                url={"/blog/vision-of-irani-usa"}
                 classes={"lg:my-10 lg:w-1/2"}
                 readingTime={"3 min read"}
                 title={"Crafting the Vision of Irani USA from Idea to Reality"}

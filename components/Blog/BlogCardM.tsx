@@ -11,12 +11,13 @@ interface BlogCardMProps {
   avatar: string;
   cover: string;
   info: Boolean;
+  url:string
 }
 
 const BlogCardM: React.FC<BlogCardMProps> = (props) => {
   return (
     <>
-      <Link className={`${props.classes} w-full`} href={"#"}>
+      <Link className={`${props.classes} w-full`} href={props.url}>
         <div className="rounded-2xl border-[1.5px] border-white-shade-3 hover:shadow-card transition-all duration-300">
           <div
             className="w-full h-80 bg-cover bg-center rounded-t-2xl"

@@ -8,7 +8,7 @@ import Link from "next/link";
 import BlogCardM from "@/components/Blog/BlogCardM";
 
 export const metadata: Metadata = {
-  title: "What is the Irani.World platform ?",
+  title: "Bridging Boundaries: WPS Association's New Endeavor - WSA",
   description: "",
 };
 
@@ -20,7 +20,7 @@ const page = () => {
         <div className="w-full lg:w-4/5 pt-16">
           <div className="w-full flex flex-col items-center mb-10">
             <h1 className="text-black font-outfit text-3xl font-semibold text-center max-w-xl">
-              What is the Irani.World platform ?
+              Bridging Boundaries: WPS Association's New Endeavor - WSA
             </h1>
             <div className="flex items-center gap-x-6 mt-6  text-white-shade-8 font-medium">
               <div className="flex items-center gap-x-2 text-sm">
@@ -65,9 +65,13 @@ const page = () => {
                 September 4, 2020
               </div>
               <div className="flex items-center gap-x-3">
-                <img className="w-8" src="/images/bloggers/irani-world.png" alt="" />
+                <img
+                  className="w-8"
+                  src="/images/bloggers/irani-usa.png"
+                  alt=""
+                />
                 <h1 className="text-sm font-semibold font-opensans flex flex-col items-start">
-                  By Irani World Board
+                  By IraniUSA
                 </h1>
               </div>
             </div>
@@ -154,23 +158,22 @@ const page = () => {
             </div>
             <div className="flex flex-col gap-y-12">
               <p className="text-white-shade-10 text-xl leading-8">
-                All people who have some connection to Iranian culture or
-                ethnicity, are welcome to this platform. An Iranian business or
-                professional profile on the Irani.World platform is just an
-                option for the consumer. There is no obligation whether implicit
-                or explicit to hire Iranian. However, Irani.World will
-                significantly benefit immigrants, asylees, and other Iranian
-                ex-pats in their new countries - to help them find services from
-                Iranian speaking providers for their critical needs such as
-                physical and emotional health and wellness. Iranian businesses
-                and professionals can ease the ex-pat’s adaptation to their new
-                country, culture, legal system, education system, and much more.
+                In a remarkable testament to the power of collaboration and
+                innovation, the WPS Association has taken a significant stride
+                towards uniting the Iranian community, both within Iran and
+                across the globe. Through the establishment of WSA (White Snaile
+                America), in partnership with experts and the support of its
+                member company RIV Design in Sweden, the Association is set to
+                launch an advertising and specialized platform that promises to
+                bring Iranians closer together.
               </p>
             </div>
           </div>
           <div
             className="w-full h-[400px] rounded-3xl bg-cover bg-center mb-10"
-            style={{ backgroundImage: `url('/images/thumbnails/iw-inside-2.jpg')` }}
+            style={{
+              backgroundImage: `url('/images/thumbnails/iw-inside-2.jpg')`,
+            }}
           ></div>
           <div className="w-full flex flex-col gap-x-14 my-10 pb-24 border-b border-white-shade-4">
             <div className="flex gap-x-10 mb-10">
@@ -204,14 +207,37 @@ const page = () => {
                 </svg>
               </div>
               <div className="flex flex-col gap-y-12">
-              <p className="text-white-shade-10 text-xl leading-8">
-                The Irani.World platform will first launch in United States,
-                where the largest Iranian ex-pat community resides. Followed by
-                Europe and the Persian Gulf. Once Iran become open to freedom,
-                the final launch of this platform will be in Iran, with the hope
-                of connecting Iranian businesses without becoming servants of
-                today’s cyber giants.
-              </p>
+                <p className="text-white-shade-10 text-xl leading-8">
+                  A Strong Foundation: WSA, as an official member of the WPS
+                  Association, embodies the Association's commitment to
+                  fostering connections, facilitating communication, and
+                  enhancing the lives of Iranians. This new venture aims to
+                  leverage the power of technology and community to create a
+                  digital space where Iranians can unite, share their stories,
+                  and discover new opportunities.
+                </p>
+                <p className="text-white-shade-10 text-xl leading-8">
+                  The Role of RIV Design: RIV Design, a renowned member company
+                  of the WPS Association based in Sweden, brings a wealth of
+                  experience in design and digital innovation to the table.
+                  Their expertise will be instrumental in shaping the user
+                  experience and visual appeal of the upcoming platform. With a
+                  track record of creating engaging digital environments, RIV
+                  Design is poised to play a pivotal role in making this
+                  endeavor a reality.
+                </p>
+                <p className="text-white-shade-10 text-xl leading-8">
+                  Conclusion: The establishment of WSA and the collaborative
+                  effort with RIV Design marks a significant milestone for the
+                  WPS Association and the Iranian community at large. This
+                  advertising and specialized platform promises to be a beacon
+                  of unity and connectivity, bringing Iranians closer together
+                  regardless of geographical boundaries. As the project takes
+                  shape, we invite you to stay tuned for updates and join us on
+                  this exciting journey towards a more connected and empowered
+                  Iranian community. Together, we can bridge distances and build
+                  a brighter future for all.
+                </p>
               </div>
             </div>
             <div className="ml-24 flex gap-x-5 items-center">
@@ -242,6 +268,7 @@ const page = () => {
           <div className="w-full flex flex-col mt-20 mb-2">
             <div className="w-full flex gap-x-4">
               <BlogCardM
+                url={"/blog/why-use-invest-time-iraniworld"}
                 classes={"lg:my-10 lg:w-1/2"}
                 readingTime={"6 min read"}
                 title={
@@ -256,7 +283,8 @@ const page = () => {
                 cover={"/images/thumbnails/iw-inside-1.jpg"}
                 info={false}
               />
-               <BlogCardM
+              <BlogCardM
+                url={"/blog/vision-of-irani-usa"}
                 classes={"lg:my-10 lg:w-1/2"}
                 readingTime={"3 min read"}
                 title={"Crafting the Vision of Irani USA from Idea to Reality"}
@@ -311,7 +339,7 @@ const page = () => {
                 Tags
               </h3>
               <div className="max-w-sm flex items-center flex-wrap gap-x-2 gap-y-3">
-              <Tag title={"Platform"} />
+                <Tag title={"Platform"} />
                 <Tag title={"Launch"} />
                 <Tag title={"Iran"} />
                 <Tag title={"Community"} />

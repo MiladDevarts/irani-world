@@ -161,11 +161,26 @@ const page = () => {
                 In a remarkable testament to the power of collaboration and
                 innovation, the WPS Association has taken a significant stride
                 towards uniting the Iranian community, both within Iran and
-                across the globe. Through the establishment of WSA (White Snaile
-                America), in partnership with experts and the support of its
-                member company RIV Design in Sweden, the Association is set to
-                launch an advertising and specialized platform that promises to
-                bring Iranians closer together.
+                across the globe. Through the establishment of
+                <Link
+                  href={"https://wsa.team"}
+                  target="_blank"
+                  className="text-black font-medium mx-1"
+                >
+                  WSA
+                </Link>
+                (White Snaile America), in partnership with experts and the
+                support of its member company 
+                <Link
+                  href={"https://rivdesign.se"}
+                  target="_blank"
+                  className="text-black font-medium mx-1"
+                >
+                  Riv Design
+                </Link>
+                 in Sweden, the
+                Association is set to launch an advertising and specialized
+                platform that promises to bring Iranians closer together.
               </p>
             </div>
           </div>

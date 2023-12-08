@@ -62,7 +62,7 @@ const page = () => {
                     fill="#A6A6A6"
                   />
                 </svg>
-                September 4, 2020
+                October 22, 2023
               </div>
               <div className="flex items-center gap-x-3">
                 <img

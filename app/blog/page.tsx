@@ -39,7 +39,7 @@ const page = () => {
               <input
                 type="text"
                 placeholder="Search here..."
-                className="group-focus-within:outline group-focus:outline-blue rounded-full text-lg text-black w-5/6 h-full focus:outline-none focus:border-none border-none outline-none"
+                className="group-focus-within:outline group-hover:outline group-hover:outline-blue group-focus:outline-blue rounded-full text-lg text-black w-5/6 h-full focus:outline-none focus:border-none border-none outline-none"
               />
             </div>
             <div className="flex gap-x-2 items-center">
@@ -222,7 +222,7 @@ const page = () => {
               <h3 className="text-2xl font-outfit font-semibold text-black mb-6 mt-10">
                 Featured blog
               </h3>
-              <div className="flex w-full flex-col gap-y-6">
+              <Link href={"/blog/vision-of-irani-usa"} className="flex w-full flex-col gap-y-6">
                 <div className="flex w-full h-32 gap-x-3 p-3">
                   <div
                     className="w-20 h-full roundex-3xl bg-center bg-cover rounded-xl"
@@ -241,7 +241,7 @@ const page = () => {
                     </span>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

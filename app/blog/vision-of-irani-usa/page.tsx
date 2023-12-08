@@ -64,10 +64,10 @@ const page = () => {
                     fill="#A6A6A6"
                   />
                 </svg>
-                September 4, 2020
+                October 15, 2020
               </div>
               <div className="flex items-center gap-x-3">
-                <img className="w-8" src="/images/avatar/1.png" alt="" />
+                <img className="w-8" src="/images/bloggers/riv.png" alt="" />
                 <h1 className="text-sm font-semibold font-opensans flex flex-col items-start">
                   By Irani World Board
                 </h1>

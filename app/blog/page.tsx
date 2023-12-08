@@ -140,7 +140,7 @@ const page = () => {
               cover={"/images/thumbnails/wps-cover.jpg"}
             />
             <NewsCardFullWidth
-              url="/blog/wsa-riv-wps-partnership-innovative-ad-platform"
+              url="/blog/irani-world-job-personalization-iranian-americans"
               readingTime={"3"}
               title={
                 "Unveiling Irani.World's American Section: A Job and Personalization Platform Tailored for Iranian Americans"

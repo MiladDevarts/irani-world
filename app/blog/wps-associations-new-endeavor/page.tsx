@@ -18,8 +18,8 @@ const page = () => {
       <OverlayMenu />
       <main className="container flex flex-col lg:flex-row">
         <div className="w-full lg:w-4/5 pt-16 mt-20 lg:mt-0">
-          <div className="w-full flex flex-col items-center mb-10">
-            <h1 className="text-black font-outfit text-3xl font-semibold text-center max-w-xl">
+        <div className="w-full flex flex-col items-start lg:items-center mb-10">
+        <h1 className="text-left text-black font-outfit text-3xl font-semibold lg:text-center max-w-xl">
               Bridging Boundaries: WPS Association's New Endeavor - WSA
             </h1>
             <div className="flex items-center gap-x-6 mt-6  text-white-shade-8 font-medium">
@@ -75,6 +75,78 @@ const page = () => {
                 </h1>
               </div>
             </div>
+            <div className="flex gap-x-3 my-5">
+              <Link
+                href={"/"}
+                className="p-3 border border-white-shade-4 rounded-2xl flex items-center justify-center"
+              >
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M14.0002 4.66675C14.9977 4.66675 16.0208 4.69241 17.0125 4.73441L18.1838 4.79041L19.305 4.85691L20.355 4.92808L21.314 5.00275C22.3547 5.08241 23.334 5.52652 24.0796 6.25696C24.8252 6.9874 25.2893 7.95738 25.3903 8.99625L25.437 9.49208L25.5245 10.5537C25.6062 11.6539 25.6668 12.8532 25.6668 14.0001C25.6668 15.1469 25.6062 16.3462 25.5245 17.4464L25.437 18.5081C25.4218 18.6784 25.4067 18.8429 25.3903 19.0039C25.2893 20.043 24.825 21.0131 24.0792 21.7436C23.3333 22.474 22.3538 22.918 21.3128 22.9974L20.3562 23.0709L19.3062 23.1432L18.1838 23.2097L17.0125 23.2657C16.009 23.3094 15.0046 23.3319 14.0002 23.3334C12.9957 23.3319 11.9914 23.3094 10.9878 23.2657L9.8165 23.2097L8.69533 23.1432L7.64533 23.0709L6.68633 22.9974C5.64561 22.9178 4.66631 22.4736 3.92071 21.7432C3.17512 21.0128 2.711 20.0428 2.61 19.0039L2.56333 18.5081L2.47583 17.4464C2.38662 16.2997 2.33915 15.1502 2.3335 14.0001C2.3335 12.8532 2.39416 11.6539 2.47583 10.5537L2.56333 9.49208C2.5785 9.32175 2.59366 9.15725 2.61 8.99625C2.71096 7.95756 3.17492 6.98773 3.92027 6.25732C4.66562 5.5269 5.64465 5.08267 6.68516 5.00275L7.643 4.92808L8.693 4.85691L9.81533 4.79041L10.9867 4.73441C11.9906 4.69082 12.9953 4.66826 14.0002 4.66675ZM11.6668 11.1709V16.8292C11.6668 17.3682 12.2502 17.7042 12.7168 17.4359L17.6168 14.6067C17.7235 14.5454 17.812 14.457 17.8736 14.3505C17.9352 14.244 17.9676 14.1231 17.9676 14.0001C17.9676 13.8771 17.9352 13.7562 17.8736 13.6497C17.812 13.5432 17.7235 13.4548 17.6168 13.3934L12.7168 10.5654C12.6104 10.504 12.4896 10.4716 12.3667 10.4716C12.2438 10.4717 12.1231 10.504 12.0166 10.5655C11.9102 10.627 11.8218 10.7154 11.7604 10.8219C11.699 10.9284 11.6668 11.0492 11.6668 11.1721V11.1709Z"
+                    fill="#B3B3B3"
+                  />
+                </svg>
+              </Link>
+              <Link
+                href={"/"}
+                className="p-3 border border-white-shade-4 rounded-2xl flex items-center justify-center"
+              >
+                <svg
+                  width="22"
+                  height="20"
+                  viewBox="0 0 22 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.1493 0H20.4742L13.212 8.35593L21.7867 19.6867H15.0494L9.79963 12.8183L3.76236 19.6867H0.437483L8.22469 10.7621L0 0H6.91224L11.6808 6.29976L17.1493 0ZM15.9681 17.6743H17.8056L5.90602 1.88118H3.8936L15.9681 17.6743Z"
+                    fill="#A6A6A6"
+                  />
+                </svg>
+              </Link>
+              <Link
+                href={"/"}
+                className="p-3 border border-white-shade-4 rounded-2xl flex items-center justify-center"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM12 15.88C9.86 15.88 8.12 14.14 8.12 12C8.12 9.86 9.86 8.12 12 8.12C14.14 8.12 15.88 9.86 15.88 12C15.88 14.14 14.14 15.88 12 15.88ZM17.92 6.88C17.87 7 17.8 7.11 17.71 7.21C17.61 7.3 17.5 7.37 17.38 7.42C17.26 7.47 17.13 7.5 17 7.5C16.73 7.5 16.48 7.4 16.29 7.21C16.2 7.11 16.13 7 16.08 6.88C16.03 6.76 16 6.63 16 6.5C16 6.37 16.03 6.24 16.08 6.12C16.13 5.99 16.2 5.89 16.29 5.79C16.52 5.56 16.87 5.45 17.19 5.52C17.26 5.53 17.32 5.55 17.38 5.58C17.44 5.6 17.5 5.63 17.56 5.67C17.61 5.7 17.66 5.75 17.71 5.79C17.8 5.89 17.87 5.99 17.92 6.12C17.97 6.24 18 6.37 18 6.5C18 6.63 17.97 6.76 17.92 6.88Z"
+                    fill="#A6A6A6"
+                  />
+                </svg>
+              </Link>
+              <Link
+                href={"/"}
+                className="p-3 border border-white-shade-4 rounded-2xl flex items-center justify-center"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 16.19C22 19.83 19.83 22 16.19 22H15C14.45 22 14 21.55 14 21V15.23C14 14.96 14.22 14.73 14.49 14.73L16.25 14.7C16.39 14.69 16.51 14.59 16.54 14.45L16.89 12.54C16.92 12.36 16.78 12.19 16.59 12.19L14.46 12.22C14.18 12.22 13.96 12 13.95 11.73L13.91 9.28C13.91 9.12 14.04 8.98001 14.21 8.98001L16.61 8.94C16.78 8.94 16.91 8.81001 16.91 8.64001L16.87 6.23999C16.87 6.06999 16.74 5.94 16.57 5.94L13.87 5.98001C12.21 6.01001 10.89 7.37 10.92 9.03L10.97 11.78C10.98 12.06 10.76 12.28 10.48 12.29L9.28 12.31C9.11 12.31 8.98001 12.44 8.98001 12.61L9.01001 14.51C9.01001 14.68 9.14 14.81 9.31 14.81L10.51 14.79C10.79 14.79 11.01 15.01 11.02 15.28L11.11 20.98C11.12 21.54 10.67 22 10.11 22H7.81C4.17 22 2 19.83 2 16.18V7.81C2 4.17 4.17 2 7.81 2H16.19C19.83 2 22 4.17 22 7.81V16.19Z"
+                    fill="#A6A6A6"
+                  />
+                </svg>
+              </Link>
+            </div>
           </div>
           <div
             className="w-full h-[400px] rounded-3xl bg-cover bg-center"
@@ -83,7 +155,7 @@ const page = () => {
             }}
           ></div>
           <div className="w-full flex gap-x-14 my-10">
-            <div className="flex flex-col gap-y-3">
+          <div className="hidden lg:flex flex-col gap-y-3">
               <span className="text-white-shade-10">Socials</span>
               <Link
                 href={"/"}
@@ -192,7 +264,7 @@ const page = () => {
           ></div>
           <div className="w-full flex flex-col gap-x-14 my-10 pb-24 border-b border-white-shade-4">
             <div className="flex gap-x-10 mb-10">
-              <div className="flex flex-col gap-y-3">
+            <div className="hidden lg:flex flex-col gap-y-3">
                 <svg
                   width="54"
                   height="201"

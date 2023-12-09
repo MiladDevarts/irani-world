@@ -53,7 +53,7 @@ const page = () => {
                 </Link>
                 and
                 <Link
-                target="_blank"
+                  target="_blank"
                   href={"https://wsa.team/"}
                   className="pl-1 font-semibold text-black"
                 >
@@ -119,11 +119,9 @@ const page = () => {
                     />
                   </svg>
                 </Link>
-                <Link
-                  href={"https://irani.news"}
-                  className="group  transition-all duration-300 border-white-shade-6 h-20 flex items-center justify-center rounded-3xl"
-                >
-                  <svg
+
+                <span className="opacity-40 group flex relative -mt-10 lg:mt-0">
+                <svg
                     width="110"
                     height="110"
                     viewBox="0 0 646 225"
@@ -153,10 +151,15 @@ const page = () => {
                       fill="#676767"
                     />
                   </svg>
-                </Link>
-              
-                <Link className="group flex relative -mt-6 lg:mt-0" href={"/"}>
-                <svg
+                  <span
+                    className="font-outfit duration-500 group-hover:opacity-100 transition-opacity bg-black px-2 text-sm text-white rounded-md absolute -top-10 left-1/2 
+    -translate-x-1/2 translate-y-full opacity-0"
+                  >
+                    Soon!
+                  </span>
+                </span>
+                <span className="group flex relative -mt-6 lg:mt-0">
+                  <svg
                     className="opacity-25"
                     width="110"
                     height="110"
@@ -200,8 +203,8 @@ const page = () => {
                   >
                     Soon!
                   </span>
-                </Link>
-                <Link className="group flex relative -mt-10 lg:mt-0" href={"/"}>
+                </span>
+                <span className="group flex relative -mt-10 lg:mt-0">
                   <svg
                     className="opacity-25"
                     width="110"
@@ -238,7 +241,7 @@ const page = () => {
                   >
                     Soon!
                   </span>
-                </Link>
+                </span>
               </div>
             </div>
           </div>
@@ -288,8 +291,8 @@ const page = () => {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle 
-                  className="animate-pulse"
+                  <circle
+                    className="animate-pulse"
                     cx="5.5"
                     cy="6"
                     r="4.76667"

@@ -25,7 +25,7 @@ const NewsCardFullWidth: React.FC<NewsCardFullWidthProps> = (props) => {
         <div className="flex items-center gap-x-3">
           <Image src={props.avatar} width={40} height={40} alt="" />
           <div className="flex flex-col">
-            <span className="inline-flex gap-x-2 items-center text-black text-lg">
+            <span className="inline-flex font-medium gap-x-2 items-center text-black text-base">
               {props.author}
               <span className="text-white-shade-8 text-sm">
                 {props.publish}

@@ -175,7 +175,7 @@ const page = () => {
           </div>
         </div>
         <div className="lg:relative w-full lg:w-1/6 lg:h-screen">
-          <div className="lg:fixed w-full h-full pt-16">
+          <div className="lg:fixed w-full h-full pt-16 ml-4">
             <div className="flex flex-col mx-5">
               <h3 className="text-2xl font-outfit font-semibold text-black mb-4">
                 Most active bloggers

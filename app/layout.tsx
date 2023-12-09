@@ -50,12 +50,14 @@ export default function RootLayout({
     return (
       <html lang="en" className="light">
         <body
-          className={`w-full h-[92vh] lg:overflow-scroll ${openSans.variable} ${outfit.variable}`}
+          className={`w-full h-full ${openSans.variable} ${outfit.variable}`}
         >
           <MenuProvider>
             <ThemeColorProvider>
+              <main className="w-full h-[92vh] lg:overflow-scroll">
               {children}
               <Navigation LogoType={<IraniNews classes="lg:w-auto" />} />
+              </main>
             </ThemeColorProvider>
           </MenuProvider>
         </body>

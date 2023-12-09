@@ -9,7 +9,7 @@ interface SocialsProps  {
 
 const Socials:React.FC<SocialsProps> = (props) => {
   return (
-    <div className={`${props.classes} items-center gap-x-3 mt-2 lg:mt-16 lg:mb-6`}>
+    <div className={`${props.classes} items-center gap-x-3 mt-2 lg:mt-16 lg:mb-6 mb-10`}>
       <Link
         className="group hover:bg-black transition-all duration-300 flex items-center justify-center w-14 h-14 rounded-xl border border-white-shade-4 dark:border-[#1F2836] hover:cursor-pointer"
         href={"#"}

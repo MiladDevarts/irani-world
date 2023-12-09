@@ -357,7 +357,7 @@ const page = () => {
         </div>
         <div className="lg:relative w-full lg:w-1/5 lg:h-screen">
           <div className="lg:fixed w-full h-full pt-16">
-            <div className="flex flex-col mx-12">
+            <div className="flex flex-col mx-5">
               <h3 className="text-2xl font-outfit font-semibold text-black mb-10">
                 Most active bloggers
               </h3>
@@ -389,7 +389,7 @@ const page = () => {
                 />
               </div>
             </div>
-            <div className="flex flex-col mx-12 mt-10">
+            <div className="flex flex-col mx-5 mt-10">
               <h3 className="text-2xl font-outfit font-semibold text-black mb-10">
                 Tags
               </h3>

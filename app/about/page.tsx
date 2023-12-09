@@ -38,6 +38,7 @@ const page = () => {
                 Platform development is led by
                 <Link
                   href={"https://rivdesign.se"}
+                  target="_blank"
                   className="px-1 font-semibold text-black"
                 >
                   Riv Design,
@@ -45,12 +46,14 @@ const page = () => {
                 a Swedish company, in partnership with{" "}
                 <Link
                   href={"https://wps.community/"}
+                  target="_blank"
                   className="px-1 font-semibold text-black"
                 >
                   WPS
                 </Link>
                 and
                 <Link
+                target="_blank"
                   href={"https://wsa.team/"}
                   className="pl-1 font-semibold text-black"
                 >

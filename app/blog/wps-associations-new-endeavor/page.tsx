@@ -281,7 +281,7 @@ const page = () => {
             </div>
           </div>
           <div className="w-full flex flex-col mt-20 mb-2">
-            <div className="w-full flex gap-x-4">
+            <div className="w-full flex flex-col lg:flex-row gap-y-8 gap-x-4">
               <BlogCardM
                 url={"blog/why-use-invest-time-iraniworld"}
                 classes={"lg:my-10 lg:w-1/2"}

@@ -50,7 +50,7 @@ export default function RootLayout({
     return (
       <html lang="en" className="light">
         <body
-          className={`w-full h-[92vh] lg:overflow-scroll dark:bg-[#10141c] ${openSans.variable} ${outfit.variable}`}
+          className={`w-full h-[92vh] lg:overflow-scroll ${openSans.variable} ${outfit.variable}`}
         >
           <MenuProvider>
             <ThemeColorProvider>

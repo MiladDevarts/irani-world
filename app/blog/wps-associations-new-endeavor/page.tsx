@@ -327,7 +327,7 @@ const page = () => {
                 </p>
               </div>
             </div>
-            <div className="ml-24 flex gap-x-5 items-center">
+            <div className="ml-0 lg:ml-24 flex gap-x-5 items-center">
               <div className="flex gap-x-3 items-center text-black">
                 <svg
                   width="30"

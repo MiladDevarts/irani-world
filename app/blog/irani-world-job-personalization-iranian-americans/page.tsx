@@ -19,8 +19,8 @@ const page = () => {
       <OverlayMenu />
       <main className="container flex flex-col lg:flex-row">
         <div className="w-full lg:w-4/5 pt-16 mt-20 lg:mt-0">
-        <div className="w-full flex flex-col items-start lg:items-center mb-10">
-        <h1 className="text-left text-black font-outfit text-3xl font-semibold lg:text-center max-w-xl">
+          <div className="w-full flex flex-col items-start lg:items-center mb-10">
+            <h1 className="text-left text-black font-outfit text-3xl font-semibold lg:text-center max-w-xl">
               Unveiling Irani.World's American Section: A Job and
               Personalization Platform Tailored for Iranian Americans
             </h1>
@@ -77,7 +77,7 @@ const page = () => {
                 </h1>
               </div>
             </div>
-            <div className="flex gap-x-3 my-5">
+            <div className="flex lg:hidden gap-x-3 my-5">
               <Link
                 href={"/"}
                 className="p-3 border border-white-shade-4 rounded-2xl flex items-center justify-center"
@@ -240,7 +240,6 @@ const page = () => {
                 </Link>
                 website, a specialized platform designed exclusively for Iranian
                 Americans living and working in the United States.
-                
                 <br />
                 <br />
                 <Link href={"/"} className="text-black font-medium mr-1">
@@ -262,7 +261,7 @@ const page = () => {
           ></div>
           <div className="w-full flex flex-col gap-x-14 my-10 pb-22 border-b border-white-shade-2">
             <div className="flex gap-x-10 mb-10">
-            <div className="hidden lg:flex flex-col gap-y-3">
+              <div className="hidden lg:flex flex-col gap-y-3">
                 <svg
                   width="54"
                   height="201"
@@ -444,7 +443,7 @@ const page = () => {
         </div>
         <div className="lg:relative w-full lg:w-1/5 lg:h-screen">
           <div className="lg:fixed w-full h-full pt-16">
-            <div className="flex flex-col mx-5">
+            <div className="flex flex-col mx-5 lg:ml-12">
               <h3 className="text-2xl font-outfit font-semibold text-black mb-10">
                 Most active bloggers
               </h3>
@@ -476,7 +475,7 @@ const page = () => {
                 />
               </div>
             </div>
-            <div className="flex flex-col mx-5 mt-10">
+            <div className="flex flex-col mx-5 lg:ml-12 mt-10">
               <h3 className="text-2xl font-outfit font-semibold text-black mb-10">
                 Tags
               </h3>

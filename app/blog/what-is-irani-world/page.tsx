@@ -12,14 +12,13 @@ export const metadata: Metadata = {
 };
 
 const page = () => {
-
   return (
     <>
       <OverlayMenu />
       <main className="relative container flex flex-col lg:flex-row">
         <div className="w-full lg:w-4/5 pt-16 mt-20 lg:mt-0">
           <div className="w-full flex flex-col items-start lg:items-center mb-10">
-          <h1 className="text-left text-black font-outfit text-3xl font-semibold lg:text-center max-w-xl">
+            <h1 className="text-left text-black font-outfit text-3xl font-semibold lg:text-center max-w-xl">
               What is the Irani.World platform?
             </h1>
             <div className="flex items-center gap-x-6 mt-6  text-white-shade-8 font-medium">
@@ -65,13 +64,17 @@ const page = () => {
                 December 1, 2023
               </div>
               <div className="flex items-center gap-x-3">
-                <img className="w-8" src="/images/bloggers/irani-world.png" alt="" />
+                <img
+                  className="w-8"
+                  src="/images/bloggers/irani-world.png"
+                  alt=""
+                />
                 <h1 className="text-sm font-semibold font-opensans flex flex-col items-start">
                   By Irani World Board
                 </h1>
               </div>
             </div>
-            <div className="flex gap-x-3 my-5">
+            <div className="flex  lg:hidden gap-x-3 my-5">
               <Link
                 href={"/"}
                 className="p-3 border border-white-shade-4 rounded-2xl flex items-center justify-center"
@@ -151,7 +154,7 @@ const page = () => {
             }}
           ></div>
           <div className="w-full flex gap-x-14 my-10">
-          <div className="hidden lg:flex flex-col gap-y-3">
+            <div className="hidden lg:flex flex-col gap-y-3">
               <span className="text-white-shade-10">Socials</span>
               <Link
                 href={"/"}
@@ -242,12 +245,14 @@ const page = () => {
           </div>
           <div
             className="w-full h-[400px] rounded-3xl bg-cover bg-center mb-10"
-            style={{ backgroundImage: `url('/images/thumbnails/iw-inside-2.jpg')` }}
+            style={{
+              backgroundImage: `url('/images/thumbnails/iw-inside-2.jpg')`,
+            }}
           ></div>
           <div className="w-full flex flex-col gap-x-14 my-10 pb-24 border-b border-white-shade-4">
             <div className="flex gap-x-10 mb-10">
               <div className="hidden lg:flex flex-col gap-y-3">
-                <svg 
+                <svg
                   width="54"
                   height="201"
                   viewBox="0 0 54 201"
@@ -276,14 +281,14 @@ const page = () => {
                 </svg>
               </div>
               <div className="flex flex-col gap-y-12">
-              <p className="text-white-shade-10 text-xl leading-8">
-                The Irani.World platform will first launch in United States,
-                where the largest Iranian ex-pat community resides. Followed by
-                Europe and the Persian Gulf. Once Iran become open to freedom,
-                the final launch of this platform will be in Iran, with the hope
-                of connecting Iranian businesses without becoming servants of
-                today’s cyber giants.
-              </p>
+                <p className="text-white-shade-10 text-xl leading-8">
+                  The Irani.World platform will first launch in United States,
+                  where the largest Iranian ex-pat community resides. Followed
+                  by Europe and the Persian Gulf. Once Iran become open to
+                  freedom, the final launch of this platform will be in Iran,
+                  with the hope of connecting Iranian businesses without
+                  becoming servants of today’s cyber giants.
+                </p>
               </div>
             </div>
             <div className="ml-0 lg:ml-24 flex gap-x-5 items-center">
@@ -314,8 +319,8 @@ const page = () => {
           <div className="w-full flex flex-col mt-20 mb-2">
             <div className="w-full flex flex-col lg:flex-row gap-y-8 gap-x-4">
               <BlogCardM
-              url="/blog/why-use-invest-time-iraniworld"
-              classes={"lg:my-10 lg:w-1/2"}
+                url="/blog/why-use-invest-time-iraniworld"
+                classes={"lg:my-10 lg:w-1/2"}
                 readingTime={"6 min read"}
                 title={
                   "Why should you use and invest time in the Irani.World platform? "
@@ -329,8 +334,8 @@ const page = () => {
                 cover={"/images/thumbnails/iw-inside-1.jpg"}
                 info={false}
               />
-               <BlogCardM
-               url={"/blog/vision-of-irani-usa"}
+              <BlogCardM
+                url={"/blog/vision-of-irani-usa"}
                 classes={"lg:my-10 lg:w-1/2"}
                 readingTime={"3 min read"}
                 title={"Crafting the Vision of Irani USA from Idea to Reality"}
@@ -348,7 +353,7 @@ const page = () => {
         </div>
         <div className="lg:relative w-full lg:w-1/5 lg:h-screen">
           <div className="lg:fixed w-full h-full pt-16">
-            <div className="flex flex-col mx-5">
+            <div className="flex flex-col mx-5 lg:ml-12">
               <h3 className="text-2xl font-outfit font-semibold text-black mb-10">
                 Most active bloggers
               </h3>
@@ -380,12 +385,12 @@ const page = () => {
                 />
               </div>
             </div>
-            <div className="flex flex-col mx-5 mt-10">
+            <div className="flex flex-col mx-5 lg:ml-12 mt-10">
               <h3 className="text-2xl font-outfit font-semibold text-black mb-10">
                 Tags
               </h3>
               <div className="max-w-sm flex items-center flex-wrap gap-x-2 gap-y-3">
-              <Tag title={"Platform"} />
+                <Tag title={"Platform"} />
                 <Tag title={"Launch"} />
                 <Tag title={"Iran"} />
                 <Tag title={"Community"} />
@@ -394,7 +399,6 @@ const page = () => {
             </div>
           </div>
         </div>
-       
       </main>
     </>
   );

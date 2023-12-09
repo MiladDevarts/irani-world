@@ -13,7 +13,7 @@ const ActiveBlogger: React.FC<ActiveBlogger> = (props) => {
     <div className="flex items-center gap-x-3">
       <Image src={props.icon} className="w-10" width={40} height={40} alt="" />
       <div className="flex flex-col">
-        <span className="flex items-center font-medium gap-x-2 text-black text-base">
+        <span className="flex items-center  font-medium gap-x-2 text-black text-base">
           {props.title}
           <Verified />
         </span>

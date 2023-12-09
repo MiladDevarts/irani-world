@@ -17,7 +17,7 @@ const page = () => {
     <>
       <OverlayMenu />
       <main className="container flex flex-col lg:flex-row">
-        <div className="w-full lg:w-4/5 pt-16">
+        <div className="w-full lg:w-4/5 pt-16 mt-20 lg:mt-0">
           <div className="w-full flex flex-col items-center mb-10">
             <h1 className="text-black font-outfit text-3xl font-semibold text-center max-w-xl">
               WSA Company Announces Exciting Partnership with RIV Company and

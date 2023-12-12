@@ -69,7 +69,7 @@ const USAMap = () => {
           href={"https://iraniusa.com"}
           className="flex justify-center items-center w-2/3 h-full hover:text-blue hover:bg-white/0 hover:border-2 hover:border-blue bg-blue text-white rounded-2xl"
         >
-          Open Irani Usa
+          Open Iraniusa.com
         </Link>
         <Link
           href={"https://iraniusa.com/plans"}

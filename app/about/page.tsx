@@ -196,7 +196,7 @@ const page = () => {
         <section
           ref={ref}
           {...events}
-          className="relative top-0 left-0 no-scroll flex flex-col lg:grid lg:auto-cols-[400px] lg:grid-flow-col gap-4 overflow-x-auto w-full mx-auto h-auto lg:h-[260px] mt-[400px] sm:mt-[700px] lg:mt-64 mb-10  gap-y-2 lg:flex-row gap-x-2 items-center bg-white-shade-2 rounded-2xl p-2 before:absolute bofore:top-0 before:right-0 before:contents-[''] before:w-[200px] bofore:h-[200px] before:bg-black"
+          className="relative top-0 left-0 no-scroll flex flex-col lg:grid lg:auto-cols-[400px] lg:grid-flow-col gap-4 overflow-x-auto w-full mx-auto h-auto lg:h-[260px] mt-[400px] sm:mt-[700px] lg:mt-44 mb-10  gap-y-2 lg:flex-row gap-x-2 items-center bg-white-shade-2 rounded-2xl p-2 before:absolute bofore:top-0 before:right-0 before:contents-[''] before:w-[200px] bofore:h-[200px] before:bg-black"
         >
           <div className="group border-2 hover:border-2 hover:border-blue hover:cursor-pointer transition-all duration-300 relative w-full lg:h-full h-[240px] rounded-2xl bg-white pt-4">
             <div className="flex justify-between items-center px-8 py-2">

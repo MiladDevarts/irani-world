@@ -67,7 +67,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
                   cx="15.5"
                   cy="15.5"
                   r="15.5"
-                  fill="black"
+                  fill="#FB8800"
                   fill-opacity="0.3"
                 />
                 <circle
@@ -75,7 +75,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
                   cx="15.5"
                   cy="15.5"
                   r="9.5"
-                  fill="black"
+                  fill="#FB8800"
                 />
               </svg>
 
@@ -155,7 +155,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
                   cx="15.5"
                   cy="15.5"
                   r="15.5"
-                  fill="black"
+                  fill="#FB8800"
                   fill-opacity="0.3"
                 />
                 <circle
@@ -163,7 +163,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
                   cx="15.5"
                   cy="15.5"
                   r="9.5"
-                  fill="black"
+                  fill="#FB8800"
                 />
               </svg>
 

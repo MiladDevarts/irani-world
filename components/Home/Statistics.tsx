@@ -104,7 +104,7 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
           </svg>
           <div className="flex gap-x-10 order-1 lg:order-2 text-center lg:text-left">
             <div className="">
-              <h4 className="text-black dark:text-white  font-outfit text-5xl lg:text-2xl font-semibold">
+              <h4 className="text-black dark:text-white  font-outfit text-2xl lg:text-2xl font-semibold">
                 8.5M + 85M
               </h4>
               <span className="font-opensans text-white-shade-8 dark:text-white text-sm">

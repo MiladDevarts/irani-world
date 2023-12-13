@@ -17,7 +17,7 @@ const OverlayMenu = () => {
     { value: "Bio", slug: "https://irani.bio" },
     { value: "FAQ", slug: "/faq" },
     { value: "Origin", slug: "/origin" },
-    { value: "Terms", slug: "/terms" },
+    { value: "Privacy Policy", slug: "/privacy-policy" },
     { value: "Contact us", slug: "/contact" },
   ]);
   

@@ -12,13 +12,12 @@ const OverlayMenu = () => {
 
   const [menuItems, setMenuItesm] = useState([
     { value: "Home", slug: "/" },
-    { value: "About us", slug: "/about" },
+    { value: "About", slug: "/about" },
     { value: "Blog", slug: "/blog" },
-    { value: "Bio", slug: "https://irani.bio" },
     { value: "FAQ", slug: "/faq" },
-    { value: "Origin", slug: "/origin" },
+    { value: "Origin", slug: "/origins" },
     { value: "Privacy Policy", slug: "/privacy-policy" },
-    { value: "Contact us", slug: "/contact" },
+    { value: "Contact", slug: "/contact" },
   ]);
   
 

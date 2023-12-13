@@ -40,7 +40,7 @@ const Titles = () => {
               data-aos="zoom-in-right"
               className="hidden lg:inline-block p-4 text-sm rounded-full font-opensans text-black bg-white hover:text-white hover:bg-blue mb-0 dark:text-white dark:bg-[#1F2836] shadow-badge mt-10 hover:cursor-pointer lg:mt-0 transition-all duration-500"
             >
-              🎉 Made for persian people
+              🎉 Made for Persian People
             </span>
 
             <h1
@@ -75,7 +75,7 @@ const Titles = () => {
                 </svg>
               </span>
               <span className="block text-primary dark:text-[#ff4b4b]">
-                language, and art
+              expertise, and art
               </span>
             </h1>
 
@@ -90,11 +90,11 @@ const Titles = () => {
             </p>
             <div className="flex gap-x-2">
               <Link
-                className="dark:hidden text-white btn-flashing-animation inline-flex justify-center items-center font-opensans font-normal lg:font-medium rounded-2xl text-center text-xl lg:text-base p-3 w-52 lg:w-40 h-16 lg:h-12 hover:bg-[#333b44] transition-all"
+                className="dark:hidden text-white btn-flashing-animation inline-flex justify-center items-center font-opensans font-normal lg:font-medium rounded-2xl text-center text-xl lg:text-base p-3 w-64 lg:w-52 h-16 lg:h-12 hover:bg-[#333b44] transition-all"
                 href="https://iraniusa.com"
                 target="_blank"
               >
-                Our platform
+               Promotional Platform
               </Link>
               <Link
                 className="inline-flex justify-center items-center font-opensans border border-bg-white-shade-3 bg-white-shade-3  font-medium rounded-2xl text-center p-3 w-12 h-16 lg:h-12 hover:bg-white hover:border hover:border-[#011223] transition-all duration-300"

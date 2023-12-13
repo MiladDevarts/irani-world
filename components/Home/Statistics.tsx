@@ -59,7 +59,7 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
               Platforms
             </h4>
             <span className="font-opensans font-medium -mt-6 text-white-shade-8 dark:text-white">
-              All around the world
+            Cultural Platform 
             </span>
           </div>
           <svg
@@ -103,7 +103,7 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
                 8.5M + 85M
               </h4>
               <span className="font-opensans text-white-shade-8 dark:text-white">
-                Iranian Community
+              All around the world
               </span>
             </div>
           </div>

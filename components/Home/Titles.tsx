@@ -94,7 +94,7 @@ const Titles = () => {
                 href="https://iraniusa.com"
                 target="_blank"
               >
-               Promotional Platform
+               Our Platform
               </Link>
               <Link
                 className="inline-flex justify-center items-center font-opensans border border-bg-white-shade-3 bg-white-shade-3  font-medium rounded-2xl text-center p-3 w-12 h-16 lg:h-12 hover:bg-white hover:border hover:border-[#011223] transition-all duration-300"

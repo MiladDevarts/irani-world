@@ -51,16 +51,21 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
           </Link>
         </div>
         <div className="flex flex-col items-center lg:items-start gap-y-4 lg:order-2 lg:mt-7">
-          <div className="flex flex-col justify-center lg:items-start items-center gap-y-6 order-2 lg:order-1">
-            <h4 className="text-black dark:text-white font-outfit text-2xl text-center lg:text-left font-medium">
+          <div className="flex flex-col justify-center lg:items-start items-center mb-3 gap-y-6 order-2 lg:order-1">
+            <h4 className="text-black dark:text-white font-outfit text-[22px] text-center lg:text-left font-medium">
               <span className="text-3xl font-semibold">
-                <span className="mr-1">6</span>
+              <span className="mr-2 bg-white-shade-3 py-2 px-2 text-2xl rounded-2xl">1</span>
               </span>
-              Platforms
+              Promotional Platform
             </h4>
-            <span className="font-opensans font-medium -mt-6 text-white-shade-8 dark:text-white">
-            Cultural Platform 
-            </span>
+          </div>
+          <div className="flex flex-col justify-center lg:items-start items-center gap-y-6 order-2 lg:order-1">
+            <h4 className="text-black dark:text-white font-outfit text-[22px] text-center lg:text-left font-medium">
+              <span className="text-3xl font-semibold">
+                <span className="mr-2 bg-white-shade-3 py-2 px-[6px] text-2xl rounded-2xl">2</span>
+              </span>
+              <span>Cultural Platform </span>
+            </h4>
           </div>
           <svg
             className="block lg:hidden mb-10 mt-3"
@@ -103,7 +108,7 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
                 8.5M + 85M
               </h4>
               <span className="font-opensans text-white-shade-8 dark:text-white">
-              All around the world
+                All around the world
               </span>
             </div>
           </div>

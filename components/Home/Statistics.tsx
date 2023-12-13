@@ -53,16 +53,16 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
         <div className="flex flex-col items-center lg:items-start gap-y-4 lg:order-2 lg:mt-7">
           <div className="flex flex-col justify-center lg:items-start items-center mb-3 gap-y-6 order-2 lg:order-1">
             <h4 className="text-black dark:text-white font-outfit text-[22px] text-center lg:text-left font-medium">
-              <span className="text-3xl font-semibold">
-              <span className="mr-2 bg-white-shade-3 py-2 px-2 text-2xl rounded-2xl">1</span>
+              <span className="text-xl font-semibold">
+              <span className="mr-2  text-xl rounded-2xl">1</span>
               </span>
               Promotional Platform
             </h4>
           </div>
           <div className="flex flex-col justify-center lg:items-start items-center gap-y-6 order-2 lg:order-1">
             <h4 className="text-black dark:text-white font-outfit text-[22px] text-center lg:text-left font-medium">
-              <span className="text-3xl font-semibold">
-                <span className="mr-2 bg-white-shade-3 py-2 px-[6px] text-2xl rounded-2xl">2</span>
+              <span className="text-xl font-semibold">
+                <span className="mr-2  text-xl rounded-2xl">2</span>
               </span>
               <span>Cultural Platform </span>
             </h4>
@@ -107,7 +107,7 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
               <h4 className="text-black dark:text-white  font-outfit text-5xl lg:text-2xl font-semibold">
                 8.5M + 85M
               </h4>
-              <span className="font-opensans text-white-shade-8 dark:text-white">
+              <span className="font-opensans text-white-shade-8 dark:text-white text-sm">
                 All around the world
               </span>
             </div>

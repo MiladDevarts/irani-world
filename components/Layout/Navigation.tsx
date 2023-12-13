@@ -53,7 +53,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
           <div className="flex w-[60px] overflow-hidden gap-x-2 lg:hover:w-32 transition-all duration-300">
             <Link
               href={"https://irani.bio"}
-              className="flex gap-x-2 items-center font-outfit font-medium text-black bg-white-shade-3 p-3 rounded-2xl"
+              className="flex gap-x-2 items-center font-outfit font-medium text-black bg-white-shade-3 px-3 py-1 rounded-2xl"
             >
               <svg
                 width="15"
@@ -106,7 +106,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
                 />
               </svg>
               <span className="transition-all w-36 duration-300">
-                Irani Bio
+                Irani.Bio
               </span>
             </Link>
           </div>
@@ -141,7 +141,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
           <div className="flex w-[60px] overflow-hidden gap-x-2 lg:hover:w-40 transition-all duration-300">
             <Link
               href={"https://irani.photos"}
-              className="flex gap-x-2 items-center font-outfit font-medium text-black bg-white-shade-3 p-3 rounded-2xl"
+              className="flex gap-x-2 items-center font-outfit font-medium text-black bg-white-shade-3 px-3 py-1 rounded-2xl"
             >
               <svg
                 width="15"
@@ -194,7 +194,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
               </svg>
 
               <span className="transition-all w-[150px] duration-300">
-                Irani Photos
+                Irani.Photos
               </span>
             </Link>
           </div>

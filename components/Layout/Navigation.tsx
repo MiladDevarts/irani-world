@@ -14,12 +14,12 @@ interface NavigationProps {
 const Navigation: React.FC<NavigationProps> = (props) => {
   const [menuItems, setMenuItesm] = useState([
     { value: "Home", slug: "/" },
-    { value: "About us", slug: "/about" },
+    { value: "About", slug: "/about" },
     { value: "Blog", slug: "/blog" },
     { value: "FAQ", slug: "/faq" },
     { value: "Origin", slug: "/origin" },
     { value: "Privacy Policy ", slug: "/privacy-policy " },
-    { value: "Contact us", slug: "/contact" },
+    { value: "Contact", slug: "/contact" },
   ]);
 
   const currentRoute = usePathname();
@@ -50,8 +50,35 @@ const Navigation: React.FC<NavigationProps> = (props) => {
         </div>
         <HamburgerNav />
         <div className="flex gap-x-6 items-center">
-          <div className="flex w-9 overflow-hidden gap-x-2 hover:w-28 transition-all duration-300">
-            <Link href={"https://irani.bio"} className="flex gap-x-2 items-center font-outfit font-medium text-black bg-white-shade-3 p-3 rounded-2xl">
+          <div className="flex w-[60px] overflow-hidden gap-x-2 hover:w-32 transition-all duration-300">
+            <Link
+              href={"https://irani.bio"}
+              className="flex gap-x-2 items-center font-outfit font-medium text-black bg-white-shade-3 p-3 rounded-2xl"
+            >
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 31 31"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  className="animate-pulse"
+                  cx="15.5"
+                  cy="15.5"
+                  r="15.5"
+                  fill="black"
+                  fill-opacity="0.3"
+                />
+                <circle
+                  className="animate-pulse"
+                  cx="15.5"
+                  cy="15.5"
+                  r="9.5"
+                  fill="black"
+                />
+              </svg>
+
               <svg
                 width="18"
                 height="28"

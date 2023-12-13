@@ -5,69 +5,88 @@ import { Metadata } from "next";
 
 import OverlayMenu from "@/components/Overlay";
 import { FAQItem } from "@/components/FAQ";
-import { Category } from "@/components/Blog";
 import Link from "next/link";
 
 const page = () => {
   const [faqList, setFaqList] = useState({
     general: [
       {
-        question: "In which countries is this platform currently active?",
+        question: "What is the Irani.World platform?",
         answer:
-          "In its initial stage, all Iranians can access and use the services of this platform at IraniUSA.com.",
+          "Irani.World is a central platform website for the promotion of Iranian cultural and business growth.",
       },
       {
-        question: "How can I find my desired region?",
+        question: "How does Irani.World reach its goal?",
         answer:
-          "On the homepage of the irani.world website, you can find and enter all the accessible regions and the regions that will be added to the platform soon.",
-      },
-      {
-        question:
-          "Can I collaborate with your organization or be employed by you?",
-        answer:
-          "Yes, you can contact us for collaboration at enquiries@irani.world. If you're interested in job opportunities on our team, visit irani.world/jobs.",
-      },
-      {
-        question: "Who is this platform for?",
-        answer:
-          "his platform is for anyone who has a business or profession, as well as those who need services from businesses or professionals. Anyone can access the platform and start their journey today!",
-      },
-    ],
-    platform: [
-      {
-        question: "Will this platform be active in other countries as well?",
-        answer:
-          "Yes, although this platform is currently available only in the United States, it will be made available to other countries in the not-so-distant future. You can check out the list of upcoming platforms at this link!",
+          "Irani.World promotes Iranian cultural growth by collecting and publishing our historical and cultural stories and research. Irani.World business growth is achieved through a series of regional Iranian business promotional platform websites.",
       },
       {
         question:
-          "Can companies and investors buy this platform to launch it in other countries and communities?",
+          "How do I reach and use the cultural and business promotional platform websites?",
         answer:
-          "Yes, simply contact us with your company's official email address at Rivdesign.se.",
-      },
-      {
-        question: "Can we advertise our business on this platform?",
-        answer:
-          "Yes, if you have a business or offer services, you can register on the platform and display your advertisements in designated spots. You can advertise your business banner in the ads reserve section.",
-      },
-      {
-        question: "Can artists collaborate on this platform?",
-        answer:
-          "Yes, artists can have their own profiles by registering in the Artist & Event plan.",
+          "Irani.World is the central platform website from which each regional Iranian business promotional platform website can be accessed. Link to the cultural websites (Irani.Bio, Irani.News, Irani.Photos, Irani.Group) from the Irani.World homepage.",
       },
     ],
-    accounts: [
+    join: [
       {
-        question: "How can I request a verified badge?",
+        question:
+          "How do I join the Iranian cultural websites or the Iranian business promotional platform websites?",
         answer:
-          "After creating an account on the platform, simply go to the Verify section in the user panel and review the requirements of the verification process.",
+          "To join the Iranian business promotional platform website, first find the region where you intend to conduct business on the Irani.World homepage. Once you reach the homepage of your region, you can select the appropriate plan and create a profile for your profession or business. Once you have joined an Iranian business promotional platform at the appropriate level, you can begin the process of obtaining a Credential Badge to unlock your ability to submit content for the cultural websites. Once you have obtained a Credential Badge, you can submit content for a cultural website.",
+      },
+      {
+        question: "How much does it cost to join?",
+        answer:
+          "Join for free or choose a plan with additional and specialized features that unlock access to cultural websites. Read the details of each plan to find the one that meets your needs.",
+      },
+      {
+        question: "How do I join the Irani.World cultural websites?",
+        answer:
+          "There are two ways to become part of the Irani.World cultural websites. The first is join your regional Iranian business promotional platform website and become active on your blog. As views and interest in your blog and work grows, you can apply to receive a Credential Badge which will give you access to submit your works to the cultural websites via your Iranian business promotional platform website dashboard. The second method is to apply immediately after joining your regional Iranian business promotional platform at the appropriate level and submitting a sample work and credentials for review and approval. If your work meets stringent scholarly standards, your application will most likely be approved.",
+      },
+      {
+        question: "Once I join a cultural website, what can I publish?",
+        answer:
+          "All works must be original, supported by research and citations, and be of cultural and historical value to the Iranian people",
       },
     ],
-    plans: [
+    collaborate: [
       {
-        question: "Can I create an account on the platform for free? ",
+        question: "How can I collaborate with Irani.World?",
         answer:
-          "Except for the Ultra plans, all platform plans will be accessible for free, but they will have fewer features compared to paid plans.",
+          "In addition to collaboration through our various platforms and websites, companies and individuals can become investors to further the goals of an existing or upcoming platforms or website.",
+      },
+    ],
+    culturalWebsites: [
+      {
+        question: "What is the Irani.Bio website?",
+        answer:
+          "The Irani.Bio website chronicles important Iranian historical and cultural information",
+      },
+      {
+        question: "How do I become a part of the Irani.Bio website? ",
+        answer:
+          "Several steps are required to join Irani.Bio. The first step is to join your regional Iranian business promotional platform website at the appropriate level and become active on your blog. As views and interest in your blog and work grows, you can apply to receive a Credential Badge which will give you access to submit your works to the cultural websites via your Iranian business promotional platform website dashboard. The second method is to apply immediately after joining your regional Iranian business promotional platform website at the appropriate level and submitting a sample work and credentials for review and approval. If your work meets scholarly standards, your application will most likely be approved.",
+      },
+      {
+        question: "Once I have obtained my Credential Badge, what can I submit to the Irani.Bio website for publication? ",
+        answer:
+          "Members with a Credential Badge can submit research, essays, and biographies about Iranian culture and history. ",
+      },
+      {
+        question: "What is the Irani.Photos? ",
+        answer:
+          "Irani.Photos is a website designed to publish photos by Iranian photographers.",
+      },
+      {
+        question: "What type of photos can be published?",
+        answer:
+          "Photos by Iranian artists or of Iranian subjects and subject matter. Photos can be made available for users for free or for revenue.",
+      },
+      {
+        question: "How do I become a part of the Irani.Photos website? ",
+        answer:
+          "The first step is to join your regional Iranian business promotional platform website at the appropriate level. Once you have joined a regional Iranian business promotional platform, you can apply to receive a Credential Badge which will give you access to submit your photos to Irani.Photos.  ",
       },
     ],
   });
@@ -104,8 +123,9 @@ const page = () => {
                 asked questions
               </h1>
               <p className="text-white-shade-8 max-w-md lg:text-base text-xl my-9 lg:my-0">
-                Find frequently asked questions here.If you cannot find your
-                question answered here fell free to contact us directly.
+                The Irani.World platform is a series of websites designed to
+                elevate the businesses and cultural aspects of the worldwide
+                Iranian community.
               </p>
               <div className="hidden lg:flex flex-col py-4">
                 <Link
@@ -123,40 +143,40 @@ const page = () => {
                 </Link>
                 <Link
                   onClick={() => {
-                    setFaqCategory("platform");
+                    setFaqCategory("join");
                   }}
                   href={"#"}
                   className=""
                 >
                   <div className="py-6 border-b-[1.5px] pl-8 text-white-shade-9  border-white-shade-3 hover:scale-105 hover:text-black hover:font-semibold transition-all duration-500">
                     <span className="flex items-center  justify-between font-opensans ">
-                      Platform
+                      Join
                     </span>
                   </div>
                 </Link>
                 <Link
                   onClick={() => {
-                    setFaqCategory("plans");
+                    setFaqCategory("collaborate");
                   }}
                   href={"#"}
                   className=""
                 >
                   <div className="py-6 border-b-[1.5px] pl-8 text-white-shade-9  border-white-shade-3 hover:scale-105 hover:text-black hover:font-semibold transition-all duration-500">
                     <span className="flex items-center  justify-between font-opensans ">
-                      Plans
+                      Collaborate
                     </span>
                   </div>
                 </Link>
                 <Link
                   onClick={() => {
-                    setFaqCategory("accounts");
+                    setFaqCategory("culturalWebsites");
                   }}
                   href={"#"}
                   className=""
                 >
                   <div className="py-6 border-b-[1.5px] pl-8 text-white-shade-9  border-white-shade-3 hover:scale-105 hover:text-black hover:font-semibold transition-all duration-500">
                     <span className="flex items-center  justify-between font-opensans ">
-                      Accounts
+                      Cultural Websites
                     </span>
                   </div>
                 </Link>
@@ -175,8 +195,8 @@ const page = () => {
                     />
                   );
                 })}{" "}
-              {faqCategory == "platform" &&
-                faqList.platform.map((faq, id) => {
+              {faqCategory == "join" &&
+                faqList.join.map((faq, id) => {
                   return (
                     <FAQItem
                       key={id}
@@ -185,8 +205,8 @@ const page = () => {
                     />
                   );
                 })}
-              {faqCategory == "plans" &&
-                faqList.plans.map((faq, id) => {
+              {faqCategory == "collaborate" &&
+                faqList.collaborate.map((faq, id) => {
                   return (
                     <FAQItem
                       key={id}
@@ -195,8 +215,8 @@ const page = () => {
                     />
                   );
                 })}
-              {faqCategory == "accounts" &&
-                faqList.accounts.map((faq, id) => {
+              {faqCategory == "culturalWebsites" &&
+                faqList.culturalWebsites.map((faq, id) => {
                   return (
                     <FAQItem
                       key={id}

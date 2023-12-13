@@ -18,7 +18,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
     { value: "Blog", slug: "/blog" },
     { value: "FAQ", slug: "/faq" },
     { value: "Origin", slug: "/origin" },
-    { value: "Privacy Policy ", slug: "/privacy-policy " },
+    { value: "Privacy Policy ", slug: "/privacy-policy" },
     { value: "Contact", slug: "/contact" },
   ]);
 

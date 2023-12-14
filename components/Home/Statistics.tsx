@@ -52,16 +52,16 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
         </div>
         <div className="flex flex-col items-center lg:items-start gap-y-2 lg:order-2 lg:mt-7">
           <div className="flex flex-col justify-center lg:items-start items-center gap-y- order-2 lg:order-1 lg:-mt-4">
-            <h4 className="text-black dark:text-white font-outfit text-2xl text-center lg:text-left font-medium">
-              <span className="text-3xl font-semibold">
+            <h4 className="text-black dark:text-white font-outfit text-xl text-center lg:text-left font-medium">
+              <span className="text-2xl font-semibold">
                 <span className="mr-1">1</span>
               </span>
                <span className="ml-1">Promotional Platform </span>
             </h4>
           </div>
           <div className="flex flex-col justify-center lg:items-start items-center gap-y-6 order-2 lg:order-1">
-            <h4 className="text-black dark:text-white font-outfit text-2xl text-center lg:text-left font-medium">
-              <span className="text-3xl font-semibold">
+            <h4 className="text-black dark:text-white font-outfit text-xl text-center lg:text-left font-medium">
+              <span className="text-2xl font-semibold">
                 <span className="mr-1">2</span>
               </span>
               Cultural Platform 

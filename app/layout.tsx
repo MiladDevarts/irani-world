@@ -55,8 +55,8 @@ export default function RootLayout({
           <MenuProvider>
             <ThemeColorProvider>
               <main className="w-full h-[92vh] lg:overflow-scroll">
-              {children}
-              <Navigation LogoType={<IraniNews classes="lg:w-auto" />} />
+                {children}
+                <Navigation LogoType={<IraniWorldLogo classes="w-10 lg:w-auto" />} />
               </main>
             </ThemeColorProvider>
           </MenuProvider>
@@ -72,7 +72,7 @@ export default function RootLayout({
         <MenuProvider>
           <ThemeColorProvider>
             {children}
-            <Navigation LogoType={<IraniWorldLogo classes="lg:w-auto" />} />
+            <Navigation LogoType={<IraniWorldLogo classes="w-[95px] lg:w-auto" />} />
           </ThemeColorProvider>
         </MenuProvider>
       </body>

@@ -32,7 +32,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
   const nonActiveStyle = linkStyle + " border-t-none";
 
   return (
-    <nav className="z-[1013] bg-white lg:h-[8vh] shadow-deep absolute top-0 lg:top-[92%] w-full lg:border-t border-white-shade-4 soft-shadow">
+    <nav className="z-[1013] bg-white py-4 lg:h-[8vh] shadow-deep absolute top-0 lg:top-[92%] w-full lg:border-t border-white-shade-4 soft-shadow">
       <div className="container flex gap-x-6 lg:gap-x-0 lg:justify-between items-center h-full">
         <div className="navigation hidden h-full lg:flex items-center gap-x-10 text-white-shade-10 dark:text-white font-opensans font-medium">
           {menuItems.map((link) => {

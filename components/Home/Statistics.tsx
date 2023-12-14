@@ -50,22 +50,25 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
             </svg>
           </Link>
         </div>
-        <div className="flex flex-col items-center lg:items-start gap-y-4 lg:order-2 lg:mt-7">
-          <div className="flex flex-col justify-center lg:items-start items-center mb-3 gap-y-6 order-2 lg:order-1">
-            <h4 className="text-black dark:text-white font-outfit text-[22px] text-center lg:text-left font-medium">
-              <span className="text-xl font-semibold">
-              <span className="mr-2  text-xl rounded-2xl">1</span>
+        <div className="flex flex-col items-center lg:items-start gap-y-2 lg:order-2 lg:mt-7">
+          <div className="flex flex-col justify-center lg:items-start items-center gap-y- order-2 lg:order-1 lg:-mt-4">
+            <h4 className="text-black dark:text-white font-outfit text-2xl text-center lg:text-left font-medium">
+              <span className="text-3xl font-semibold">
+                <span className="mr-1">1</span>
               </span>
-              Promotional Platform
+               <span className="ml-1">Promotional Platform </span>
             </h4>
           </div>
           <div className="flex flex-col justify-center lg:items-start items-center gap-y-6 order-2 lg:order-1">
-            <h4 className="text-black dark:text-white font-outfit text-[22px] text-center lg:text-left font-medium">
-              <span className="text-xl font-semibold">
-                <span className="mr-2  text-xl rounded-2xl">2</span>
+            <h4 className="text-black dark:text-white font-outfit text-2xl text-center lg:text-left font-medium">
+              <span className="text-3xl font-semibold">
+                <span className="mr-1">2</span>
               </span>
-              <span>Cultural Platform </span>
+              Cultural Platform 
             </h4>
+            <span className="font-opensans font-medium -mt-6 text-white-shade-8 dark:text-white">
+              All around the world
+            </span>
           </div>
           <svg
             className="block lg:hidden mb-10 mt-3"
@@ -104,11 +107,11 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
           </svg>
           <div className="flex gap-x-10 order-1 lg:order-2 text-center lg:text-left">
             <div className="">
-              <h4 className="text-black dark:text-white  font-outfit text-2xl lg:text-2xl font-semibold">
+              <h4 className="text-black dark:text-white  font-outfit text-5xl lg:text-2xl font-semibold">
                 8.5M + 85M
               </h4>
-              <span className="font-opensans text-white-shade-8 dark:text-white text-sm">
-                All around the world
+              <span className="font-opensans text-white-shade-8 dark:text-white">
+                Iranian Community
               </span>
             </div>
           </div>

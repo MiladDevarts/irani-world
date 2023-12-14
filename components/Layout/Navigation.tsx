@@ -80,6 +80,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
               </svg>
 
               <svg
+                className="lg:w-auto w-4"
                 width="18"
                 height="28"
                 viewBox="0 0 18 28"
@@ -168,6 +169,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
               </svg>
 
               <svg
+                className="lg:w-auto w-4"
                 width="20"
                 height="29"
                 viewBox="0 0 20 29"

@@ -24,7 +24,7 @@ const page = () => {
         question:
           "How do I reach and use the cultural and business promotional platform websites?",
         answer:
-          "Irani.World is the central platform website from which each regional Iranian business promotional platform website can be accessed. Link to the cultural websites (Irani.Bio, Irani.News, Irani.Photos, Irani.Group) from the Irani.World homepage.",
+          "Irani.World is the central platform website from which each regional Iranian business promotional platform website can be accessed. Link to the cultural websites (Irani.Bio, Irani.Photos) from the Irani.World homepage.",
       },
     ],
     join: [

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState, useRef } from "react";
 import { useDraggable } from "react-use-draggable-scroll";
@@ -93,17 +93,24 @@ const Platforms: React.FC<PlatformsProps> = (props) => {
               className=" absolute top-0 left-0 m-2"
               width="15"
               height="15"
-              viewBox="0 0 15 15"
+              viewBox="0 0 31 31"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <circle
-                cx="7.5"
-                cy="7.5"
-                r="6.5"
-                fill="#E1CB00"
-                stroke="white"
-                stroke-width="2"
+                className="animate-pulse"
+                cx="15.5"
+                cy="15.5"
+                r="15.5"
+                fill="#FB8800"
+                fill-opacity="0.3"
+              />
+              <circle
+                className="animate-pulse"
+                cx="15.5"
+                cy="15.5"
+                r="9.5"
+                fill="#FB8800"
               />
             </svg>
             <IraniUAE />
@@ -116,17 +123,24 @@ const Platforms: React.FC<PlatformsProps> = (props) => {
               className=" absolute top-0 left-0 m-2"
               width="15"
               height="15"
-              viewBox="0 0 15 15"
+              viewBox="0 0 31 31"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <circle
-                cx="7.5"
-                cy="7.5"
-                r="6.5"
-                fill="#E1CB00"
-                stroke="white"
-                stroke-width="2"
+                className="animate-pulse"
+                cx="15.5"
+                cy="15.5"
+                r="15.5"
+                fill="#FB8800"
+                fill-opacity="0.3"
+              />
+              <circle
+                className="animate-pulse"
+                cx="15.5"
+                cy="15.5"
+                r="9.5"
+                fill="#FB8800"
               />
             </svg>
             <IraniCanada />
@@ -139,17 +153,24 @@ const Platforms: React.FC<PlatformsProps> = (props) => {
               className=" absolute top-0 left-0 m-2"
               width="15"
               height="15"
-              viewBox="0 0 15 15"
+              viewBox="0 0 31 31"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <circle
-                cx="7.5"
-                cy="7.5"
-                r="6.5"
-                fill="#E1CB00"
-                stroke="white"
-                stroke-width="2"
+                className="animate-pulse"
+                cx="15.5"
+                cy="15.5"
+                r="15.5"
+                fill="#FB8800"
+                fill-opacity="0.3"
+              />
+              <circle
+                className="animate-pulse"
+                cx="15.5"
+                cy="15.5"
+                r="9.5"
+                fill="#FB8800"
               />
             </svg>
             <IraniEurope />
@@ -162,17 +183,24 @@ const Platforms: React.FC<PlatformsProps> = (props) => {
               className=" absolute top-0 left-0 m-2"
               width="15"
               height="15"
-              viewBox="0 0 15 15"
+              viewBox="0 0 31 31"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <circle
-                cx="7.5"
-                cy="7.5"
-                r="6.5"
-                fill="#E1CB00"
-                stroke="white"
-                stroke-width="2"
+                className="animate-pulse"
+                cx="15.5"
+                cy="15.5"
+                r="15.5"
+                fill="#FB8800"
+                fill-opacity="0.3"
+              />
+              <circle
+                className="animate-pulse"
+                cx="15.5"
+                cy="15.5"
+                r="9.5"
+                fill="#FB8800"
               />
             </svg>
             <IraniAustralia />
@@ -185,17 +213,24 @@ const Platforms: React.FC<PlatformsProps> = (props) => {
               className=" absolute top-0 left-0 m-2"
               width="15"
               height="15"
-              viewBox="0 0 15 15"
+              viewBox="0 0 31 31"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <circle
-                cx="7.5"
-                cy="7.5"
-                r="6.5"
-                fill="#E1CB00"
-                stroke="white"
-                stroke-width="2"
+                className="animate-pulse"
+                cx="15.5"
+                cy="15.5"
+                r="15.5"
+                fill="#FB8800"
+                fill-opacity="0.3"
+              />
+              <circle
+                className="animate-pulse"
+                cx="15.5"
+                cy="15.5"
+                r="9.5"
+                fill="#FB8800"
               />
             </svg>
             <IraniAsia />

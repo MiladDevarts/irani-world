@@ -111,34 +111,10 @@ const Navigation: React.FC<NavigationProps> = (props) => {
               </span>
             </Link>
           </div>
-          <svg
-            width="2"
-            height="18"
-            viewBox="0 0 2 18"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1 1L1 17"
-              stroke="url(#paint0_linear_3869_20341)"
-              stroke-opacity="0.4"
-              stroke-width="2"
-              stroke-linecap="round"
-            />
-            <defs>
-              <linearGradient
-                id="paint0_linear_3869_20341"
-                x1="0.999998"
-                y1="-1"
-                x2="5.20449"
-                y2="22.2393"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop offset="0.10573" />
-                <stop offset="1" stop-color="white" />
-              </linearGradient>
-            </defs>
-          </svg>
+          <svg width="2" height="17" viewBox="0 0 2 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L0.999999 16" stroke="#E6E6E6" stroke-width="2" stroke-linecap="round"/>
+</svg>
+
           <div className="flex w-[60px] overflow-hidden gap-x-2 lg:hover:w-40 transition-all duration-300">
             <Link
               href={"https://irani.photos"}
@@ -200,34 +176,10 @@ const Navigation: React.FC<NavigationProps> = (props) => {
               </span>
             </Link>
           </div>
-          <svg
-            width="2"
-            height="18"
-            viewBox="0 0 2 18"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1 1L1 17"
-              stroke="url(#paint0_linear_3869_20341)"
-              stroke-opacity="0.4"
-              stroke-width="2"
-              stroke-linecap="round"
-            />
-            <defs>
-              <linearGradient
-                id="paint0_linear_3869_20341"
-                x1="0.999998"
-                y1="-1"
-                x2="5.20449"
-                y2="22.2393"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop offset="0.10573" />
-                <stop offset="1" stop-color="white" />
-              </linearGradient>
-            </defs>
-          </svg>
+          <svg width="2" height="17" viewBox="0 0 2 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L0.999999 16" stroke="#E6E6E6" stroke-width="2" stroke-linecap="round"/>
+</svg>
+
           <Link href={"/"}>{props.LogoType}</Link>
         </div>
       </div>

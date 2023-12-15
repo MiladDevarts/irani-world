@@ -21,8 +21,8 @@ const page = () => {
           <div className="w-full flex flex-col gap-y-4 lg:flex-row justify-between items-center mb-10 ">
             <div className="focus-within:border-black focus-within:border-2 transition-all flex items-center gap-x-3 px-3 py-3 w-full lg:w-[450px] h-16 rounded-full border-2 border-white-shade-4">
               <svg
-                width="58"
-                height="58"
+                width="44"
+                height="44"
                 viewBox="0 0 58 58"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"

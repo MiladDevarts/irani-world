@@ -39,7 +39,7 @@ const page = () => {
               <input
                 type="text"
                 placeholder="Search here..."
-                className="group-focus-within:outline group-hover:outline group-hover:outline-blue group-focus:outline-blue rounded-full text-lg text-black w-5/6 h-full focus:outline-none focus:border-none border-none outline-none"
+                className=" group-focus-within:outline group-hover:outline group-hover:outline-blue group-focus:outline-blue rounded-full text-lg text-black w-5/6 h-full focus:outline-none focus:border-none border-none outline-none"
               />
             </div>
             <div className="flex gap-x-2 items-center">

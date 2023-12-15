@@ -66,7 +66,7 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
               </span>
               Cultural Platforms
             </h4>
-            <span className="font-opensans font-medium -mt-6 text-white-shade-8 dark:text-white">
+            <span className="font-opensans -mt-6 text-white-shade-8 dark:text-white">
               All around the world
             </span>
           </div>

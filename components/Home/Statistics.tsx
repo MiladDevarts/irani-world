@@ -56,7 +56,7 @@ const Statistics: React.FC<StatisticsProps> = (props) => {
               <span className="text-2xl font-semibold">
                 <span className="mr-1">1</span>
               </span>
-               <span className="ml-1">Promotional Platform </span>
+               <span className="ml-1">Marketing Platform </span>
             </h4>
           </div>
           <div className="flex flex-col justify-center lg:items-start items-center gap-y-6 order-2 lg:order-1">

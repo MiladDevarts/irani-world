@@ -421,7 +421,7 @@ const page = () => {
                 />
               </div>
             </div>
-            <div className="flex flex-col mx-5 lg:ml-12 mt-10">
+            <div className="flex flex-col lg:mx-5 lg:ml-12 mt-10">
               <h3 className="text-2xl font-outfit font-semibold text-black mb-10">
                 Tags
               </h3>

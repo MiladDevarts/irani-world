@@ -14,38 +14,29 @@ const page = () => {
     <>
       <OverlayMenu />
       <main className="flex flex-col lg:flex-row container">
-        <div className="w-full flex flex-col mt-10">
+        <div className="max-w-3xl flex flex-col mt-10">
           <h1 className="text-black text-3xl font-semibold font-outfit mb-20 lg:mt-0 mt-28">
             Terms & privacy policy
           </h1>
           <p className="text-white-shade-11 mt-3 mb-2 text-lg">
-            White Snail America LLC 
-            <span className="text-black mx-2 font-semibold">(“WSA”)</span>
-             does not collect any “personal data”
-            from any user that visits our website, 
-            <Link href={"https://wsa.team"} className="text-black mx-2 font-semibold" target="_blank">
-            www.wsa.team
-            </Link>, and does not
-            track your usage in any way.
+            Irani.World and its owner White Phoenix Sweden{" "}
+            <Link
+              href={"https://wps.community"}
+              className="text-black mx-2 font-semibold"
+              target="_blank"
+            >
+              (“WPS”)
+            </Link>{" "}
+            does not collect any “personal data” from any user that visits our
+            website, Irani.World, and does not track your usage in any way.
           </p>
           <p className="text-white-shade-11 mt-3 mb-2 text-lg">
-            WSA does not partner with any third party to collect user “personal
-            data” or track user usage in any way.
+            We only use cookies that are essential to run this website.
           </p>
           <p className="text-white-shade-11 mt-3 mb-2 text-lg">
-            We only use cookies that are essenGal to run this website.
-          </p>
-          <p className="text-white-shade-11 mt-3 mb-2 text-lg">
-            Volunteered informaGon such as an email address used for
-            communicaGon will be stored only for communicaGon purposes. Email
-            informaGon is not required.
-          </p>
-          <p className="text-white-shade-11 mt-3 mb-2 text-lg">
-            We may request your email address to communicate with you.
-          </p>
-          <p className="text-white-shade-11 mt-3 mb-2 text-lg">
-            A request to remove your email from our possession will be responded
-            to within 30 days.
+            Volunteered information such as an email address used for
+            communication will be stored only for communication purposes. Email
+            information is not required.
           </p>
         </div>
       </main>

@@ -10,6 +10,7 @@ import Platforms from "./Platforms";
 
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
+import Image from "next/image";
 
 const Titles = () => {
   const [showMainData, setShowMainData] = useState(false);
@@ -38,9 +39,13 @@ const Titles = () => {
           <div>
             <span
               data-aos="zoom-in-right"
-              className="hidden lg:inline-block p-4 text-sm rounded-full font-opensans text-black bg-white hover:text-white hover:bg-blue mb-0 dark:text-white dark:bg-[#1F2836] shadow-badge mt-10 hover:cursor-pointer lg:mt-0 transition-all duration-500"
+              className="hidden lg:inline-flex items-center py-2 px-6 rounded-full font-medium font-outfit text-black bg-white hover:text-white hover:bg-blue mb-0 dark:text-white dark:bg-[#1F2836] shadow-badge mt-10 hover:cursor-pointer lg:mt-0 transition-all duration-500"
             >
-              🎉 Made for Persian People
+              {/* 🎉 Made for Persian People */}
+              <Image src="/images/gif/watermelon.gif" width={50} height={50} alt="Yalda"/>
+              Happy 
+              <span className="mx-1 text-[#fa1e1ee0]">Yalda</span>
+               Night 
             </span>
 
             <h1
@@ -50,7 +55,7 @@ const Titles = () => {
             >
               Advance Iranian
               <span className="flex items-center">
-                business,
+                Business,
                 <svg
                   className="ml-4 mt-4"
                   width="99"
@@ -75,7 +80,7 @@ const Titles = () => {
                 </svg>
               </span>
               <span className="block text-primary dark:text-[#ff4b4b]">
-              expertise, and art
+              Expertise, and Art
               </span>
             </h1>
 

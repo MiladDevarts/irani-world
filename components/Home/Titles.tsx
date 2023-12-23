@@ -45,8 +45,8 @@ const Titles = () => {
               {/* <Image src="/images/gif/watermelon.gif" width={50} height={50} alt="Yalda"/>
               Happy 
               <span className="mx-1 text-[#fa1e1ee0]">Yalda</span>
-               Night 
-            </span> */}
+               Night */}
+            </span> 
 
             <h1
               data-aos="zoom-in-right"

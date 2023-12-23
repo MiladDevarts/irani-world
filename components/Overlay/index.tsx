@@ -15,7 +15,7 @@ const OverlayMenu = () => {
     { value: "About", slug: "/about" },
     { value: "Blog", slug: "/blog" },
     { value: "FAQ", slug: "/faq" },
-    { value: "Origin", slug: "/origins" },
+    { value: "Origin", slug: "/origin" },
     { value: "Privacy Policy", slug: "/privacy-policy" },
     { value: "Contact", slug: "/contact" },
   ]);

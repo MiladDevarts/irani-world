@@ -667,8 +667,8 @@ input:checked ~ .switch__Label--Night {
 }
 
 .swiper-button-next, .swiper-button-prev {
+  @apply hidden lg:block;
   box-sizing: content-box;
-  display: block;
   padding: 10px 20px;
   border-radius: 100%;
   width: 50px;

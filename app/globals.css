@@ -694,11 +694,10 @@ input:checked ~ .switch__Label--Night {
 .swiper-pagination {
   display: flex;
   align-items: center;
-  height: 40px;
   justify-self: center !important;
   background-color: #fff;
   width: auto !important;
-  @apply mb-3 ml-[35%] lg:ml-[40%] xl:ml-[43%];
+  @apply h-[20px] lg:h-[40px] mb-3 ml-[30%] lg:ml-[40%] xl:ml-[43%];
   border-radius: 10px;
   padding: 10px 20px;
 }

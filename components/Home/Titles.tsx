@@ -41,12 +41,12 @@ const Titles = () => {
               data-aos="zoom-in-right"
               className="hidden lg:inline-flex items-center py-2 px-6 rounded-full font-medium font-outfit text-black bg-white hover:text-white hover:bg-blue mb-0 dark:text-white dark:bg-[#1F2836] shadow-badge mt-10 hover:cursor-pointer lg:mt-0 transition-all duration-500"
             >
-              {/* 🎉 Made for Persian People */}
-              <Image src="/images/gif/watermelon.gif" width={50} height={50} alt="Yalda"/>
+              🎉 Made for Persian People
+              {/* <Image src="/images/gif/watermelon.gif" width={50} height={50} alt="Yalda"/>
               Happy 
               <span className="mx-1 text-[#fa1e1ee0]">Yalda</span>
                Night 
-            </span>
+            </span> */}
 
             <h1
               data-aos="zoom-in-right"

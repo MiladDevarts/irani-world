@@ -24,7 +24,7 @@ const page = () => {
       </div>
       <div className="container">
         <Swiper
-          className="w-full text-black h-[350px] lg:h-[75vh]"
+          className="w-full text-black h-[200px] lg:h-[75vh]"
           // install Swiper modules
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           slidesPerView={1}

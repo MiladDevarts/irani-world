@@ -33,7 +33,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
 
   return (
     <nav className="z-[1013] bg-white py-4 lg:py-0.5 lg:h-[8vh] shadow-deep absolute top-0 lg:top-[92%] w-full lg:border-t border-white-shade-4 soft-shadow">
-      <div className="container flex gap-x-6 lg:gap-x-0 lg:justify-between items-center h-full">
+      <div className="container flex gap-x-6 lg:gap-x-0 justify-between items-center h-full">
         <div className="navigation hidden h-full lg:flex items-center gap-x-10 text-white-shade-10 dark:text-white font-opensans font-medium">
           {menuItems.map((link) => {
             return (
@@ -50,7 +50,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
         </div>
         <HamburgerNav />
         <div className="flex gap-x-6 items-center">
-          <div className="flex w-[60px] overflow-hidden gap-x-2 lg:hover:w-32 transition-all duration-300">
+          <div className="hidden lg:flex w-[60px] overflow-hidden gap-x-2 lg:hover:w-32 transition-all duration-300">
             <Link
               href={"https://irani.bio"}
               className="flex gap-x-2 items-center font-outfit font-medium text-black bg-white-shade-3 px-3 py-1 rounded-2xl"
@@ -112,6 +112,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
             </Link>
           </div>
           <svg
+            className="hidden lg:flex"
             width="2"
             height="17"
             viewBox="0 0 2 17"
@@ -126,7 +127,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
             />
           </svg>
 
-          <div className="flex w-[60px] overflow-hidden gap-x-2 lg:hover:w-40 transition-all duration-300">
+          <div className="hidden lg:flex w-[60px] overflow-hidden gap-x-2 lg:hover:w-40 transition-all duration-300">
             <Link
               href={"https://irani.photos"}
               className="flex gap-x-2 items-center font-outfit font-medium text-black bg-white-shade-3 px-3 py-1 rounded-2xl"
@@ -188,6 +189,7 @@ const Navigation: React.FC<NavigationProps> = (props) => {
             </Link>
           </div>
           <svg
+            className="hidden lg:flex"
             width="2"
             height="17"
             viewBox="0 0 2 17"

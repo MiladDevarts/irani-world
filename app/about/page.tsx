@@ -121,7 +121,7 @@ const page = () => {
                     Soon!
                   </span>
                 </span>
-                <span className="group flex relative">
+                <span className="group flex relative ">
                   <svg
                     width="134"
                     height="47"

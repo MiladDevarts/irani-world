@@ -44,7 +44,7 @@ const page = () => {
             </div>
             <div className="flex gap-x-2 items-center">
               <Link
-                className="gap-x-2 flex justify-center items-center bg-blue text-white text-lg font-semibold font-outfit rounded-full border border-white-shade-4 px-10 h-16"
+                className="gap-x-2 flex justify-center items-center bg-blue text-white text-lg font-semibold font-outfit rounded-full border border-white-shade-4 px-8 h-14"
                 href={"/"}
               >
                 <svg
@@ -62,7 +62,7 @@ const page = () => {
                 Popular
               </Link>
               <Link
-                className="hover:bg-black gap-x-2 hover:text-white transition-all duration-300 flex justify-center items-center text-white-shade-8 text-lg font-semibold font-outfit rounded-full border border-white-shade-4 px-10 h-16"
+                className="hover:bg-black gap-x-2 hover:text-white transition-all duration-300 flex justify-center items-center text-white-shade-8 text-lg font-semibold font-outfit rounded-full border border-white-shade-4 px-8 h-14"
                 href={"/"}
               >
                 <svg

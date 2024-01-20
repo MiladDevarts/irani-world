@@ -67,36 +67,36 @@ const page = () => {
       </div>
       <div className="lg:hidden container flex flex-col gap-y-6">
         <div
-          className="w-full h-[300px]  bg-black  bg-cover bg-center rounded-3xl"
+          className="w-full h-[250px]  bg-black  bg-cover bg-center rounded-3xl"
           style={{ backgroundImage: `url('/images/brandbook/1.jpg')` }}
         ></div>
         <div
-          className="w-full h-[300px]  bg-black  bg-cover bg-center rounded-3xl"
+          className="w-full h-[250px]  bg-black  bg-cover bg-center rounded-3xl"
           style={{ backgroundImage: `url('/images/brandbook/2.jpg')` }}
         ></div>
         <div
-          className="w-full h-[300px]  bg-black  bg-cover bg-center rounded-3xl"
+          className="w-full h-[250px]  bg-black  bg-cover bg-center rounded-3xl"
           style={{ backgroundImage: `url('/images/brandbook/3.jpg')` }}
         ></div>
         <div
-          className="w-full h-[300px]  bg-black  bg-cover bg-center rounded-3xl"
+          className="w-full h-[250px]  bg-black  bg-cover bg-center rounded-3xl"
           style={{ backgroundImage: `url('/images/brandbook/4.jpg')` }}
         ></div>
         <div
-          className="w-full h-[300px]  bg-black  bg-cover bg-center rounded-3xl"
+          className="w-full h-[250px]  bg-black  bg-cover bg-center rounded-3xl"
           style={{ backgroundImage: `url('/images/brandbook/5.jpg')` }}
         ></div>
 
         <div
-          className="w-full h-[300px]  bg-black  bg-cover bg-center rounded-3xl"
+          className="w-full h-[250px]  bg-black  bg-cover bg-center rounded-3xl"
           style={{ backgroundImage: `url('/images/brandbook/6.jpg')` }}
         ></div>
         <div
-          className="w-full h-[300px]  bg-black  bg-cover bg-center rounded-3xl"
+          className="w-full h-[250px]  bg-black  bg-cover bg-center rounded-3xl"
           style={{ backgroundImage: `url('/images/brandbook/7.jpg')` }}
         ></div>
         <div
-          className="w-full h-[300px]  bg-black  bg-cover bg-center rounded-3xl"
+          className="w-full h-[250px]  bg-black  bg-cover bg-center rounded-3xl"
           style={{ backgroundImage: `url('/images/brandbook/8.jpg')` }}
         ></div>
       </div>

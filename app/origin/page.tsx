@@ -17,11 +17,7 @@ const page = () => {
   return (
     <>
       <OverlayMenu />
-      <div className="container my-10 pt-32 lg:pt-0">
-        <h1 className="text-black text-3xl font-semibold font-outfit">
-          Origin
-        </h1>
-      </div>
+      <div className="container my-10 pt-32 lg:pt-0"></div>
       <div className="hidden lg:block container">
         <Swiper
           className=" w-full text-black h-[200px] lg:h-[75vh]"
@@ -66,39 +62,14 @@ const page = () => {
         </Swiper>
       </div>
       <div className="lg:hidden container flex flex-col gap-y-6">
-        <div
-          className="w-full h-[250px]  bg-black  bg-cover bg-center rounded-3xl"
-          style={{ backgroundImage: `url('/images/brandbook/1.jpg')` }}
-        ></div>
-        <div
-          className="w-full h-[250px]  bg-black  bg-cover bg-center rounded-3xl"
-          style={{ backgroundImage: `url('/images/brandbook/2.jpg')` }}
-        ></div>
-        <div
-          className="w-full h-[250px]  bg-black  bg-cover bg-center rounded-3xl"
-          style={{ backgroundImage: `url('/images/brandbook/3.jpg')` }}
-        ></div>
-        <div
-          className="w-full h-[250px]  bg-black  bg-cover bg-center rounded-3xl"
-          style={{ backgroundImage: `url('/images/brandbook/4.jpg')` }}
-        ></div>
-        <div
-          className="w-full h-[250px]  bg-black  bg-cover bg-center rounded-3xl"
-          style={{ backgroundImage: `url('/images/brandbook/5.jpg')` }}
-        ></div>
-
-        <div
-          className="w-full h-[250px]  bg-black  bg-cover bg-center rounded-3xl"
-          style={{ backgroundImage: `url('/images/brandbook/6.jpg')` }}
-        ></div>
-        <div
-          className="w-full h-[250px]  bg-black  bg-cover bg-center rounded-3xl"
-          style={{ backgroundImage: `url('/images/brandbook/7.jpg')` }}
-        ></div>
-        <div
-          className="w-full h-[250px]  bg-black  bg-cover bg-center rounded-3xl"
-          style={{ backgroundImage: `url('/images/brandbook/8.jpg')` }}
-        ></div>
+        <img src="/images/brandbook/1.jpg" className="rounded-2xl" alt="" />
+        <img src="/images/brandbook/2.jpg" className="rounded-2xl" alt="" />
+        <img src="/images/brandbook/3.jpg" className="rounded-2xl" alt="" />
+        <img src="/images/brandbook/4.jpg" className="rounded-2xl" alt="" />
+        <img src="/images/brandbook/5.jpg" className="rounded-2xl" alt="" />
+        <img src="/images/brandbook/6.jpg" className="rounded-2xl" alt="" />
+        <img src="/images/brandbook/7.jpg" className="rounded-2xl" alt="" />
+        <img src="/images/brandbook/8.jpg" className="rounded-2xl" alt="" />
       </div>
     </>
   );

@@ -17,7 +17,7 @@ const page = () => {
   return (
     <>
       <OverlayMenu />
-      <div className="container my-10 pt-32 lg:pt-0"></div>
+      <div className="container mt-16 pt-32 lg:pt-0"></div>
       <div className="hidden lg:block container">
         <Swiper
           className=" w-full text-black h-[200px] lg:h-[75vh]"

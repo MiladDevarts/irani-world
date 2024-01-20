@@ -77,7 +77,7 @@ const NewsCard: React.FC<NewsCardProps> = (props) => {
                   <img className="w-10" src={props.avatar} alt="" />
                   <h1 className="text-black text-sm font-semibold font-opensans flex flex-col items-start">
                     {props.author}
-                    <span className="font-opensans text-sm text-white-shade-9 font-normal">
+                    <span className="font-opensans text-xs text-white-shade-9 font-normal">
                       {props.publish}
                     </span>
                   </h1>

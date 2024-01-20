@@ -19,7 +19,7 @@ const NewsCardFullWidth: React.FC<NewsCardFullWidthProps> = (props) => {
   return (
     <Link
       href={props.url}
-      className="group flex flex-col gap-y-4 lg:flex-row lg:items-center justify-between w-full h-auto lg:px-6 lg:p-8 py-8 border-b border-white-shade-4  hover:shadow-card transition-all duration-300"
+      className="group flex flex-col gap-y-4 lg:flex-row lg:items-center justify-between w-full h-auto lg:px-6 lg:p-8 py-8 border-b border-white-shade-4  hover:shadow-card transition-all duration-300 rounded-xl"
     >
       <div className="w-full lg:w-3/5 flex flex-col gap-y-4">
         <div className="flex items-center gap-x-3">
@@ -27,7 +27,7 @@ const NewsCardFullWidth: React.FC<NewsCardFullWidthProps> = (props) => {
           <div className="flex flex-col">
             <span className="inline-flex font-medium gap-x-2 items-center text-black text-base">
               {props.author}
-              <span className="text-white-shade-8 text-sm">
+              <span className="text-white-shade-8 text-xs">
                 {props.publish}
               </span>
             </span>

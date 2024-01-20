@@ -24,7 +24,7 @@ const BlogCardM: React.FC<BlogCardMProps> = (props) => {
             style={{ backgroundImage: `url(${props.cover})` }}
           ></div>
           <div className="flex flex-col gap-y-4">
-            <h1 className="px-6 pt-6  text-black text-xl font-outfit font-semibold lg:max-w-sm">
+            <h1 className="px-6 pt-6  text-black text-lg font-outfit font-semibold lg:max-w-sm">
               {props.title}
             </h1>
               <p className="px-6 py-4 font-opensans text-white-shade-10 font-medium lg:max-w-sm">
@@ -36,7 +36,7 @@ const BlogCardM: React.FC<BlogCardMProps> = (props) => {
                 <img className="w-10" src={props.avatar} alt="" />
                 <h1 className="text-black font-semibold font-opensans flex flex-col items-start">
                   {props.author}
-                  <span className="font-opensans text-sm text-white-shade-9 font-normal">
+                  <span className="font-opensans text-xs text-white-shade-9 font-normal">
                     {props.publish}
                   </span>
                 </h1>

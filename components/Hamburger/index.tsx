@@ -9,13 +9,11 @@ import { HamburgerContext } from "@/context/HamburgerProvider";
 
 const HamburgerNav = () => {
 
-  const ref = useRef(null);
-
   let menuVisibilty = useContext(MenuContext);
   let hamVisibilty = useContext(HamburgerContext);
 
   const handleMenu = () => {
-    menuVisibilty.setMenu(!menuVisibilty.menu);
+    menuVisibilty.setMenu(!menuVisibilty.menu);  
   };
 
   const HamburgerClasses = classNames("hamburger hamburger-inner", {

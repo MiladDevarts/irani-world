@@ -62,7 +62,7 @@ const NewsCard: React.FC<NewsCardProps> = (props) => {
               </>
             ) : (
               <>
-                <h1 className="text-black text-xl font-outfit font-semibold lg:max-w-sm lg:text-lg">
+                <h1 className="text-black text-[20px] font-outfit font-semibold lg:max-w-sm lg:text-lg">
                   {props.title}
                 </h1>
                 <p className="font-opensans text-white-shade-11 font-medium text-xs lg:max-w-xs">
@@ -90,7 +90,7 @@ const NewsCard: React.FC<NewsCardProps> = (props) => {
             style={{ backgroundImage: `url(${props.cover})` }}
           ></div>
           <div
-            className="lg:hidden block w-full lg:w-1/3 h-44 lg:max-h-full  bg-cover bg-center rounded-2xl my-3"
+            className="lg:hidden block w-full lg:w-1/3 h-[380px] lg:max-h-full  bg-cover bg-center rounded-2xl my-3"
             style={{ backgroundImage: `url(${props.cover})` }}
           ></div>
         </div>

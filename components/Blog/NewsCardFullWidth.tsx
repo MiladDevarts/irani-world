@@ -34,7 +34,7 @@ const NewsCardFullWidth: React.FC<NewsCardFullWidthProps> = (props) => {
             <span className="text-white-shade-8 text-sm">{props.subtitle}</span>
           </div>
         </div>
-        <h2 className="text-blacl text-xl font-outfit font-medium text-black">
+        <h2 className="text-blacl text-[18px] font-outfit font-medium text-black">
           {props.title}
         </h2>
         <p className="text-white-shade-8">{props.summery}</p>

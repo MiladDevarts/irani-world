@@ -71,7 +71,7 @@ const Platforms: React.FC<PlatformsProps> = (props) => {
                 cy="12"
                 r="11"
                 fill="#43D100"
-                fill-opacity="0.34"
+                fillOpacity="0.34"
                 stroke="white"
                 stroke-width="2"
               />
@@ -103,7 +103,7 @@ const Platforms: React.FC<PlatformsProps> = (props) => {
                 cy="15.5"
                 r="15.5"
                 fill="#FB8800"
-                fill-opacity="0.3"
+                fillOpacity="0.3"
               />
               <circle
                 className="animate-pulse"
@@ -133,7 +133,7 @@ const Platforms: React.FC<PlatformsProps> = (props) => {
                 cy="15.5"
                 r="15.5"
                 fill="#FB8800"
-                fill-opacity="0.3"
+                fillOpacity="0.3"
               />
               <circle
                 className="animate-pulse"
@@ -163,7 +163,7 @@ const Platforms: React.FC<PlatformsProps> = (props) => {
                 cy="15.5"
                 r="15.5"
                 fill="#FB8800"
-                fill-opacity="0.3"
+                fillOpacity="0.3"
               />
               <circle
                 className="animate-pulse"
@@ -193,7 +193,7 @@ const Platforms: React.FC<PlatformsProps> = (props) => {
                 cy="15.5"
                 r="15.5"
                 fill="#FB8800"
-                fill-opacity="0.3"
+                fillOpacity="0.3"
               />
               <circle
                 className="animate-pulse"
@@ -223,7 +223,7 @@ const Platforms: React.FC<PlatformsProps> = (props) => {
                 cy="15.5"
                 r="15.5"
                 fill="#FB8800"
-                fill-opacity="0.3"
+                fillOpacity="0.3"
               />
               <circle
                 className="animate-pulse"

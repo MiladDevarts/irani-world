@@ -7,7 +7,7 @@ interface IraniNewsProps {
 const IraniNews: React.FC<IraniNewsProps> = (props) => {
   return (
     <svg
-    className={props.classes}
+      className={props.classes}
       width="96"
       height="34"
       viewBox="0 0 96 34"
@@ -19,20 +19,20 @@ const IraniNews: React.FC<IraniNewsProps> = (props) => {
         fill="black"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M18.6082 9.84518C19.9256 8.15583 20.8449 6.18799 21.297 4.08972L24.3715 4.75972C23.8187 7.32558 22.6945 9.73194 21.0836 11.7977C19.4725 13.8635 17.4167 15.535 15.0707 16.6863C13.5999 17.4081 12.039 17.9137 10.4358 18.1921L12.7373 26.8305C13.0125 27.8637 14.0683 28.4767 15.0955 28.1999C16.1227 27.923 16.7322 26.8612 16.457 25.828L15.7152 23.0434C15.7138 23.0438 15.7125 23.0441 15.7112 23.0444L15.6212 22.6907L15.0814 20.6644L15.1042 20.6582L14.9316 19.9793C17.0321 19.4388 18.9808 18.4189 20.6263 16.9986L22.675 19.3996C21.4664 20.4427 20.1242 21.3092 18.6882 21.9782L19.4957 25.0092C20.2206 27.7301 18.6151 30.5268 15.9097 31.2559C13.2044 31.9851 10.4236 30.3703 9.69867 27.6494L7.24592 18.4429C4.73596 18.4058 2.26301 17.8184 0 16.7204L1.36682 13.8708C3.2895 14.8036 5.39749 15.2858 7.53218 15.2809C9.66689 15.2761 11.7727 14.7844 13.6912 13.8429C15.6097 12.9014 17.2908 11.5345 18.6082 9.84518Z"
         fill="black"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M3.41797 1.05774H14.2663V4.23107H3.41797V1.05774Z"
         fill="black"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M6.98438 6.4978H14.2661V9.67114H6.98438V6.4978Z"
         fill="black"
       />

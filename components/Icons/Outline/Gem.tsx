@@ -21,7 +21,7 @@ const Gem = () => {
           stroke="black"
           stroke-width="1.05864"
           stroke-miterlimit="10"
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
       </g>
       <defs>

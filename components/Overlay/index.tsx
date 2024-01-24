@@ -4,11 +4,12 @@ import { useEffect, useContext, useState, useRef } from "react";
 import Link from "next/link";
 
 import { MenuContext } from "@/context/MenuProvider";
+import { HamburgerContext } from "@/context/HamburgerProvider";
 import classNames from "classnames";
 
 const OverlayMenu = () => {
   let menuVisibilty = useContext(MenuContext);
-
+  let hamVisibilty = useContext(HamburgerContext);
 
   const [menuItems, setMenuItesm] = useState([
     { value: "Home", slug: "/" },
@@ -19,7 +20,6 @@ const OverlayMenu = () => {
     { value: "Privacy Policy", slug: "/privacy-policy" },
     { value: "Contact", slug: "/contact" },
   ]);
-  
 
   const OverlayClasses = classNames(
     "z-[1010] block lg:hidden w-full h-auto transition-all fixed top-0 -left-[1200px] z-10 soft-shadow bg-white duration-200",
@@ -36,15 +36,19 @@ const OverlayMenu = () => {
           backgroundImage: `url('/images/menu/overlay-background.png')`,
         }}
       >
-        <ul className="py-10 container flex flex-col  gap-y-6 font-opensans font-normal text-lg dark:text-white  text-black pt-28">
+        <ul className="pt-36 pb-10 container flex flex-col  gap-y-6 font-opensans font-normal text-lg dark:text-white  text-black">
           {menuItems.map((menuItem, index) => {
             return (
-              <li key={index} className="text-black dark:text-white font-normal">
+              <li
+                key={index}
+                className="text-black dark:text-white font-normal"
+              >
                 <Link
-                data-aos="fade-right"
+                  data-aos="fade-right"
                   href={menuItem.slug}
                   onClick={() => {
                     menuVisibilty.setMenu(!menuVisibilty.menu);
+                    hamVisibilty.setThreeLineHam(!hamVisibilty.threeLineHam);
                   }}
                 >
                   {menuItem.value}

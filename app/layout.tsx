@@ -8,11 +8,12 @@ import { Outfit } from "next/font/google";
 
 import MenuProvider from "@/context/MenuProvider";
 import ThemeColorProvider from "@/context/ThemeColorProvider";
+import HamburgerProvider from "@/context/HamburgerProvider";
+
 import IraniWorldLogo from "@/components/Logo/IraniWorldLogo";
 
 import { usePathname } from "next/navigation";
 import IraniBio from "@/components/Logo/IraniBio";
-import IraniNews from "@/components/Logo/IraniNews";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -52,14 +53,18 @@ export default function RootLayout({
         <body
           className={`w-full h-full ${openSans.variable} ${outfit.variable}`}
         >
-          <MenuProvider>
-            <ThemeColorProvider>
-              <main className="w-full h-[92vh] lg:overflow-scroll">
-                {children}
-                <Navigation LogoType={<IraniWorldLogo classes="w-10 lg:w-auto" />} />
-              </main>
-            </ThemeColorProvider>
-          </MenuProvider>
+          <HamburgerProvider>
+            <MenuProvider>
+              <ThemeColorProvider>
+                <main className="w-full h-[92vh] lg:overflow-scroll">
+                  {children}
+                  <Navigation
+                    LogoType={<IraniWorldLogo classes="w-10 lg:w-auto" />}
+                  />
+                </main>
+              </ThemeColorProvider>
+            </MenuProvider>
+          </HamburgerProvider>
         </body>
       </html>
     );
@@ -72,7 +77,9 @@ export default function RootLayout({
         <MenuProvider>
           <ThemeColorProvider>
             {children}
-            <Navigation LogoType={<IraniWorldLogo classes="w-[95px] lg:w-auto" />} />
+            <Navigation
+              LogoType={<IraniWorldLogo classes="w-[95px] lg:w-auto" />}
+            />
           </ThemeColorProvider>
         </MenuProvider>
       </body>

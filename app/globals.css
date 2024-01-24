@@ -444,7 +444,7 @@ input:-webkit-autofill:active {
   bottom: 0;
 }
 
-/* .menu:checked + label > .hamburger-inner > .bar1 {
+.menu:checked + label > .hamburger-inner > .bar1 {
   transform: rotate(45deg);
   transform-origin: 5%;
   width: 41px;
@@ -464,7 +464,7 @@ input:-webkit-autofill:active {
   transform-origin: 5%;
   transform: rotate(-45deg);
   width: 41px;
-} */
+}
 
 @keyframes heroanimation {
   0% {

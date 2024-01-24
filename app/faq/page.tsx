@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import { Metadata } from "next";
 
 import OverlayMenu from "@/components/Overlay";
 import { FAQItem } from "@/components/FAQ";
@@ -175,6 +174,61 @@ const page = () => {
                   className=""
                 >
                   <div className="py-6 border-b-[1.5px] pl-8 text-white-shade-9  border-white-shade-3 hover:scale-105 hover:text-black hover:font-semibold transition-all duration-500">
+                    <span className="flex items-center  justify-between font-opensans ">
+                      Cultural Websites
+                    </span>
+                  </div>
+                </Link>
+              </div>
+
+              <div className="flex  py-4">
+                <Link
+                  onClick={() => {
+                    setFaqCategory("general");
+                  }}
+                  href={"#"}
+                  className=""
+                >
+                  <div className="py-6  text-white-shade-9  border-white-shade-3 hover:scale-105 hover:text-black hover:font-semibold transition-all duration-500">
+                    <span className="flex items-center  justify-between font-opensans ">
+                      General
+                    </span>
+                  </div>
+                </Link>
+                <Link
+                  onClick={() => {
+                    setFaqCategory("join");
+                  }}
+                  href={"#"}
+                  className=""
+                >
+                  <div className="py-6 pl-8 text-white-shade-9  border-white-shade-3 hover:scale-105 hover:text-black hover:font-semibold transition-all duration-500">
+                    <span className="flex items-center  justify-between font-opensans ">
+                      Join
+                    </span>
+                  </div>
+                </Link>
+                <Link
+                  onClick={() => {
+                    setFaqCategory("collaborate");
+                  }}
+                  href={"#"}
+                  className=""
+                >
+                  <div className="py-6  pl-8 text-white-shade-9  border-white-shade-3 hover:scale-105 hover:text-black hover:font-semibold transition-all duration-500">
+                    <span className="flex items-center  justify-between font-opensans ">
+                      Collaborate
+                    </span>
+                  </div>
+                </Link>
+                <Link
+                  onClick={() => {
+                    setFaqCategory("culturalWebsites");
+                  }}
+                  href={"#"}
+                  className=""
+                >
+                  <div className="py-6 pl-8 text-white-shade-9  border-white-shade-3 hover:scale-105 hover:text-black hover:font-semibold transition-all duration-500">
                     <span className="flex items-center  justify-between font-opensans ">
                       Cultural Websites
                     </span>

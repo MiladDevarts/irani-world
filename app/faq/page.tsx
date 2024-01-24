@@ -182,7 +182,7 @@ const page = () => {
                 </Link>
               </div>
 
-              <div className="flex  py-4">
+              <div className="flex py-4 text-sm">
                 <Link
                   onClick={() => {
                     setFaqCategory("general");

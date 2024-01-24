@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useRef } from "react";
 
 import { MenuContext } from "@/context/MenuProvider";
 
@@ -8,6 +8,9 @@ import classNames from "classnames";
 import { HamburgerContext } from "@/context/HamburgerProvider";
 
 const HamburgerNav = () => {
+
+  const ref = useRef(null);
+
   let menuVisibilty = useContext(MenuContext);
   let hamVisibilty = useContext(HamburgerContext);
 
@@ -19,6 +22,7 @@ const HamburgerNav = () => {
     "z-[1000] white-bar absolute": menuVisibilty.menu,
     "z-1": !menuVisibilty.menu,
   });
+  
 
   return (
     <div className="block lg:hidden">

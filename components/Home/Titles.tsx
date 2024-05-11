@@ -60,7 +60,7 @@ const Titles = () => {
               data-aos-delay="200"
               className="text-4xl font-outfit font-semibold dark:text-white text-black mt-5"
             >
-              Advance Iranianss
+              Advance Iranian
               <span className="flex items-center">
                 Business,
                 <svg
